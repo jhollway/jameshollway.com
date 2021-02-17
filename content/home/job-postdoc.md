@@ -43,13 +43,13 @@ hero_media = ""
   icon_pack = "fas"
   icon = "envelope"
   
-[cta_alt]
-  url = "files/PANARCHIC Project RA Job Application Call.pdf"
-  label = "Read the call"
+# [cta_alt]
+#  url = "files/PANARCHIC Project RA Job Application Call.pdf"
+#  label = "Read the call"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = "Deadline 8th November 2020"
+  label = "Deadline 25th February 2021"
   # label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
