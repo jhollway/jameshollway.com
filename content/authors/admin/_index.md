@@ -61,10 +61,10 @@ social:
   icon_pack: fab
   link: https://www.linkedin.com/in/jhollway/
 # Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# To enable, copy your resume/CV to `static/media/cv.pdf` and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: jhvita.pdf
+  link: media/jhvita.pdf
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0002-8361-9647
