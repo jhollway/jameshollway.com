@@ -8,3 +8,4 @@ public/
 *.svg
 .RData
 .Rhistory
+*.docx
