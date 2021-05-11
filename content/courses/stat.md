@@ -29,6 +29,8 @@ Please find the most recent version of the syllabus [here](RISP062_Syllabus_2021
 
 - [Lecture 9 - Networks](https://jhollway.github.io/RISP062/STAT_L9_Networks.html)
 
+- [Lecture 10 - Advanced](https://jhollway.github.io/RISP062/STAT_L10_Advanced.html)
+
 I will update these slides continually throughout the semester,
 so please check back in for more details.
 Additional lectures will be uploaded here once they have been prepared.
