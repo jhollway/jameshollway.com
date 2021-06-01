@@ -39,6 +39,10 @@ Additional lectures will be uploaded here once they have been prepared.
 
 - [Andrea Biswas Tortajada](/post/Biswas)
 
+- [Hayley Umayam](/post/Umayam)
+
+- [Shalaka Thakur](/post/Thakur)
+
 ## Final project examples (2020)
 
 - [Augusta Nannerini](/post/Nannerini/)
