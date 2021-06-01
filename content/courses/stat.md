@@ -23,7 +23,7 @@ Please find the most recent version of the syllabus [here](RISP062_Syllabus_2021
 
 - [Lecture 5 - Binary](https://jhollway.github.io/RISP062/STAT_L5_Binary.html)
 
-- [Lecture 6 - Categorical](https://jhollway.github.io/RISP062/STAT_L6_Multinomial.html)
+- [Lecture 6 - Multinomial](https://jhollway.github.io/RISP062/STAT_L6_Multinomial.html)
 
 - [Lecture 8 - Panel](https://jhollway.github.io/RISP062/STAT_PanelOutcomes.html)
 
@@ -34,6 +34,10 @@ Please find the most recent version of the syllabus [here](RISP062_Syllabus_2021
 I will update these slides continually throughout the semester,
 so please check back in for more details.
 Additional lectures will be uploaded here once they have been prepared.
+
+## Final projects (2021)
+
+- [Andrea Biswas Tortajada](/post/Biswas)
 
 ## Final project examples (2020)
 
