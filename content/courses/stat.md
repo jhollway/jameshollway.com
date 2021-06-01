@@ -43,6 +43,8 @@ Additional lectures will be uploaded here once they have been prepared.
 
 - [Shalaka Thakur](/post/Thakur)
 
+- [Shanling Liu](/post/Liu)
+
 ## Final project examples (2020)
 
 - [Augusta Nannerini](/post/Nannerini/)

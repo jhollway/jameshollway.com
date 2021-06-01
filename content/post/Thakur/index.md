@@ -997,37 +997,37 @@ The plots below give a visual idea of these marginal effects
 
     ## $socsvcs
 
-![](Final-Blogpost_Shalaka_files/figure-markdown_strict/unnamed-chunk-8-1.png)
+![](unnamed-chunk-8-1.png)
 
     ## 
     ## $age
 
-![](Final-Blogpost_Shalaka_files/figure-markdown_strict/unnamed-chunk-8-2.png)
+![](unnamed-chunk-8-2.png)
 
     ## 
     ## $left
 
-![](Final-Blogpost_Shalaka_files/figure-markdown_strict/unnamed-chunk-8-3.png)
+![](unnamed-chunk-8-3.png)
 
     ## 
     ## $reli
 
-![](Final-Blogpost_Shalaka_files/figure-markdown_strict/unnamed-chunk-8-4.png)
+![](unnamed-chunk-8-4.png)
 
     ## 
     ## $ethn
 
-![](Final-Blogpost_Shalaka_files/figure-markdown_strict/unnamed-chunk-8-5.png)
+![](unnamed-chunk-8-5.png)
 
     ## 
     ## $terrcntrl
 
-![](Final-Blogpost_Shalaka_files/figure-markdown_strict/unnamed-chunk-8-6.png)
+![](unnamed-chunk-8-6.png)
 We can further look at the marginal effects of social service provisions
 and age in cases without territorial control and with territorial
 control
 
-![](Final-Blogpost_Shalaka_files/figure-markdown_strict/unnamed-chunk-9-1.png)
+![](unnamed-chunk-9-1.png)
 
 Based on the plot above, which assumes all other variables are held
 constant, we can see that those groups with territorial control have a
@@ -1261,7 +1261,7 @@ incorporating our larger model hence intuitively makes sense as well.
 
 To add a level of certainty,
 
-![](Final-Blogpost_Shalaka_files/figure-markdown_strict/unnamed-chunk-12-1.png)
+![](unnamed-chunk-12-1.png)
 
 ROC is visualising trade-off between TPR (Sensitivity) and TNR
 (1-Specificity). Basically, ROC traces %TPR as prediction cutoff
@@ -1385,7 +1385,7 @@ provision and extortion in their new form. The second plot adds an
 element of size for the count of organizations (how many times they
 appear in the dataset).
 
-![](Final-Blogpost_Shalaka_files/figure-markdown_strict/unnamed-chunk-13-1.png)![](Final-Blogpost_Shalaka_files/figure-markdown_strict/unnamed-chunk-13-2.png)
+![](unnamed-chunk-13-1.png)![](unnamed-chunk-13-2.png)
 
 Unfortunately, there’s no specific trend we’re seeing through these.
 Seeing how the 1s and 0s translate into numbers 0 and 1, when accounting
