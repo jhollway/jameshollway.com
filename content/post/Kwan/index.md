@@ -6,6 +6,89 @@ diagram: true
 image:
   placement: 3
 ---
+-   [Introduction](#introduction)
+-   [Literature Review](#literature-review)
+    -   [Defining governance](#defining-governance)
+    -   [How e-governance is perceived to improve governance
+        quality?](#how-e-governance-is-perceived-to-improve-governance-quality)
+-   [Hypotheses](#hypotheses)
+-   [Data and operationalisation](#data-and-operationalisation)
+    -   [Main Independent variable (IV)](#main-independent-variable-iv)
+    -   [Dependent variable (DV)](#dependent-variable-dv)
+    -   [Control variables (CVs)](#control-variables-cvs)
+-   [Descriptive Statistics](#descriptive-statistics)
+    -   [Skewness in numerical terms](#skewness-in-numerical-terms)
+    -   [Scatter plot matrix with
+        histograms](#scatter-plot-matrix-with-histograms)
+-   [Methodology](#methodology)
+    -   [Model Selection](#model-selection)
+        -   [Regression tables of random effects and fixed effects
+            models](#regression-tables-of-random-effects-and-fixed-effects-models)
+        -   [](#section)
+        -   [Hausman’s test result by dependent
+            variable](#hausmans-test-result-by-dependent-variable)
+        -   [](#section-1)
+    -   [Diagnosis](#diagnosis)
+        -   [Linearity](#linearity)
+        -   [Influential observations](#influential-observations)
+        -   [](#section-2)
+        -   [Normality of the residuals](#normality-of-the-residuals)
+        -   [](#section-3)
+        -   [Homoscedasticity](#homoscedasticity)
+        -   [Multi-collinearity](#multi-collinearity)
+        -   [](#section-4)
+        -   [Endogeneity](#endogeneity)
+-   [Results](#results)
+    -   [Forest-plots of estimated
+        coefficients](#forest-plots-of-estimated-coefficients)
+        -   [Dependent variable: Control of Corruption Indicator (lagged
+            2
+            years)](#dependent-variable-control-of-corruption-indicator-lagged-2-years-5)
+        -   [Dependent variable: Government Effectiveness Indicator
+            (lagged 2
+            years)](#dependent-variable-government-effectiveness-indicator-lagged-2-years-5)
+        -   [Dependent variable: Voice and Accountability Indicator
+            (lagged 2
+            years)](#dependent-variable-voice-and-accountability-indicator-lagged-2-years-5)
+    -   [](#section-5)
+-   [Robustness Check](#robustness-check)
+    -   [Correlation test of the alternative dependent
+        variables](#correlation-test-of-the-alternative-dependent-variables)
+        -   [WGI Control of Corruption Indicator and Bayesian Corruption
+            Indicator](#wgi-control-of-corruption-indicator-and-bayesian-corruption-indicator)
+        -   [WGI Government Effectiveness Indicator and FSI Public
+            Services
+            Indicator](#wgi-government-effectiveness-indicator-and-fsi-public-services-indicator)
+        -   [WGI Voice and Accountability Indicator and Freedom House
+            Regime
+            Score](#wgi-voice-and-accountability-indicator-and-freedom-house-regime-score)
+    -   [](#section-6)
+    -   [Regression results of alternative dependent
+        variables](#regression-results-of-alternative-dependent-variables)
+        -   [Model (1) for testing H1](#model-1-for-testing-h1)
+        -   [Model (2) for testing H2](#model-2-for-testing-h2)
+        -   [Model (3) for testing H3](#model-3-for-testing-h3)
+    -   [](#section-7)
+-   [Conclusion](#conclusion)
+-   [Reference](#reference)
+    -   [Bibliography](#bibliography)
+    -   [R packages](#r-packages)
+-   [Appendix 1](#appendix-1)
+    -   [E-Government Development
+        Index](#e-government-development-index)
+    -   [World Bank Control of Corruption
+        Indicator](#world-bank-control-of-corruption-indicator)
+    -   [World Bank Government Effectiveness
+        Indicator](#world-bank-government-effectiveness-indicator)
+    -   [World Bank Voice and Accountability
+        Indicator](#world-bank-voice-and-accountability-indicator)
+    -   [GDP per capita in current USD](#gdp-per-capita-in-current-usd)
+    -   [FSI Demographic Pressure](#fsi-demographic-pressure)
+    -   [FSI Group Grievance](#fsi-group-grievance)
+    -   [FSI External Intervention](#fsi-external-intervention)
+    -   [FSI Refugees and IDPs](#fsi-refugees-and-idps)
+    -   [V-Dem Women political empowerment
+        index](#v-dem-women-political-empowerment-index)
 
 # Introduction
 
@@ -298,44 +381,34 @@ dimensions of WGI can be classified into three areas:
 
 ------------------------------------------------------------------------
 
-1.  The process by which governments are selected, monitored, and
-    replaced:
+> The process by which governments are selected, monitored, and
+> replaced:
 
-<!-- -->
-
-1.  Voice and Accountability: the extent to which a country’s citizens
+-   Voice and Accountability: the extent to which a country’s citizens
     are able to participate in selecting their government, as well as
     freedom of expression, freedom of association, and a free media.
-2.  Political Stability and Absence of Violence/Terrorism: the
+-   Political Stability and Absence of Violence/Terrorism: the
     likelihood that the government will be destabilized by
     unconstitutional or violent means, including terrorism.
 
-<!-- -->
+> The capacity of the government to effectively formulate and implement
+> sound policies:
 
-1.  The capacity of the government to effectively formulate and
-    implement sound policies:
-
-<!-- -->
-
-1.  Government Effectiveness: the quality of public services, the
+-   Government Effectiveness: the quality of public services, the
     capacity of the civil service and its independence from political
     pressures; and the quality of policy formulation.
-2.  Regulatory Quality: the ability of the government to provide sound
+-   Regulatory Quality: the ability of the government to provide sound
     policies and regulations that enable and promote private sector
     development.
 
-<!-- -->
+> The respect of citizens and the state for the institutions that govern
+> economic and social interactions among them:
 
-1.  The respect of citizens and the state for the institutions that
-    govern economic and social interactions among them:
-
-<!-- -->
-
-1.  Rule of Law: the extent to which the agents have confidence in and
+-   Rule of Law: the extent to which the agents have confidence in and
     abide by the rules of society, including the quality of contract
     enforcement and property rights, the police, and the courts, as well
     as the likelihood of crime and violence.
-2.  Control of Corruption: the extent to which public power is exercised
+-   Control of Corruption: the extent to which public power is exercised
     for private gain, including both petty and grand forms of
     corruption, as well as “capture” of the state by elites and private
     interests.
@@ -471,64 +544,920 @@ descriptive statistics of the variables as a preliminary inquiry of the
 data. Below is the summary statistics table of the data set for the
 whole period 2003-18 as well as clustered by region.
 
-    ## [1] "<table class=\"Rtable1\"><caption>Data summary statistics (2003-18)</caption>\n\n<thead>\n<tr>\n<th class='rowlabel firstrow lastrow'></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Africa<br><span class='stratn'>(N=990)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Americas<br><span class='stratn'>(N=630)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Asia<br><span class='stratn'>(N=846)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Europe<br><span class='stratn'>(N=774)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Oceania<br><span class='stratn'>(N=234)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Total<br><span class='stratn'>(N=3492)</span></span></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>E-Government Development Index</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>0.259 (0.130)</td>\n<td>0.496 (0.149)</td>\n<td>0.456 (0.188)</td>\n<td>0.647 (0.177)</td>\n<td>0.348 (0.254)</td>\n<td>0.441 (0.222)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>0.258 [0, 0.668]</td>\n<td>0.479 [0, 0.927]</td>\n<td>0.448 [0, 0.946]</td>\n<td>0.670 [0, 0.919]</td>\n<td>0.313 [0, 0.914]</td>\n<td>0.430 [0, 0.946]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>495 (50.0%)</td>\n<td class='lastrow'>315 (50.0%)</td>\n<td class='lastrow'>423 (50.0%)</td>\n<td class='lastrow'>387 (50.0%)</td>\n<td class='lastrow'>117 (50.0%)</td>\n<td class='lastrow'>1746 (50.0%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>WGI Control of Corruption Indicator</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>-0.645 (0.614)</td>\n<td>0.0708 (0.864)</td>\n<td>-0.344 (0.881)</td>\n<td>0.794 (1.01)</td>\n<td>0.147 (0.950)</td>\n<td>-0.0741 (0.997)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>-0.684 [-1.87, 1.22]</td>\n<td>-0.230 [-1.72, 2.07]</td>\n<td>-0.534 [-1.67, 2.33]</td>\n<td>0.770 [-1.13, 2.47]</td>\n<td>-0.0741 [-1.34, 2.39]</td>\n<td>-0.309 [-1.87, 2.47]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>134 (13.5%)</td>\n<td class='lastrow'>70 (11.1%)</td>\n<td class='lastrow'>94 (11.1%)</td>\n<td class='lastrow'>124 (16.0%)</td>\n<td class='lastrow'>35 (15.0%)</td>\n<td class='lastrow'>459 (13.1%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>WGI Government Effectiveness Indicator</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>-0.768 (0.637)</td>\n<td>0.0305 (0.759)</td>\n<td>-0.148 (0.893)</td>\n<td>0.888 (0.869)</td>\n<td>-0.207 (0.960)</td>\n<td>-0.0739 (0.990)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>-0.768 [-2.48, 1.06]</td>\n<td>-0.0471 [-2.08, 1.99]</td>\n<td>-0.198 [-2.24, 2.44]</td>\n<td>0.989 [-1.13, 2.35]</td>\n<td>-0.534 [-2.27, 2.01]</td>\n<td>-0.229 [-2.48, 2.44]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>134 (13.5%)</td>\n<td class='lastrow'>70 (11.1%)</td>\n<td class='lastrow'>94 (11.1%)</td>\n<td class='lastrow'>124 (16.0%)</td>\n<td class='lastrow'>35 (15.0%)</td>\n<td class='lastrow'>459 (13.1%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>WGI Voice and Accountability Indicator</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>-0.647 (0.746)</td>\n<td>0.351 (0.693)</td>\n<td>-0.733 (0.817)</td>\n<td>0.879 (0.707)</td>\n<td>0.687 (0.603)</td>\n<td>-0.0487 (1.01)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>-0.714 [-2.23, 0.998]</td>\n<td>0.461 [-1.89, 1.67]</td>\n<td>-0.797 [-2.31, 1.11]</td>\n<td>1.06 [-1.77, 1.80]</td>\n<td>0.714 [-1.11, 1.65]</td>\n<td>-0.00981 [-2.31, 1.80]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>134 (13.5%)</td>\n<td class='lastrow'>70 (11.1%)</td>\n<td class='lastrow'>94 (11.1%)</td>\n<td class='lastrow'>92 (11.9%)</td>\n<td class='lastrow'>26 (11.1%)</td>\n<td class='lastrow'>418 (12.0%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>GDP Per Capita in Current USD</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>2420 (3250)</td>\n<td>10300 (11000)</td>\n<td>11200 (15700)</td>\n<td>35300 (35600)</td>\n<td>10000 (15200)</td>\n<td>13900 (23100)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>1100 [114, 22900]</td>\n<td>6650 [562, 63000]</td>\n<td>3850 [191, 85100]</td>\n<td>23500 [683, 189000]</td>\n<td>3330 [568, 68200]</td>\n<td>4620 [114, 189000]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>160 (16.2%)</td>\n<td class='lastrow'>74 (11.7%)</td>\n<td class='lastrow'>122 (14.4%)</td>\n<td class='lastrow'>92 (11.9%)</td>\n<td class='lastrow'>33 (14.1%)</td>\n<td class='lastrow'>483 (13.8%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>V-DEM Women political empowerment index</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>0.664 (0.178)</td>\n<td>0.813 (0.0946)</td>\n<td>0.609 (0.193)</td>\n<td>0.902 (0.0503)</td>\n<td>0.707 (0.199)</td>\n<td>0.728 (0.190)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>0.708 [0.151, 0.939]</td>\n<td>0.838 [0.478, 0.963]</td>\n<td>0.631 [0.0970, 0.911]</td>\n<td>0.919 [0.715, 0.976]</td>\n<td>0.740 [0.394, 0.961]</td>\n<td>0.786 [0.0970, 0.976]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>134 (13.5%)</td>\n<td class='lastrow'>198 (31.4%)</td>\n<td class='lastrow'>114 (13.5%)</td>\n<td class='lastrow'>156 (20.2%)</td>\n<td class='lastrow'>138 (59.0%)</td>\n<td class='lastrow'>758 (21.7%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>Demographic Pressure</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>8.05 (1.34)</td>\n<td>5.78 (1.44)</td>\n<td>6.35 (1.68)</td>\n<td>3.48 (1.43)</td>\n<td>5.22 (2.51)</td>\n<td>6.10 (2.25)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>8.40 [3.00, 10.0]</td>\n<td>6.00 [1.30, 10.0]</td>\n<td>6.30 [2.00, 9.80]</td>\n<td>3.30 [0.800, 9.00]</td>\n<td>5.90 [1.00, 8.70]</td>\n<td>6.30 [0.800, 10.0]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>249 (25.2%)</td>\n<td class='lastrow'>204 (32.4%)</td>\n<td class='lastrow'>208 (24.6%)</td>\n<td class='lastrow'>233 (30.1%)</td>\n<td class='lastrow'>153 (65.4%)</td>\n<td class='lastrow'>1052 (30.1%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>Group Grievance</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>6.58 (1.87)</td>\n<td>5.38 (1.45)</td>\n<td>6.96 (1.91)</td>\n<td>4.72 (1.94)</td>\n<td>5.39 (1.71)</td>\n<td>6.00 (2.02)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>6.40 [2.80, 10.0]</td>\n<td>5.60 [2.00, 9.10]</td>\n<td>7.30 [2.00, 10.0]</td>\n<td>4.60 [1.00, 9.30]</td>\n<td>5.20 [2.00, 8.00]</td>\n<td>6.00 [1.00, 10.0]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>249 (25.2%)</td>\n<td class='lastrow'>204 (32.4%)</td>\n<td class='lastrow'>208 (24.6%)</td>\n<td class='lastrow'>233 (30.1%)</td>\n<td class='lastrow'>153 (65.4%)</td>\n<td class='lastrow'>1052 (30.1%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>External Intervention</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>7.27 (1.57)</td>\n<td>5.19 (1.86)</td>\n<td>6.25 (1.95)</td>\n<td>3.68 (2.10)</td>\n<td>5.29 (3.25)</td>\n<td>5.79 (2.34)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>7.40 [2.00, 10.0]</td>\n<td>5.40 [0.700, 10.0]</td>\n<td>6.30 [1.00, 10.0]</td>\n<td>3.40 [0.700, 10.0]</td>\n<td>6.50 [0.700, 9.70]</td>\n<td>6.10 [0.700, 10.0]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>249 (25.2%)</td>\n<td class='lastrow'>204 (32.4%)</td>\n<td class='lastrow'>208 (24.6%)</td>\n<td class='lastrow'>233 (30.1%)</td>\n<td class='lastrow'>153 (65.4%)</td>\n<td class='lastrow'>1052 (30.1%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>Refugees and IDPs</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>6.63 (1.97)</td>\n<td>3.93 (1.61)</td>\n<td>5.73 (2.34)</td>\n<td>3.42 (1.64)</td>\n<td>3.15 (1.28)</td>\n<td>5.08 (2.35)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>6.80 [1.00, 10.0]</td>\n<td>3.70 [1.00, 9.50]</td>\n<td>5.80 [0.900, 10.0]</td>\n<td>3.10 [0.900, 8.60]</td>\n<td>3.00 [1.00, 5.20]</td>\n<td>4.80 [0.900, 10.0]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>249 (25.2%)</td>\n<td class='lastrow'>204 (32.4%)</td>\n<td class='lastrow'>208 (24.6%)</td>\n<td class='lastrow'>233 (30.1%)</td>\n<td class='lastrow'>153 (65.4%)</td>\n<td class='lastrow'>1052 (30.1%)</td>\n</tr>\n</tbody>\n</table>\n"
+\[1\] "
+<table class="\&quot;Rtable1\&quot;">
+<caption>
+Data summary statistics (2003-18)
+</caption>
+<thead>
+<tr>
+<th class="rowlabel firstrow lastrow">
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Africa<br><span
+class="stratn">(N=990)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Americas<br><span
+class="stratn">(N=630)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Asia<br><span
+class="stratn">(N=846)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Europe<br><span
+class="stratn">(N=774)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Oceania<br><span
+class="stratn">(N=234)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Total<br><span
+class="stratn">(N=3492)</span></span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">E-Government Development Index</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+0.259 (0.130)
+</td>
+<td>
+0.496 (0.149)
+</td>
+<td>
+0.456 (0.188)
+</td>
+<td>
+0.647 (0.177)
+</td>
+<td>
+0.348 (0.254)
+</td>
+<td>
+0.441 (0.222)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+0.258 \[0, 0.668\]
+</td>
+<td>
+0.479 \[0, 0.927\]
+</td>
+<td>
+0.448 \[0, 0.946\]
+</td>
+<td>
+0.670 \[0, 0.919\]
+</td>
+<td>
+0.313 \[0, 0.914\]
+</td>
+<td>
+0.430 \[0, 0.946\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+495 (50.0%)
+</td>
+<td class="lastrow">
+315 (50.0%)
+</td>
+<td class="lastrow">
+423 (50.0%)
+</td>
+<td class="lastrow">
+387 (50.0%)
+</td>
+<td class="lastrow">
+117 (50.0%)
+</td>
+<td class="lastrow">
+1746 (50.0%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">WGI Control of Corruption Indicator</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+-0.645 (0.614)
+</td>
+<td>
+0.0708 (0.864)
+</td>
+<td>
+-0.344 (0.881)
+</td>
+<td>
+0.794 (1.01)
+</td>
+<td>
+0.147 (0.950)
+</td>
+<td>
+-0.0741 (0.997)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+-0.684 \[-1.87, 1.22\]
+</td>
+<td>
+-0.230 \[-1.72, 2.07\]
+</td>
+<td>
+-0.534 \[-1.67, 2.33\]
+</td>
+<td>
+0.770 \[-1.13, 2.47\]
+</td>
+<td>
+-0.0741 \[-1.34, 2.39\]
+</td>
+<td>
+-0.309 \[-1.87, 2.47\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+134 (13.5%)
+</td>
+<td class="lastrow">
+70 (11.1%)
+</td>
+<td class="lastrow">
+94 (11.1%)
+</td>
+<td class="lastrow">
+124 (16.0%)
+</td>
+<td class="lastrow">
+35 (15.0%)
+</td>
+<td class="lastrow">
+459 (13.1%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">WGI Government Effectiveness Indicator</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+-0.768 (0.637)
+</td>
+<td>
+0.0305 (0.759)
+</td>
+<td>
+-0.148 (0.893)
+</td>
+<td>
+0.888 (0.869)
+</td>
+<td>
+-0.207 (0.960)
+</td>
+<td>
+-0.0739 (0.990)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+-0.768 \[-2.48, 1.06\]
+</td>
+<td>
+-0.0471 \[-2.08, 1.99\]
+</td>
+<td>
+-0.198 \[-2.24, 2.44\]
+</td>
+<td>
+0.989 \[-1.13, 2.35\]
+</td>
+<td>
+-0.534 \[-2.27, 2.01\]
+</td>
+<td>
+-0.229 \[-2.48, 2.44\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+134 (13.5%)
+</td>
+<td class="lastrow">
+70 (11.1%)
+</td>
+<td class="lastrow">
+94 (11.1%)
+</td>
+<td class="lastrow">
+124 (16.0%)
+</td>
+<td class="lastrow">
+35 (15.0%)
+</td>
+<td class="lastrow">
+459 (13.1%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">WGI Voice and Accountability Indicator</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+-0.647 (0.746)
+</td>
+<td>
+0.351 (0.693)
+</td>
+<td>
+-0.733 (0.817)
+</td>
+<td>
+0.879 (0.707)
+</td>
+<td>
+0.687 (0.603)
+</td>
+<td>
+-0.0487 (1.01)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+-0.714 \[-2.23, 0.998\]
+</td>
+<td>
+0.461 \[-1.89, 1.67\]
+</td>
+<td>
+-0.797 \[-2.31, 1.11\]
+</td>
+<td>
+1.06 \[-1.77, 1.80\]
+</td>
+<td>
+0.714 \[-1.11, 1.65\]
+</td>
+<td>
+-0.00981 \[-2.31, 1.80\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+134 (13.5%)
+</td>
+<td class="lastrow">
+70 (11.1%)
+</td>
+<td class="lastrow">
+94 (11.1%)
+</td>
+<td class="lastrow">
+92 (11.9%)
+</td>
+<td class="lastrow">
+26 (11.1%)
+</td>
+<td class="lastrow">
+418 (12.0%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">GDP Per Capita in Current USD</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+2420 (3250)
+</td>
+<td>
+10300 (11000)
+</td>
+<td>
+11200 (15700)
+</td>
+<td>
+35300 (35600)
+</td>
+<td>
+10000 (15200)
+</td>
+<td>
+13900 (23100)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+1100 \[114, 22900\]
+</td>
+<td>
+6650 \[562, 63000\]
+</td>
+<td>
+3850 \[191, 85100\]
+</td>
+<td>
+23500 \[683, 189000\]
+</td>
+<td>
+3330 \[568, 68200\]
+</td>
+<td>
+4620 \[114, 189000\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+160 (16.2%)
+</td>
+<td class="lastrow">
+74 (11.7%)
+</td>
+<td class="lastrow">
+122 (14.4%)
+</td>
+<td class="lastrow">
+92 (11.9%)
+</td>
+<td class="lastrow">
+33 (14.1%)
+</td>
+<td class="lastrow">
+483 (13.8%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">V-DEM Women political empowerment index</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+0.664 (0.178)
+</td>
+<td>
+0.813 (0.0946)
+</td>
+<td>
+0.609 (0.193)
+</td>
+<td>
+0.902 (0.0503)
+</td>
+<td>
+0.707 (0.199)
+</td>
+<td>
+0.728 (0.190)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+0.708 \[0.151, 0.939\]
+</td>
+<td>
+0.838 \[0.478, 0.963\]
+</td>
+<td>
+0.631 \[0.0970, 0.911\]
+</td>
+<td>
+0.919 \[0.715, 0.976\]
+</td>
+<td>
+0.740 \[0.394, 0.961\]
+</td>
+<td>
+0.786 \[0.0970, 0.976\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+134 (13.5%)
+</td>
+<td class="lastrow">
+198 (31.4%)
+</td>
+<td class="lastrow">
+114 (13.5%)
+</td>
+<td class="lastrow">
+156 (20.2%)
+</td>
+<td class="lastrow">
+138 (59.0%)
+</td>
+<td class="lastrow">
+758 (21.7%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">Demographic Pressure</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+8.05 (1.34)
+</td>
+<td>
+5.78 (1.44)
+</td>
+<td>
+6.35 (1.68)
+</td>
+<td>
+3.48 (1.43)
+</td>
+<td>
+5.22 (2.51)
+</td>
+<td>
+6.10 (2.25)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+8.40 \[3.00, 10.0\]
+</td>
+<td>
+6.00 \[1.30, 10.0\]
+</td>
+<td>
+6.30 \[2.00, 9.80\]
+</td>
+<td>
+3.30 \[0.800, 9.00\]
+</td>
+<td>
+5.90 \[1.00, 8.70\]
+</td>
+<td>
+6.30 \[0.800, 10.0\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+249 (25.2%)
+</td>
+<td class="lastrow">
+204 (32.4%)
+</td>
+<td class="lastrow">
+208 (24.6%)
+</td>
+<td class="lastrow">
+233 (30.1%)
+</td>
+<td class="lastrow">
+153 (65.4%)
+</td>
+<td class="lastrow">
+1052 (30.1%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">Group Grievance</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+6.58 (1.87)
+</td>
+<td>
+5.38 (1.45)
+</td>
+<td>
+6.96 (1.91)
+</td>
+<td>
+4.72 (1.94)
+</td>
+<td>
+5.39 (1.71)
+</td>
+<td>
+6.00 (2.02)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+6.40 \[2.80, 10.0\]
+</td>
+<td>
+5.60 \[2.00, 9.10\]
+</td>
+<td>
+7.30 \[2.00, 10.0\]
+</td>
+<td>
+4.60 \[1.00, 9.30\]
+</td>
+<td>
+5.20 \[2.00, 8.00\]
+</td>
+<td>
+6.00 \[1.00, 10.0\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+249 (25.2%)
+</td>
+<td class="lastrow">
+204 (32.4%)
+</td>
+<td class="lastrow">
+208 (24.6%)
+</td>
+<td class="lastrow">
+233 (30.1%)
+</td>
+<td class="lastrow">
+153 (65.4%)
+</td>
+<td class="lastrow">
+1052 (30.1%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">External Intervention</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+7.27 (1.57)
+</td>
+<td>
+5.19 (1.86)
+</td>
+<td>
+6.25 (1.95)
+</td>
+<td>
+3.68 (2.10)
+</td>
+<td>
+5.29 (3.25)
+</td>
+<td>
+5.79 (2.34)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+7.40 \[2.00, 10.0\]
+</td>
+<td>
+5.40 \[0.700, 10.0\]
+</td>
+<td>
+6.30 \[1.00, 10.0\]
+</td>
+<td>
+3.40 \[0.700, 10.0\]
+</td>
+<td>
+6.50 \[0.700, 9.70\]
+</td>
+<td>
+6.10 \[0.700, 10.0\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+249 (25.2%)
+</td>
+<td class="lastrow">
+204 (32.4%)
+</td>
+<td class="lastrow">
+208 (24.6%)
+</td>
+<td class="lastrow">
+233 (30.1%)
+</td>
+<td class="lastrow">
+153 (65.4%)
+</td>
+<td class="lastrow">
+1052 (30.1%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">Refugees and IDPs</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+6.63 (1.97)
+</td>
+<td>
+3.93 (1.61)
+</td>
+<td>
+5.73 (2.34)
+</td>
+<td>
+3.42 (1.64)
+</td>
+<td>
+3.15 (1.28)
+</td>
+<td>
+5.08 (2.35)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+6.80 \[1.00, 10.0\]
+</td>
+<td>
+3.70 \[1.00, 9.50\]
+</td>
+<td>
+5.80 \[0.900, 10.0\]
+</td>
+<td>
+3.10 \[0.900, 8.60\]
+</td>
+<td>
+3.00 \[1.00, 5.20\]
+</td>
+<td>
+4.80 \[0.900, 10.0\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+249 (25.2%)
+</td>
+<td class="lastrow">
+204 (32.4%)
+</td>
+<td class="lastrow">
+208 (24.6%)
+</td>
+<td class="lastrow">
+233 (30.1%)
+</td>
+<td class="lastrow">
+153 (65.4%)
+</td>
+<td class="lastrow">
+1052 (30.1%)
+</td>
+</tr>
+</tbody>
+</table>
 
-## Line graphs of the variables
+"
 
 I will also plot the trends of the variables for each country during the
 period 2003-18 via line graphs to determine whether they are slow-moving
 variables or not in terms of how much within-unit variation is there
-throughout 2003-18. Based on the plots, it appears that the dependent
-variables have little within-unit variation over time except for a few
-countries, and the trends have remained quite constant from 2003-18.
-Meanwhile, even though there is overall an increasing trend of the EGDI
-throughout the period, the within-unit variation is still quite small
-except for a few countries. Lastly, the control variables are also
+throughout 2003-18. Due to space limit, I have put the graphs under
+[Appendix 1](#appendix-1). Based on the plots, it appears that the
+dependent variables have little within-unit variation over time except
+for a few countries, and the trends have remained quite constant from
+2003-18. Meanwhile, even though there is overall an increasing trend of
+the EGDI throughout the period, the within-unit variation is still quite
+small except for a few countries. Lastly, the control variables are also
 mostly slow-moving for a considerable amount of units. In sum, although
 all but the *region* variable are in theory time-variant variables, in
 reality they did not have huge within-unit variation from 2003-18.
-
-### E-Government Development Index
-
-<img src="unnamed-chunk-5-1.png"  />
-
-### World Bank Control of Corruption Indicator
-
-<img src="unnamed-chunk-6-1.png"  />
-
-### World Bank Government Effectiveness Indicator
-
-<img src="unnamed-chunk-7-1.png"  />
-
-### World Bank Voice and Accountability Indicator
-
-<img src="unnamed-chunk-8-1.png"  />
-
-### GDP per capita in current USD
-
-<img src="unnamed-chunk-9-1.png"  />
-
-### FSI Demographic Pressure
-
-<img src="unnamed-chunk-10-1.png"  />
-
-### FSI Group Grievance
-
-<img src="unnamed-chunk-11-1.png"  />
-
-### FSI External Intervention
-
-<img src="unnamed-chunk-12-1.png"  />
-
-### FSI Refugees and IDPs
-
-<img src="unnamed-chunk-13-1.png"  />
-
-### V-Dem Women political empowerment index
-
-<img src="unnamed-chunk-14-1.png"  />
-
-## 
 
 Next is the missing data map of the dataset, which shows that a
 considerable amount of missing observations are clustered at the EGDI.
@@ -555,7 +1484,7 @@ fact it is the only variable that has a skewness of higher than 1), I
 will log-transform this variable to prevent it from biasing the
 regression results.
 
-### Skewness in numerical terms
+## Skewness in numerical terms
 
     library(moments)
     skewness(dataset[c(6, 7, 11:19)], na.rm = T)
@@ -567,7 +1496,7 @@ regression results.
     ##       ffp_ref 
     ##     0.2512283
 
-### Scatter plot matrix with histograms
+## Scatter plot matrix with histograms
 
 <img src="unnamed-chunk-17-1.png"  />
 
