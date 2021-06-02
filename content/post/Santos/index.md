@@ -6,41 +6,16 @@ diagram: true
 image:
   placement: 3
 ---
+-   [1. Introduction](#introduction)
+-   [2. Data](#data)
+-   [3. Methods](#methods)
+-   [4. Results and interpretation](#results-and-interpretation)
+-   [5. Conclusion](#conclusion)
 
 Data used in this project available at:
 <https://drive.google.com/drive/folders/1kGO7K8C57PY4KkB2xyagqnUouEwFRMnM?usp=sharing>
 Please download all of these folders and save this Rmd file in the same
 folder in which you save them.
-
-### Table of contents
-
-##### 1. Introduction
-
-##### 2. Data
-
-####### 2.1. Data selection
-
-####### 2.2. Data issues, trouble-shooting and discussion
-
-####### 2.3. Data preliminary presentation
-
-##### 3. Methods
-
-##### 4. Results and interpretation
-
-####### 4.1. Compound words and DFM top features
-
-###### 4.1.1. North
-
-###### 4.1.2. South
-
-####### 4.2. Keywords-in-context (KWIC):
-
-####### 4.3. Wordfish
-
-####### 4.4. Wordscores
-
-##### 5. Conclusion
 
 ### 1. Introduction
 
@@ -65,7 +40,7 @@ organizations (44).
 
 ##### Using a total of 31 official delegation statements on poverty eradication from the second and eleventh sessions of the OWG (hereinafter OWG2 and OWG11), we can specifically probe two hypotheses:
 
-##### A) A broader one, based on Degterev: that Southern donors were, on the whole, closer recipient states rather than other (Northern) donors.
+##### A) A broader one, based on Degterev: that Southern donors were, on the whole, closer to recipient states rather than other (Northern) donors.
 
 ##### B) A narrower set of hypotheses, based on both Degterev and Pouliot & Thérien, by which:
 
@@ -629,7 +604,7 @@ Table 14. OWG11 South DFM without extraneous words, top features list:
 
 ##### This method finds inputed keywords in the documents and provides their specific source and surrounding context (few words before and after). This is a rudimentary tool, but still a useful one as it fills many of the gaps left by the two used in the previous section. Indeed, while they could reveal much about groups of text in general, one cannot disaggregate the data: click on “multidimensional” and see which countries, exactly, used it, and in what context.
 
-Table 15. KIWC: Multidimensional8 (OWG2)
+Table 15. KWIC: Multidimensional8 (OWG2)
 
     ## Keyword-in-context with 10 matches.                                                                   
     ##        [Canada, Israel, US.pdf, 202]              poverty complex |
@@ -654,7 +629,7 @@ Table 15. KIWC: Multidimensional8 (OWG2)
     ##   multidimensional   | nature relation income                   
     ##   multidimensional   | approach cutting across relevant thematic
 
-Table 16. KIWC: Multidimensional\* (OWG11)
+Table 16. KWIC: Multidimensional\* (OWG11)
 
     ## Keyword-in-context with 6 matches.                                                                       
     ##           [Canada, US and Israel.pdf, 1244]           targets capture |
@@ -673,7 +648,7 @@ Table 16. KIWC: Multidimensional\* (OWG11)
 
 ##### In both OWG2 and OWG11, we see not only Northern states primarily using either “multidimensional” or “multidimensionality” (even monopolizing their use during OWG11), but they are doing so clearly in relation to poverty (this is worth noting due to OWG11’s dual thematic). Even more, as the contexts further reveal, they betray a “complex” (Canada, US and Israel, OWG2) and even “comprehensive approach” (Croatia and Bulgaria, OWG2). This Northern substantive connection to the more broad-ranging aspect of poverty, and the lack of Southern use of “multidimensional” and “multidimensionality”, is a point in contention of hypothesis B1.
 
-Table 17. KIWC: Structural (OWG2)
+Table 17. KWIC: Structural (OWG2)
 
     ## Keyword-in-context with 2 matches.                                                                         
     ##  [China, Indonesia and Kazakhstan.pdf, 944] robust discussions systemic |
@@ -682,7 +657,7 @@ Table 17. KIWC: Structural (OWG2)
     ##  structural | impediments sustainable development
     ##  structural | imbalances development processes
 
-Table 18. KIWC: Structural (OWG11)
+Table 18. KWIC: Structural (OWG11)
 
     ## Keyword-in-context with 2 matches.                                                                               
     ##  [Brazil and Nicaragua.pdf, 624]           acknowledged priority | structural |
@@ -693,7 +668,7 @@ Table 18. KIWC: Structural (OWG11)
 
 ##### Very few uses of anything “structural”, mostly Southern, but it is still notable to find Italy, Spain and Turkey in OWG2 explicitly framing poverty as structural.
 
-Table 19. KIWC: Systemic (OWG2)
+Table 19. KWIC: Systemic (OWG2)
 
     ## Keyword-in-context with 3 matches.                                                                             
     ##  [China, Indonesia and Kazakhstan.pdf, 942] also include robust discussions |
@@ -704,13 +679,13 @@ Table 19. KIWC: Systemic (OWG2)
     ##  systemic | institutional issues              
     ##  systemic | nature
 
-Table 20. KIWC: Systemic (OWG11)
+Table 20. KWIC: Systemic (OWG11)
 
     ## Keyword-in-context with 0 matches.
 
 ##### No mention of “systemic” in OWG11, interestingly, despite it containing one more document than OWG2. Italy, Spain and Turkey emerge again as a lone Northern troika willing to address the “underlying causes” of poverty, including its “institutional” aspect. If one considers Turkey as Southern, these results could be contested as a result of its influence. But this would imply hypothesis B1 is inherently likely to be correct, of which there is no clear indication yet.
 
-Table 21. KIWC: Overarching (OWG2)
+Table 21. KWIC: Overarching (OWG2)
 
     ## Keyword-in-context with 17 matches.                                                  
     ##                      [Canada, Israel, US.pdf, 112]
@@ -767,7 +742,7 @@ Table 21. KIWC: Overarching (OWG2)
     ##  concern intertwined                      
     ##  objective poverty eradication
 
-Table 22. KIWC: Overarching (OWG11)
+Table 22. KWIC: Overarching (OWG11)
 
     ## Keyword-in-context with 2 matches.                                                                         
     ##       [Brazil and Nicaragua.pdf, 178] eradication poverty | overarching |
@@ -778,7 +753,7 @@ Table 22. KIWC: Overarching (OWG11)
 
 ##### Another interesting difference between OWG sessions: in the latter, only two mentions, and both discussing poverty eradication’s status as a “standalone goal”. Meanwhile, 17 mentions from a diverse set of troikas during OWG2, when SDGs were as yet undefined. But there is very little even in OWG2 about poverty reduction itself, and more about its role in the agenda, with mentions of “framework SDGs”, “post-2015\_framework”, and so on. Nothing, then, clearly connected to B1.
 
-Table 23. KIWC: Inequality (OWG2)
+Table 23. KWIC: Inequality (OWG2)
 
     ## Keyword-in-context with 9 matches.                                                                              
     ##  [China, Indonesia and Kazakhstan.pdf, 953]                  development led |
@@ -801,7 +776,7 @@ Table 23. KIWC: Inequality (OWG2)
     ##  inequality | want                     
     ##  inequality | unemployment access
 
-Table 24. KIWC: Inequality (OWG11)
+Table 24. KWIC: Inequality (OWG11)
 
     ## Keyword-in-context with 21 matches.                                           
     ##             [Brazil and Nicaragua.pdf, 581]
@@ -872,7 +847,7 @@ Table 24. KIWC: Inequality (OWG11)
 
 ##### As mentioned in the discussion of Table 14, inequality could serve as a sign of greater concern for the structural root causes of poverty. In both sessions, the word is often used by Northern delegations, and clearly in relation to poverty (e.g. “undermines poverty reduction”, from Canada, US and Israel in OWG11) and the mechanics by which it does so (e.g. the EU’s OWG11 mention of inequality in “acess to services”).
 
-Table 25. KIWC: Private (OWG2)
+Table 25. KWIC: Private (OWG2)
 
     ## Keyword-in-context with 2 matches.                                                                      
     ##              [ECOWAS.pdf, 369]            countries result | private |
@@ -881,7 +856,7 @@ Table 25. KIWC: Private (OWG2)
     ##  investments job creationwere rather
     ##  sector joining hands make
 
-Table 26. KIWC: Private (OWG11)
+Table 26. KWIC: Private (OWG11)
 
     ## Keyword-in-context with 2 matches.                                                                
     ##            [EU.pdf, 1030] across countries including | private |
@@ -951,7 +926,7 @@ Table 30. Assist\* (OWG11)
 
 ##### With the only exception being Croatia and Bulgaria in OWG2, every mention of “assist” or “assistance” was Southern and almost always related to development financing, strengthening B2, as well as hypothesis A, as we see Southern donors (Brazil, China, India) siding with Southern recipients.
 
-Table 31. KIWC: Priorit\* (OWG2)
+Table 31. KWIC: Priorit\* (OWG2)
 
     ## Keyword-in-context with 21 matches.                                                  
     ##         [China, Indonesia and Kazakhstan.pdf, 263]
@@ -1020,7 +995,7 @@ Table 31. KIWC: Priorit\* (OWG2)
     ##  SDGs thematic                           
     ##  levels interventions
 
-Table 32. KIWC: Priorit\* (OWG11)
+Table 32. KWIC: Priorit\* (OWG11)
 
     ## Keyword-in-context with 5 matches.                                                                            
     ##  [Australia, the Netherlands and the UK.pdf, 180] forms remains overriding |
@@ -1037,7 +1012,7 @@ Table 32. KIWC: Priorit\* (OWG11)
 
 ##### None of these uses of “Priority” or “Priorities” relates directly to any hypothesis, and they seem quite aligned in meaning and regionally-diverse overall.
 
-Table 33. KIWC: Responsibilit\* (OWG2)
+Table 33. KWIC: Responsibilit\* (OWG2)
 
     ## Keyword-in-context with 10 matches.                                                                             
     ##                    [African Group.pdf, 248] principle common differentiated |
@@ -1062,7 +1037,7 @@ Table 33. KIWC: Responsibilit\* (OWG2)
     ##  Responsibilities | CBDR reflected                                  
     ##   responsibility  | implement internationally agreed poverty-related
 
-Table 34. KIWC: Responsibilit\* (OWG11)
+Table 34. KWIC: Responsibilit\* (OWG11)
 
     ## Keyword-in-context with 10 matches.                                                                             
     ##                    [African Group.pdf, 248] principle common differentiated |
@@ -1121,11 +1096,11 @@ Table 36. CBDR (OWG11)
 
 ##### As guessed above, when referring to a “principle”, this often meant the principle of CBDR—to Southern delegations, that is, the only ones to to mention this. Again, Degterev’s alliance of Southern donors and recipients is evident, even on this development-related issue. Both A and B2 are reflected here.
 
-Table 37. KIWC: ODA (OWG2)
+Table 37. KWIC: ODA (OWG2)
 
     ## Keyword-in-context with 0 matches.
 
-Table 38. KIWC: ODA (OWG11)
+Table 38. KWIC: ODA (OWG11)
 
     ## Keyword-in-context with 9 matches.                                                                             
     ##                       [Bangladesh.pdf, 439]          emphasized fulfillment |
@@ -1148,9 +1123,9 @@ Table 38. KIWC: ODA (OWG11)
     ##  ODA | commitment               
     ##  ODA | long-term predictability
 
-##### Against reflecting both A and B2, Southern delegations proved much more willing to broach the topic of ODA, with the North’s sole mention concerning innovative finance rather than more straightforwardly poverty or Southern themes such as “LDCs” (India), “commitment” (India) and “long-term predictability” (LDCs).
+##### Again reflecting both A and B2, Southern delegations proved much more willing to broach the topic of ODA, with the North’s sole mention concerning innovative finance rather than more straightforwardly poverty or Southern themes such as “LDCs” (India), “commitment” (India) and “long-term predictability” (LDCs).
 
-Table 39. KIWC: Individual\* (OWG2)
+Table 39. KWIC: Individual\* (OWG2)
 
     ## Keyword-in-context with 2 matches.                                                                               
     ##                      [G77.pdf, 764] protection system empowerment | individuals
@@ -1159,14 +1134,14 @@ Table 39. KIWC: Individual\* (OWG2)
     ##  | seize economic opportunities
     ##  | considers relevant widen
 
-Table 40. KIWC: ODA (OWG11)
+Table 40. KWIC: ODA (OWG11)
 
     ## Keyword-in-context with 1 match.                                                                     
     ##  [Canada, US and Israel.pdf, 507] determined | individual | countries
 
 ##### Unlike what B1 posits, the clearest expression of individual empowerment and opportunities related to poverty eradication comes not from the North but the G77, collective voice of the South.
 
-Table 41. KIWC: Transfer\* (OWG2)
+Table 41. KWIC: Transfer\* (OWG2)
 
     ## Keyword-in-context with 3 matches.                                                                          
     ##  [China, Indonesia and Kazakhstan.pdf, 837] including finance technology |
@@ -1177,7 +1152,7 @@ Table 41. KIWC: Transfer\* (OWG2)
     ##  transferable | message Dublin Conference
     ##    transfer   | capacity building
 
-Table 42. KIWC: Transfer\* (OWG11)
+Table 42. KWIC: Transfer\* (OWG11)
 
     ## Keyword-in-context with 7 matches.                                                                            
     ##                    [African Group.pdf, 1033]     Ensuring public financing |
