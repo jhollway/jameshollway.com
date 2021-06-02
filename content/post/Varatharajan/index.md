@@ -6,6 +6,23 @@ diagram: true
 image:
   placement: 3
 ---
+-   [INTRODUCING THE DATASET](#introducing-the-dataset)
+-   [DATASET INSPECTION AND CLEANING](#dataset-inspection-and-cleaning)
+    -   [**Checking the structure of the
+        dataset:**](#checking-the-structure-of-the-dataset)
+    -   [**Sample size of the dataset:**](#sample-size-of-the-dataset)
+    -   [**Status of missing data**](#status-of-missing-data)
+    -   [**Creating new binary
+        variables:**](#creating-new-binary-variables)
+-   [VARIABLES AND THEORETICAL
+    APPROACH](#variables-and-theoretical-approach)
+-   [REGRESSION](#regression)
+    -   [Regression Model 1 - Facebook
+        Accuracy:](#regression-model-1---facebook-accuracy)
+    -   [Regression Model 2 - Whatsapp
+        Accuracy:](#regression-model-2---whatsapp-accuracy)
+-   [DIAGNOSTICS](#diagnostics)
+-   [CONCLUSION](#conclusion)
 
 *Data: pooledthreeway\_data.dta*
 
