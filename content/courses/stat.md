@@ -51,6 +51,8 @@ Additional lectures will be uploaded here once they have been prepared.
 
 - [Shanling Liu](/post/Liu)
 
+- [Swetha Ramachandran](/post/Ramachandran)
+
 - [Shalaka Thakur](/post/Thakur)
 
 - [Hayley Umayam](/post/Umayam)
