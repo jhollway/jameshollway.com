@@ -59,6 +59,8 @@ Additional lectures will be uploaded here once they have been prepared.
 
 - [Hayley Umayam](/post/Umayam)
 
+- [Vishnu Varatharajan](/post/Varatharajan)
+
 ## Final project examples (2020)
 
 - [Augusta Nannerini](/post/Nannerini/)
