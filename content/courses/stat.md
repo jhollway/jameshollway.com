@@ -41,6 +41,8 @@ Additional lectures will be uploaded here once they have been prepared.
 
 - [Vladimir Borodin](/post/Borodin)
 
+- [Julia Greene](/post/Greene)
+
 - [Shanling Liu](/post/Liu)
 
 - [Shalaka Thakur](/post/Thakur)
