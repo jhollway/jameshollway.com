@@ -6,6 +6,20 @@ diagram: true
 image:
   placement: 3
 ---
+-   [Introduction, Research Question &
+    Hypotheses](#introduction-research-question-hypotheses)
+-   [Data](#data)
+    -   [Dependent Variable](#dependent-variable)
+    -   [Independent Variables](#independent-variables)
+    -   [Comments](#comments)
+    -   [Relationships in the Data](#relationships-in-the-data)
+    -   [Omitted Variable Bias](#omitted-variable-bias)
+-   [Methodology / Model](#methodology-model)
+-   [Results](#results)
+-   [Robustness: Eliminating Continuous Aggregated Building
+    Variables](#robustness-eliminating-continuous-aggregated-building-variables)
+-   [Conclusion](#conclusion)
+-   [References:](#references)
 
 ## Introduction, Research Question & Hypotheses
 
