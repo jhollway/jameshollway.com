@@ -45,6 +45,8 @@ Additional lectures will be uploaded here once they have been prepared.
 
 - [Zakaria Imessaoudene](/post/Imessaoudene)
 
+- [Jaewon Kim](/post/Kim)
+
 - [Shanling Liu](/post/Liu)
 
 - [Shalaka Thakur](/post/Thakur)
