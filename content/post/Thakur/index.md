@@ -12,7 +12,7 @@ body {
 text-align: justify}
 </style>
 
-## $\\color{darkcyan}{\\text{Conflict and crime-Rethinking extortion through rebel governance}}$
+## Conflict and crime - Rethinking extortion through rebel governance
 
 ### Extortion and rebels- more than just economic underpinnings?
 
