@@ -6,6 +6,51 @@ diagram: true
 image:
   placement: 3
 ---
+-   [I. INTRODUCTION](#i.-introduction)
+    -   [Ia. Hypotheses](#ia.-hypotheses)
+-   [II. DATA & VISUALIZATION](#ii.-data-visualization)
+    -   [IIa. Dataset](#iia.-dataset)
+        -   [Identifying Variables](#identifying-variables)
+        -   [Importing, Cleaning, and Manipulating the
+            Dataset](#importing-cleaning-and-manipulating-the-dataset)
+    -   [IIb. Measurements, Descriptive Stats, and
+        Distributions](#iib.-measurements-descriptive-stats-and-distributions)
+        -   [Descriptive Statistics by
+            Region](#descriptive-statistics-by-region)
+    -   [IIc. Missing Data &
+        Diagnostics](#iic.-missing-data-diagnostics)
+        -   [Missingness Map](#missingness-map)
+        -   [Missing Data Pattern](#missing-data-pattern)
+        -   [Omitting Data](#omitting-data)
+    -   [IId. Distribution of
+        Variables](#iid.-distribution-of-variables)
+        -   [Distribution of Variables (mean score) by
+            Region](#distribution-of-variables-mean-score-by-region)
+    -   [IIe. Correlation Analysis](#iie.-correlation-analysis)
+        -   [Relationship Between Happiness Score, Health (Life
+            Expectancy), and Economy (GDP per
+            capita)](#relationship-between-happiness-score-health-life-expectancy-and-economy-gdp-per-capita)
+-   [III. METHODOLOGY](#iii.-methodology)
+-   [IV. REGRESSION MODELS](#iv.-regression-models)
+    -   [IVa. Modelling - Multiple Linear Regressions
+        (MLR)](#iva.-modelling---multiple-linear-regressions-mlr)
+    -   [IVb. Model Selection](#ivb.-model-selection)
+    -   [IVc. Model Diagnostics & Assumptions
+        Test](#ivc.-model-diagnostics-assumptions-test)
+        -   [Multicollinearity](#multicollinearity)
+        -   [Linearity, Normality, Homoskedasticity, and
+            Outliers](#linearity-normality-homoskedasticity-and-outliers)
+-   [V. RESULTS & DISCUSSION](#v.-results-discussion)
+    -   [Hypotheses](#hypotheses)
+    -   [Other Findings](#other-findings)
+    -   [Va. Limitations](#va.-limitations)
+    -   [Vb. Avenues for Future
+        Research](#vb.-avenues-for-future-research)
+-   [VI. REFERENCES](#vi.-references)
+-   [VII. APPENDIX](#vii.-appendix)
+    -   [Total Population & Happiness](#total-population-happiness)
+    -   [Bivariate Model: Population Size &
+        Happiness](#bivariate-model-population-size-happiness)
 
 <style>
 body {
