@@ -516,32 +516,30 @@ the speeches of Brazil in UNGA between 1985 and 2020***
     pred_ws_Sarney40Bolsonaro74
 
     ##    UNGA40Sarney.pdf     UNGA41Sodre.pdf     UNGA42Sodre.pdf     UNGA43Sodre.pdf 
-    ##                 NaN                 NaN                 NaN                 NaN 
+    ##        -1.000000000        -0.258146089        -0.233624688        -0.148348564 
     ##    UNGA44Sarney.pdf    UNGA45Collor.pdf    UNGA46Collor.pdf     UNGA47Lafer.pdf 
-    ##                 NaN                 NaN                 NaN                 NaN 
+    ##        -0.220405744        -0.165319750        -0.165493181        -0.132578947 
     ##    UNGA48Amorim.pdf    UNGA49Amorim.pdf  UNGA50Lampreia.pdf  UNGA51Lampreia.pdf 
-    ##                 NaN                 NaN                 NaN                 NaN 
+    ##        -0.087136904        -0.137537304        -0.144360123        -0.101553756 
     ##  UNGA52Lampreia.pdf  UNGA53Lampreia.pdf  UNGA54Lampreia.pdf  UNGA55Lampreia.pdf 
-    ##                 NaN                 NaN                 NaN                 NaN 
+    ##        -0.127297894        -0.051779930        -0.119934407        -0.042397014 
     ##   UNGA56Cardoso.pdf     UNGA57Lafer.pdf      UNGA58Lula.pdf      UNGA59Lula.pdf 
-    ##                 NaN                 NaN                 NaN                 NaN 
+    ##        -0.113909826        -0.124694215        -0.118447369        -0.120183023 
     ##    UNGA60Amorim.pdf      UNGA61Lula.pdf      UNGA62Lula.pdf      UNGA63Lula.pdf 
-    ##                 NaN                 NaN                 NaN                 NaN 
+    ##        -0.051724896        -0.075265738         0.014892868        -0.068437664 
     ##      UNGA64Lula.pdf    UNGA65Amorim.pdf  UNGA66Rousseff.pdf  UNGA67Rousseff.pdf 
-    ##                 NaN                 NaN                 NaN                 NaN 
+    ##        -0.024335844        -0.043858479        -0.120172500        -0.103245226 
     ##  UNGA68Rousseff.pdf  UNGA69Rousseff.pdf  UNGA70Rousseff.pdf     UNGA71Temer.pdf 
-    ##                 NaN                 NaN                 NaN                 NaN 
+    ##        -0.045825247        -0.023278044         0.007985528        -0.051577371 
     ##     UNGA72Temer.pdf     UNGA73Temer.pdf UNGA74Bolsonaro.pdf UNGA75Bolsonaro.pdf 
-    ##                 NaN                 NaN                 NaN                 NaN
+    ##        -0.042275574        -0.038585296         1.000000000         0.194818212
 
 **Graph 2**
 
 *Plotting Wordscores*
 
-    ws_Sarney40Bolsonaro74 = pred_ws_Sarney40Bolsonaro74
+    BRUNGA$ws_Sarney40Bolsonaro74 = pred_ws_Sarney40Bolsonaro74
     BRUNGA %>% ggplot (aes(x=ws_Sarney40Bolsonaro74, y=reorder(doc_id, -ws_Sarney40Bolsonaro74))) + geom_point()
-
-    ## Warning: Removed 36 rows containing missing values (geom_point).
 
 ![](unnamed-chunk-29-1.png)
 
