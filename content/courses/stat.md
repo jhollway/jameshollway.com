@@ -47,6 +47,8 @@ Additional lectures will be uploaded here once they have been prepared.
 
 - [Jaewon Kim](/post/Kim)
 
+- [Chin Man Kwan](/post/Kwan)
+
 - [Shanling Liu](/post/Liu)
 
 - [Shalaka Thakur](/post/Thakur)
