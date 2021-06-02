@@ -53,6 +53,8 @@ Additional lectures will be uploaded here once they have been prepared.
 
 - [Swetha Ramachandran](/post/Ramachandran)
 
+- [Lucas Dias Rodrigues Santos](/post/Santos)
+
 - [Shalaka Thakur](/post/Thakur)
 
 - [Hayley Umayam](/post/Umayam)
