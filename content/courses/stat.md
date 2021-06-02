@@ -39,11 +39,13 @@ Additional lectures will be uploaded here once they have been prepared.
 
 - [Andrea Biswas Tortajada](/post/Biswas)
 
-- [Hayley Umayam](/post/Umayam)
+- [Vladimir Borodin](/post/Borodin)
+
+- [Shanling Liu](/post/Liu)
 
 - [Shalaka Thakur](/post/Thakur)
 
-- [Shanling Liu](/post/Liu)
+- [Hayley Umayam](/post/Umayam)
 
 ## Final project examples (2020)
 
