@@ -11,3 +11,8 @@ MINT038 - Spring 2021
 
 Please find the most recent version of the syllabus [here](MINT038_Syllabus_2020-02-17.pdf)
 
+## Final blog posts
+
+I'll link to them here as they come in.
+
+- [Sonja Plüss](https://sonjapluss.wixsite.com/website/post/theinternationalterrainofsoilbiodiversitygovernance-challengesandopportunities)
