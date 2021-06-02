@@ -6,6 +6,26 @@ diagram: true
 image:
   placement: 3
 ---
+-   [1. Introduction](#introduction)
+-   [2. Research proposition and
+    hypothesis](#research-proposition-and-hypothesis)
+-   [3. Data and measurements](#data-and-measurements)
+    -   [3.1. Defining the independent and dependent
+        variables](#defining-the-independent-and-dependent-variables)
+    -   [3.2 Corporate Human Rights
+        Peformance](#corporate-human-rights-peformance)
+        -   [CHRB Scores by region and
+            sector](#chrb-scores-by-region-and-sector)
+        -   [Allegations of negative human rights, by region and
+            sector](#allegations-of-negative-human-rights-by-region-and-sector)
+-   [4. Methods](#methods)
+-   [5. Results](#results)
+    -   [5.1 Model selection](#model-selection)
+    -   [5.2 Model diagnostics](#model-diagnostics)
+    -   [5.3 Results](#results-1)
+-   [6. Conclusion](#conclusion)
+-   [7. Annex 1](#annex-1)
+-   [7. Bibliography](#bibliography)
 
 # 1. Introduction
 
@@ -1142,9 +1162,9 @@ The ROCs and AUCs for Models 2 and 4 are show in Figure X below. Both
 models have a fair performance, which explains why the ROC curves for
 Model 2 and Model 4 overlap and their AUC values are the same (0.73).
 
-    ## Warning in verify_d(data$d): D not labeled 0/1, assuming No = 0 and Yes = 1!
+    ## Warning in verify_d(data$d): D not labeled 0/1, assuming 1 = 0 and 2 = 1!
 
-    ## Warning in verify_d(data$d): D not labeled 0/1, assuming No = 0 and Yes = 1!
+    ## Warning in verify_d(data$d): D not labeled 0/1, assuming 1 = 0 and 2 = 1!
 
 ![](unnamed-chunk-18-1.png)
 
