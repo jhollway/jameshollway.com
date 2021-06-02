@@ -6,6 +6,16 @@ diagram: true
 image:
   placement: 3
 ---
+-   [1. Introduction](#introduction)
+-   [2. Data and Visualization](#data-and-visualization)
+-   [3. Methods](#methods)
+-   [4. Results](#results)
+-   [4.1 Model results and Diagnostics](#model-results-and-diagnostics)
+-   [4.2 Model Selection](#model-selection)
+-   [4.3 The Interpretation of the Best
+    Model](#the-interpretation-of-the-best-model)
+-   [5. Conclusion](#conclusion)
+-   [References:](#references)
 
 # 1. Introduction
 
