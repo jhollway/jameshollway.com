@@ -6,6 +6,22 @@ diagram: true
 image:
   placement: 3
 ---
+-   [$\\color{darkcyan}{\\text{Conflict and crime-Rethinking extortion through rebel governance}}$](#colordarkcyantextconflict-and-crime-rethinking-extortion-through-rebel-governance)
+    -   [Extortion and rebels- more than just economic
+        underpinnings?](#extortion-and-rebels--more-than-just-economic-underpinnings)
+    -   [Hypothesis](#hypothesis)
+-   [$\\color{darkcyan}{\\text{Introducing the Data}}$](#colordarkcyantextintroducing-the-data)
+    -   [Variables of Interest](#variables-of-interest)
+    -   [Bivariate relationship between Social Service Provision and
+        Extortion](#bivariate-relationship-between-social-service-provision-and-extortion)
+-   [$\\color{darkcyan}{\\text{Models}}$](#colordarkcyantextmodels)
+    -   [Logistic Regression: Social Service Provision and
+        Extortion](#logistic-regression-social-service-provision-and-extortion)
+    -   [Marginal effects](#marginal-effects)
+    -   [Choosing the right model](#choosing-the-right-model)
+-   [$\\color{darkcyan}{\\text{Conclusion}}$](#colordarkcyantextconclusion)
+-   [$\\color{darkcyan}{\\text{References}}$](#colordarkcyantextreferences)
+-   [$\\color{darkcyan}{\\text{Appendix}}$](#colordarkcyantextappendix)
 
 <style>
 body {
