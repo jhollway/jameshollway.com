@@ -6,6 +6,24 @@ diagram: true
 image:
   placement: 3
 ---
+-   [Introduction](#introduction)
+-   [Data](#data)
+    -   [Overview:](#overview)
+    -   [Cleaning:](#cleaning)
+    -   [Missing data checks:](#missing-data-checks)
+    -   [Description:](#description)
+    -   [Potential data issues:](#potential-data-issues)
+-   [Methods](#methods)
+    -   [Models](#models)
+-   [Results](#results)
+    -   [Running the models](#running-the-models)
+    -   [IIA assumption](#iia-assumption)
+    -   [Analyzing the fit](#analyzing-the-fit)
+    -   [Accuracy](#accuracy)
+    -   [Marginal effects](#marginal-effects)
+    -   [Diagnostic tests](#diagnostic-tests)
+-   [Conclusion](#conclusion)
+-   [References](#references)
 
 ## Introduction
 
