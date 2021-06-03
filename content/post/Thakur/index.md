@@ -1,5 +1,6 @@
 ---
 title: "Extortion or Taxation? Exploring the Relationship Between Social Service Provision and Extortion by Non-State Armed Groups"
+subtitle: Statistics for International Relations Research II
 author: Shalaka Thakur
 date: 2021-06-01
 math: true

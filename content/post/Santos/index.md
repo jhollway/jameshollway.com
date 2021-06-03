@@ -1,5 +1,6 @@
 ---
 title: Final Stats Project
+subtitle: Statistics for International Relations Research II
 author: Lucas Santos
 date: 2021-06-01
 math: true
