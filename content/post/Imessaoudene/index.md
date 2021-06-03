@@ -1,11 +1,14 @@
 ---
-title: Zakaria Imessaoudene
+title: A Happy World? What Makes a State and it's Citizens Happy?
+subtitle: Statistics for International Relations Research II
+author: Zakaria Imessaoudene
 date: 2021-06-01
 math: true
 diagram: true
 image:
   placement: 3
 ---
+
 -   [I. INTRODUCTION](#i.-introduction)
     -   [Ia. Hypotheses](#ia.-hypotheses)
 -   [II. DATA & VISUALIZATION](#ii.-data-visualization)

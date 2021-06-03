@@ -1,5 +1,7 @@
 ---
-title: Jaewon Kim
+title: "The Impact of Privatized Education on the Level of Labour Productivity"
+subtitle: Statistics for International Relations Research II
+author: Jaewon Kim
 date: 2021-06-01
 math: true
 diagram: true

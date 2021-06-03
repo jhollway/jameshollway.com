@@ -1,5 +1,7 @@
 ---
-title: Vishnu Varatharajan
+title: 'Trust in Whatsapp and Facebook: Speculations from India:Voters are divided across caste, and not across party preference'
+subtitle: Statistics for International Relations Research II
+author: Vishnu Varatharajan
 date: 2021-06-01
 math: true
 diagram: true

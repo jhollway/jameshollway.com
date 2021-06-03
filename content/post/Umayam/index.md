@@ -1,11 +1,14 @@
 ---
-title: Hayley Umayam
+title: "Food Security Metrics in South Sudan: Comparing the gold standard with a pile of dried beans"
+subtitle: Statistics for International Relations Research II
+author: Hayley Umayam
 date: 2021-06-01
 math: true
 diagram: true
 image:
   placement: 3
 ---
+
 -   [Introduction](#introduction)
 -   [Data](#data)
 -   [Methods & Models](#methods-models)

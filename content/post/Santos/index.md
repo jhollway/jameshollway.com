@@ -1,5 +1,6 @@
 ---
-title: Lucas Dias Rodrigues Santos
+title: Final Stats Project
+author: Lucas Santos
 date: 2021-06-01
 math: true
 diagram: true
@@ -19,9 +20,9 @@ folder in which you save them.
 
 ### 1. Introduction
 
-##### The Sustainable Development Goals (SDGs) are, in many ways, a landmark, even by their own existence. Indeed, it is no small feat to get all 193 UN member states to agree to a single, comprehensive agenda, with 17 goals and 169 targets covering every area from poverty to ocean biodiversity, from reproductive rights to curbing illicit financial flows. Naturally, negotiating such an agenda was no easy feat. Many rifts hobbled the temporary body tasked with producing the list of goals and targets, called the Open Working Group for SDGs (OWG), during its 13 multi-day sessions between February 2013 and July 2014. Most, although not all, of these divisions cut across a North-South axis, as has been observed by many scholars. To take just one example, what would become SDG1, on poverty eradication, pitted North against South in different ways. Pouliot & Thérien (2019) note that Northern delegations emphasized poverty as a case of individual disempowerment, while Southern ones focused more on the structural/systemic nature of poverty (625).
+The Sustainable Development Goals (SDGs) are, in many ways, a landmark, even by their own existence. Indeed, it is no small feat to get all 193 UN member states to agree to a single, comprehensive agenda, with 17 goals and 169 targets covering every area from poverty to ocean biodiversity, from reproductive rights to curbing illicit financial flows. Naturally, negotiating such an agenda was no easy feat. Many rifts hobbled the temporary body tasked with producing the list of goals and targets, called the Open Working Group for SDGs (OWG), during its 13 multi-day sessions between February 2013 and July 2014. Most, although not all, of these divisions cut across a North-South axis, as has been observed by many scholars. To take just one example, what would become SDG1, on poverty eradication, pitted North against South in different ways. Pouliot & Thérien (2019) note that Northern delegations emphasized poverty as a case of individual disempowerment, while Southern ones focused more on the structural/systemic nature of poverty (625).
 
-##### Degterev (2016), in his own analysis, found that Southern donor states were more likely to side with recipient states rather than other donors (45). More specifically, he found that:
+Degterev (2016), in his own analysis, found that Southern donor states were more likely to side with recipient states rather than other donors (45). More specifically, he found that:
 
 developing countries insist on providing technology and investment,
 while developed countries persist in the opinion that developing
@@ -36,103 +37,103 @@ of investment and financial resources for developing ones; they also
 advocate the involvement of the private sector and different
 organizations (44).
 
-##### These studies relied on close reading of numerous documents, and cite specific instances in countries’ official statements to support such claims. Naturally, economies of scale are not practical for such an approach: neither author cites every single instance supporting their claims, nor can they discuss every single one going against it. This raises the question: what can statistical text-based methods contribute to this scholarship? Taking a broader view than was available to such authors, and using machine learning, what might we learn about how such cleavages actually played out in practice?
+These studies relied on close reading of numerous documents, and cite specific instances in countries’ official statements to support such claims. Naturally, economies of scale are not practical for such an approach: neither author cites every single instance supporting their claims, nor can they discuss every single one going against it. This raises the question: what can statistical text-based methods contribute to this scholarship? Taking a broader view than was available to such authors, and using machine learning, what might we learn about how such cleavages actually played out in practice?
 
-##### Using a total of 31 official delegation statements on poverty eradication from the second and eleventh sessions of the OWG (hereinafter OWG2 and OWG11), we can specifically probe two hypotheses:
+Using a total of 31 official delegation statements on poverty eradication from the second and eleventh sessions of the OWG (hereinafter OWG2 and OWG11), we can specifically probe two hypotheses:
 
-##### A) A broader one, based on Degterev: that Southern donors were, on the whole, closer to recipient states rather than other (Northern) donors.
+A) A broader one, based on Degterev: that Southern donors were, on the whole, closer to recipient states rather than other (Northern) donors.
 
-##### B) A narrower set of hypotheses, based on both Degterev and Pouliot & Thérien, by which:
+B) A narrower set of hypotheses, based on both Degterev and Pouliot & Thérien, by which:
 
-##### 1) Northerners framed poverty as a more individual than systemic problem, while Southerners framed poverty as a more systemic than individual problem; and
+1) Northerners framed poverty as a more individual than systemic problem, while Southerners framed poverty as a more systemic than individual problem; and
 
-##### 2) Northerners emphasized Southerners fostering a welcoming investment environment, while Southerners emphasized Northern aid to them, irrespective of conditionalities.
+2) Northerners emphasized Southerners fostering a welcoming investment environment, while Southerners emphasized Northern aid to them, irrespective of conditionalities.
 
-##### After discussing data collection, I test these hypotheses through a variety of methods, looking for high-frequency compound words, searching for specific keywords in their respective contexts, and plotting the overall differences in language through both unsupervised and supervised machine learning.
+After discussing data collection, I test these hypotheses through a variety of methods, looking for high-frequency compound words, searching for specific keywords in their respective contexts, and plotting the overall differences in language through both unsupervised and supervised machine learning.
 
-##### Degterev’s notion of Southern solidarity as more salient than donor vs recipient divisions, especially, is satisfactorily substantiated. As to the more specific differences outlined by these authors, Pouliot & Thérien’s individual/structural dichotomy fails to find substantiation, and even finds much contradiction; while Degterev’s development responsibility spectrum is more comfortably confirmed.
+Degterev’s notion of Southern solidarity as more salient than donor vs recipient divisions, especially, is satisfactorily substantiated. As to the more specific differences outlined by these authors, Pouliot & Thérien’s individual/structural dichotomy fails to find substantiation, and even finds much contradiction; while Degterev’s development responsibility spectrum is more comfortably confirmed.
 
 ### 2. Data
 
 #### 2.1. Data selection
 
-##### Many topics generated profound rifts among the 70 members of the OWG, including inequality and women’s rights, but I chose to zero in on poverty eradication because it was mentioned by these two studies of the OWG, with their focus on language, which translates well to the methods pursued below.
+Many topics generated profound rifts among the 70 members of the OWG, including inequality and women’s rights, but I chose to zero in on poverty eradication because it was mentioned by these two studies of the OWG, with their focus on language, which translates well to the methods pursued below.
 
-##### Another reason, however, is data availability. Each OWG session is archived on sustainabledevelopment.un.org with a plethora of documents broken down by source and topic. However, there are significant gaps: many delegations’ statements are missing from many sessions and topics. Some are retrievable through other sources: for example, both G77 statements and one EU statement cited below were found on those groups’ respective websites. As it turns out, poverty eradication was the only issue of interest to me that had a fairly comprehensive amount of available documents on more than one session. Indeed, while it was discussed in more than just these two sessions, the online archives for OWG2 (at <https://sustainabledevelopment.un.org/processes/post2015/owg/index.php?page=view&type=12&nr=481&menu=1620&event=421>) and OWG11 (<https://sustainabledevelopment.un.org/processes/post2015/owg/session11>) were the most complete.
+Another reason, however, is data availability. Each OWG session is archived on sustainabledevelopment.un.org with a plethora of documents broken down by source and topic. However, there are significant gaps: many delegations’ statements are missing from many sessions and topics. Some are retrievable through other sources: for example, both G77 statements and one EU statement cited below were found on those groups’ respective websites. As it turns out, poverty eradication was the only issue of interest to me that had a fairly comprehensive amount of available documents on more than one session. Indeed, while it was discussed in more than just these two sessions, the online archives for OWG2 (at <https://sustainabledevelopment.un.org/processes/post2015/owg/index.php?page=view&type=12&nr=481&menu=1620&event=421>) and OWG11 (<https://sustainabledevelopment.un.org/processes/post2015/owg/session11>) were the most complete.
 
-##### Finally, there is the issue of which delegations to choose from. Since the main prism of this study is North vs South, I decided to have those blocs represented almost equally. Exact parity did not prove possible as many documents were unusable or unavailable, as mentioned above, resulting in 7 Northern and 8 Southern statements for OWG2, and 10 Southern vs 6 Northern for OWG11.
+Finally, there is the issue of which delegations to choose from. Since the main prism of this study is North vs South, I decided to have those blocs represented almost equally. Exact parity did not prove possible as many documents were unusable or unavailable, as mentioned above, resulting in 7 Northern and 8 Southern statements for OWG2, and 10 Southern vs 6 Northern for OWG11.
 
-##### but who counts as Northern and Southern? Neither Pouliot & Thérien nor Degterev specify their criteria, but mine is based on the UN General Assembly’s own groupings: the Group of 77 and China (G77) counts 134 members and acts as a voice of the Global South, while the Western European and Others Group (WEOG) can stand in for the developed world. There are some omissions, as in the case of Croatia which is a member of neither, but those all fall within the EU group, which can still be considered part of the Global North. This does mean that Turkey falls into the Northern group, being a member of WEOG, which is not an exact reflection of its foreign policy positions, especially on development. However, one innovation of the OWG helps researchers: most participating countries banded into groups of two, three and sometimes four, known as “troikas”, based on their regional groups. Thus, within the scope of this study, Turkey never spoke as Turkey, but as “Italy, Spain and Turkey”, which, on the whole, can be considered to be a Global North voice. But such nuances will not be smoothed over in the discussion below, as one must rely on this North-South division but also not overly reify it, acknowledge there is some porosity within it—something, in fact, shown in the results.
+but who counts as Northern and Southern? Neither Pouliot & Thérien nor Degterev specify their criteria, but mine is based on the UN General Assembly’s own groupings: the Group of 77 and China (G77) counts 134 members and acts as a voice of the Global South, while the Western European and Others Group (WEOG) can stand in for the developed world. There are some omissions, as in the case of Croatia which is a member of neither, but those all fall within the EU group, which can still be considered part of the Global North. This does mean that Turkey falls into the Northern group, being a member of WEOG, which is not an exact reflection of its foreign policy positions, especially on development. However, one innovation of the OWG helps researchers: most participating countries banded into groups of two, three and sometimes four, known as “troikas”, based on their regional groups. Thus, within the scope of this study, Turkey never spoke as Turkey, but as “Italy, Spain and Turkey”, which, on the whole, can be considered to be a Global North voice. But such nuances will not be smoothed over in the discussion below, as one must rely on this North-South division but also not overly reify it, acknowledge there is some porosity within it—something, in fact, shown in the results.
 
-##### As for donor vs recipient countries, I rely on Degterev’s list.
+As for donor vs recipient countries, I rely on Degterev’s list.
 
-##### These classifications are as follows:
+These classifications are as follows:
 
-##### North:
+North:
 
-##### *Australia*, the *Netherlands* and the *UK*
+*Australia*, the *Netherlands* and the *UK*
 
-##### *Canada,* Israel, *US*
+*Canada,* Israel, *US*
 
-##### Croatia and *Bulgaria*
+Croatia and *Bulgaria*
 
-##### *Denmark,* *Ireland* and *Norway*
+*Denmark,* *Ireland* and *Norway*
 
-##### *EU*
+*EU*
 
-##### *France,* *Germany* and *Switzerland*
+*France,* *Germany* and *Switzerland*
 
-##### *Italy,* *Spain* and Turkey
+*Italy,* *Spain* and Turkey
 
-##### *Japan*
+*Japan*
 
-##### Montenegro and Slovenia
+Montenegro and Slovenia
 
-##### *Poland* and *Romania*
+*Poland* and *Romania*
 
-##### South:
+South:
 
-##### African Group
+African Group
 
-##### Bangladesh
+Bangladesh
 
-##### *Brazil* and Nicaragua
+*Brazil* and Nicaragua
 
-##### *China*, Indonesia and Kazakhstan
+*China*, Indonesia and Kazakhstan
 
-##### ECOWAS
+ECOWAS
 
-##### Egypt
+Egypt
 
-##### Ethiopia
+Ethiopia
 
-##### G77
+G77
 
-##### *India*
+*India*
 
-##### Least Developed Countries (LDCs)
+Least Developed Countries (LDCs)
 
-##### Pacific Small Island Developing States (SIDS)
+Pacific Small Island Developing States (SIDS)
 
-##### Southern Africa Group
+Southern Africa Group
 
-##### *South Africa*
+*South Africa*
 
-##### Italicized are the states/groups above that are also considered donors by Degterev (2016): what he calls “traditional donors”, that is, members of the OECD’s Development Assistance Committee are marked with one asterisk; and what he calls “new donors” are the BRICS and “Arab donors”, which he does not specify, but this does not apply here as, apart from Egypt (which he does not mention in his work), there are no Arab states in this list.
+Italicized are the states/groups above that are also considered donors by Degterev (2016): what he calls “traditional donors”, that is, members of the OECD’s Development Assistance Committee are marked with one asterisk; and what he calls “new donors” are the BRICS and “Arab donors”, which he does not specify, but this does not apply here as, apart from Egypt (which he does not mention in his work), there are no Arab states in this list.
 
-##### From OWG2’s 15 statements and OWG11’s 16, I’ve decided to create six datasets: one for each session with every document, and an additional two per session, split between North and South.
+From OWG2’s 15 statements and OWG11’s 16, I’ve decided to create six datasets: one for each session with every document, and an additional two per session, split between North and South.
 
 #### 2.2. Data issues, trouble-shooting and discussion
 
-##### However, this does not mean there were not other problems: many documents were not readable, in the sense that one could not select, copy/paste etc. their individual characters, since they were scanned documents, not the digital originals. I thus resorted to optical character recognition (OCR) software in order to mend this, and this worked well. Another issue was language: while the vast majority of statements were in English, some were in French, and I could not find an official translation, and did not feel comfortable undertaking one myself or through automated means, since I judged this would impact the material too much: after all, the specific wordings matter a lot, and my or an AI’s choice of how to translate a word would not necessarily be this delegation’s favored one.
+However, this does not mean there were not other problems: many documents were not readable, in the sense that one could not select, copy/paste etc. their individual characters, since they were scanned documents, not the digital originals. I thus resorted to optical character recognition (OCR) software in order to mend this, and this worked well. Another issue was language: while the vast majority of statements were in English, some were in French, and I could not find an official translation, and did not feel comfortable undertaking one myself or through automated means, since I judged this would impact the material too much: after all, the specific wordings matter a lot, and my or an AI’s choice of how to translate a word would not necessarily be this delegation’s favored one.
 
-##### Another issue concerns OWG11 specifically: delegations were inconsistent as to when they discussed poverty eradication. During OWG2, there was a special meeting just on poverty eradication, but during OWG11, this focus area was discussed along with nutrition/food security. Some delegations on OWG11 have statements treating each separately, in which case I kept the former only; others discussed both together, in which case I did not interfere, given that there was no “clean” way to separate the text thematically. This means there will be some distortion on OWG11, but as seen below, I remove much of the “noise” unrelated to poverty eradication by having the code ignore certain words and phrases, as well as by using network analysis, which displays the nutrition-related keywords on an isolated branch.
+Another issue concerns OWG11 specifically: delegations were inconsistent as to when they discussed poverty eradication. During OWG2, there was a special meeting just on poverty eradication, but during OWG11, this focus area was discussed along with nutrition/food security. Some delegations on OWG11 have statements treating each separately, in which case I kept the former only; others discussed both together, in which case I did not interfere, given that there was no “clean” way to separate the text thematically. This means there will be some distortion on OWG11, but as seen below, I remove much of the “noise” unrelated to poverty eradication by having the code ignore certain words and phrases, as well as by using network analysis, which displays the nutrition-related keywords on an isolated branch.
 
-##### Ultimately, while this sample is imperfect, for all the reasons noted above, the hope is that it can still yield useful information—and here the question of time is helpful. It is salutary that there were enough usable documents from not one, but two separate discussions on poverty eradication a little over a year apart from each other by the OWG (OWG2 was held in April 2013, OWG11 in May 2014). It is unfortunate that there could not be more overlap between the actors cited in each session, as this would have allowed for a more one-to-one comparison. Nevertheless, this sample is still large enough that one should be able to discern trends that transcend individual outliers. That is, even if the tests below reveal some unexpected proximities in the language of certain individual actors originally expected to be quite divergent, this can be tempered if they contrast from the overall trend between their respective groups. After all, a Northern and Southern delegation may very well have converged on this issue, but this proximity could also be due to superficial similarities, that is, using similar language to express different ideas. In this case, if the overall trend still shows a North-South divergence, then this outlier case does not affect interpretation too much, since broad trends are sought here. Furthermore, as seen in the network-analysis section, there are more fine-tuned analyses that can help understand such outlying cases—the previous sentence should not give the impression that they would be ignored simply for bucking the trend.
+Ultimately, while this sample is imperfect, for all the reasons noted above, the hope is that it can still yield useful information—and here the question of time is helpful. It is salutary that there were enough usable documents from not one, but two separate discussions on poverty eradication a little over a year apart from each other by the OWG (OWG2 was held in April 2013, OWG11 in May 2014). It is unfortunate that there could not be more overlap between the actors cited in each session, as this would have allowed for a more one-to-one comparison. Nevertheless, this sample is still large enough that one should be able to discern trends that transcend individual outliers. That is, even if the tests below reveal some unexpected proximities in the language of certain individual actors originally expected to be quite divergent, this can be tempered if they contrast from the overall trend between their respective groups. After all, a Northern and Southern delegation may very well have converged on this issue, but this proximity could also be due to superficial similarities, that is, using similar language to express different ideas. In this case, if the overall trend still shows a North-South divergence, then this outlier case does not affect interpretation too much, since broad trends are sought here. Furthermore, as seen in the network-analysis section, there are more fine-tuned analyses that can help understand such outlying cases—the previous sentence should not give the impression that they would be ignored simply for bucking the trend.
 
 #### 2.3. Data preliminary presentation
 
-##### Loading each chunk of documents, I perform a basic “clean-up” by turning the raw data into analyzable tokens, removing punctuation, stopwords, and turning everything into lowercase in order to avoid duplicates (such as “Poverty Eradication” and “poverty eradication” being considered different).
+Loading each chunk of documents, I perform a basic “clean-up” by turning the raw data into analyzable tokens, removing punctuation, stopwords, and turning everything into lowercase in order to avoid duplicates (such as “Poverty Eradication” and “poverty eradication” being considered different).
 
 Table 1. OWG2
 
@@ -234,29 +235,29 @@ Table 6. OWG11 South:
 
 ### 3. Methods
 
-##### Several approaches are deployed below to assess the multi-pronged hypotheses, all stemming from one model: Natural Language Processing, that is, the analysis of human language (in this case, written language) through AI and machine learning.
+Several approaches are deployed below to assess the multi-pronged hypotheses, all stemming from one model: Natural Language Processing, that is, the analysis of human language (in this case, written language) through AI and machine learning.
 
-##### This model is both quantitative and qualitative: it aggregates information in an automated way, and can give all sorts of numerical assessments, but ultimately those only make sense inasmuch as the author interprets them. Authorial intent exists everywhere: arbitrary decisions when calibrating multiple regression analysis can severely impact the output. However, at least compared to text outcomes, once the statistical software produces an output, like a certain regression, there is limited room for interpretive maneuver—one can discuss context, missing variables, but the result itself is straightforward: this regression shows a statistically-significant correlation between A and B. There is nothing comparable here, although by making my expectations clear each time, I hope to create enough transparency to reduce the arbitrariness of interpretation, at least.
+This model is both quantitative and qualitative: it aggregates information in an automated way, and can give all sorts of numerical assessments, but ultimately those only make sense inasmuch as the author interprets them. Authorial intent exists everywhere: arbitrary decisions when calibrating multiple regression analysis can severely impact the output. However, at least compared to text outcomes, once the statistical software produces an output, like a certain regression, there is limited room for interpretive maneuver—one can discuss context, missing variables, but the result itself is straightforward: this regression shows a statistically-significant correlation between A and B. There is nothing comparable here, although by making my expectations clear each time, I hope to create enough transparency to reduce the arbitrariness of interpretation, at least.
 
-##### In order to make the text easier to follow, I discuss the mechanics of each method “in real time”, as I apply it, in the next section.
+In order to make the text easier to follow, I discuss the mechanics of each method “in real time”, as I apply it, in the next section.
 
 ### 4. Results and interpretation
 
 #### 4.1. Compound words and DFM top features
 
-##### I begin with a simple search for the most common compound words in each document group with at least 5 appearances. This way, I can probe the specifics of Hypotheses B1) and B2, tracking divergences in the language of North and South across both OWG sessions.
+I begin with a simple search for the most common compound words in each document group with at least 5 appearances. This way, I can probe the specifics of Hypotheses B1) and B2, tracking divergences in the language of North and South across both OWG sessions.
 
-##### Following Hypothesis B1, I should find more words such as “structural”, “systemic”, “multidimensional” and so on from the Southern side, and ones such as “individual”, “personal”, “person” on the Northern.
+Following Hypothesis B1, I should find more words such as “structural”, “systemic”, “multidimensional” and so on from the Southern side, and ones such as “individual”, “personal”, “person” on the Northern.
 
-##### Following Hypotheses B2, I should find more words and phrases related to business and the private sector, such as “private sector”, “entrepreneur”, “investment environment” and so on from the Northern side, and related to development aid from the Southern, such as “conditionalities”, “CBDR”, “national ownership”, “aid”, “assistance” “ODA” (Official Development Assistance) and so on.
+Following Hypotheses B2, I should find more words and phrases related to business and the private sector, such as “private sector”, “entrepreneur”, “investment environment” and so on from the Northern side, and related to development aid from the Southern, such as “conditionalities”, “CBDR”, “national ownership”, “aid”, “assistance” “ODA” (Official Development Assistance) and so on.
 
-##### This approach, however, is limited by the fact one cannot search for specific words and phrases, and that the lists are crowded with many extraneous words
+This approach, however, is limited by the fact one cannot search for specific words and phrases, and that the lists are crowded with many extraneous words
 
-##### This is why I create Document-Feature Matrices (DFM) for each document group that removes several of those compound words which I find to be extraneous. That is, ones that are too common and not specifically germane to the object of study, which is specifically differences on poverty eradication, such as “sustainable development goals”, and “post-2015 framework”—as well as ones from OWG11 related to SDG2 on food, like “sustainable agriculture” and “small farmers”. The idea is that by removing such expressions that are very commonly used by all allows the language that differentiates them to stand out more. At the end of that process, I can produce a list of the most-used words by the group and enrich the compound word analysis.
+This is why I create Document-Feature Matrices (DFM) for each document group that removes several of those compound words which I find to be extraneous. That is, ones that are too common and not specifically germane to the object of study, which is specifically differences on poverty eradication, such as “sustainable development goals”, and “post-2015 framework”—as well as ones from OWG11 related to SDG2 on food, like “sustainable agriculture” and “small farmers”. The idea is that by removing such expressions that are very commonly used by all allows the language that differentiates them to stand out more. At the end of that process, I can produce a list of the most-used words by the group and enrich the compound word analysis.
 
-##### In that case, however, why not only use this latter list? Because a DFM cannot (to my knowledge) produce a list of compound words, only single words, hence the two lists must complement each other. The latter list does include some compound words that the AI reads as single (with an underscore instead of space), which is a helpful accident. As such, the latter list can serve a robustness test for the conclusions drawn from the former.
+In that case, however, why not only use this latter list? Because a DFM cannot (to my knowledge) produce a list of compound words, only single words, hence the two lists must complement each other. The latter list does include some compound words that the AI reads as single (with an underscore instead of space), which is a helpful accident. As such, the latter list can serve a robustness test for the conclusions drawn from the former.
 
-##### This word-removal is also useful for the Wordfish and Wordscores techniques I apply later, as they look at the document groups overall, and would benefit from this greater differentiation. Naturally, the exact same list of words will be removed from every group, and words that could mark a difference deemed germane to the hypotheses will be preserved. For example, the prevalence of the word “important” does not reveal anything on its own: if Northerners used it much more than Southerners their difference will become more pronounced—but what really matters is what they find important. One might, however, object that “small farmers”, for example, are not necessarily discussed in the context of SDG2, but could be part of SDG1—but this is where the use of sources from both OWG2 and OWG11 helps: the fact that references to food and farming only appear in OWG11 documents and not in OWG2 strongly indicates that they pertained to a discussion of SDG2, which is absent from OWG2.
+This word-removal is also useful for the Wordfish and Wordscores techniques I apply later, as they look at the document groups overall, and would benefit from this greater differentiation. Naturally, the exact same list of words will be removed from every group, and words that could mark a difference deemed germane to the hypotheses will be preserved. For example, the prevalence of the word “important” does not reveal anything on its own: if Northerners used it much more than Southerners their difference will become more pronounced—but what really matters is what they find important. One might, however, object that “small farmers”, for example, are not necessarily discussed in the context of SDG2, but could be part of SDG1—but this is where the use of sources from both OWG2 and OWG11 helps: the fact that references to food and farming only appear in OWG11 documents and not in OWG2 strongly indicates that they pertained to a discussion of SDG2, which is absent from OWG2.
 
 #### 4.1.1. North
 
@@ -368,7 +369,7 @@ Table 10. OWG11 North DFM without extraneous words, top features list:
     ##                  gender           environmental 
     ##                       6                       6
 
-##### None of the expected words have materialized, although the 7 mentions of “multidimensional” in Table 8 are an interesting counter to B1, and also perhaps the 12 of “overarching”—but this will require more fine-tuned observation before such a conclusion can be drawn.
+None of the expected words have materialized, although the 7 mentions of “multidimensional” in Table 8 are an interesting counter to B1, and also perhaps the 12 of “overarching”—but this will require more fine-tuned observation before such a conclusion can be drawn.
 
 #### 4.1.2. South
 
@@ -393,7 +394,7 @@ Table 11. OWG2 South most common compound words
     ## 16          climate change     5            0      2 12.185916  5.958950
     ## 17       eradicate poverty     7            0      2  7.265108  4.961393
 
-##### Already an interesting difference here is the more frequent mention of “developing countries” and “development” in general than tables 7 or 8. This could be considered to reinforce Hypothesis B2, but only in a very preliminary level.
+Already an interesting difference here is the more frequent mention of “developing countries” and “development” in general than tables 7 or 8. This could be considered to reinforce Hypothesis B2, but only in a very preliminary level.
 
 Table 12. OWG2 South DFM without extraneous words, top features list:
 
@@ -432,7 +433,7 @@ Table 12. OWG2 South DFM without extraneous words, top features list:
     ##              priorities                   goals 
     ##                       7                       7
 
-##### No words or compounds here hint at the structural theme cited by Hypothesis B1, except perhaps for the focus on “needs”, although that is a thin connection. One interesting difference is terms such as “principle” and “priorities” (the principle of CDBR?) that might be connected, in their due context, to something useful to a hypothesis, and such words can be flagged for the keywords-in-context search below.
+No words or compounds here hint at the structural theme cited by Hypothesis B1, except perhaps for the focus on “needs”, although that is a thin connection. One interesting difference is terms such as “principle” and “priorities” (the principle of CDBR?) that might be connected, in their due context, to something useful to a hypothesis, and such words can be flagged for the keywords-in-context search below.
 
 Table 13. OWG11 South most common compound words:
 
@@ -596,13 +597,13 @@ Table 14. OWG11 South DFM without extraneous words, top features list:
     ##                 vulnerable                       call 
     ##                         13                         13
 
-##### The Southern OWG11 tables are the most different yet, with previously-unseen phrases such as “promoting equality” and “building shared prosperity” connecting somewhat to B1, as both hints at fighting inequality, a more structural challenge than poverty eradication. Some strong connections to B2 emerge in the form of “differentiated responsibilities”, which is half of “common but differentiated responsibilities” (CBDR), a controversial notion defended by the South and contested by the North according to which, while all states have common goals, they have different levels of responsibility in achieving them depending on their capacities. This was originally deployed regarding environmental politics, emphasizing the need for the North to shoulder most of the burden of it, including though aid to the South—and here, applied to poverty eradication or food, it is not extraneous to consider it relevant as putting the onus for development on Northern assistance to the South. However, is this related to SDG1 or 2? Keywords in context below will explore this.
+The Southern OWG11 tables are the most different yet, with previously-unseen phrases such as “promoting equality” and “building shared prosperity” connecting somewhat to B1, as both hints at fighting inequality, a more structural challenge than poverty eradication. Some strong connections to B2 emerge in the form of “differentiated responsibilities”, which is half of “common but differentiated responsibilities” (CBDR), a controversial notion defended by the South and contested by the North according to which, while all states have common goals, they have different levels of responsibility in achieving them depending on their capacities. This was originally deployed regarding environmental politics, emphasizing the need for the North to shoulder most of the burden of it, including though aid to the South—and here, applied to poverty eradication or food, it is not extraneous to consider it relevant as putting the onus for development on Northern assistance to the South. However, is this related to SDG1 or 2? Keywords in context below will explore this.
 
-##### Ultimately, then, these first methods have proven quite limited at assessing Hypotheses B1 and B2, although they do give some indications as to their saliency. That is, limited though any findings have been so far, they point the way forward by providing a list of words to probe through the keywords-in-context mechanic. Notable absences especially are words “structural”, “systemic”, “private”, "entrepreneur\*" “aid” and “assistance”, all of which will be explored more closely below.
+Ultimately, then, these first methods have proven quite limited at assessing Hypotheses B1 and B2, although they do give some indications as to their saliency. That is, limited though any findings have been so far, they point the way forward by providing a list of words to probe through the keywords-in-context mechanic. Notable absences especially are words “structural”, “systemic”, “private”, "entrepreneur\*" “aid” and “assistance”, all of which will be explored more closely below.
 
 #### 4.2. Keywords-in-context (KWIC)
 
-##### This method finds inputed keywords in the documents and provides their specific source and surrounding context (few words before and after). This is a rudimentary tool, but still a useful one as it fills many of the gaps left by the two used in the previous section. Indeed, while they could reveal much about groups of text in general, one cannot disaggregate the data: click on “multidimensional” and see which countries, exactly, used it, and in what context.
+This method finds inputed keywords in the documents and provides their specific source and surrounding context (few words before and after). This is a rudimentary tool, but still a useful one as it fills many of the gaps left by the two used in the previous section. Indeed, while they could reveal much about groups of text in general, one cannot disaggregate the data: click on “multidimensional” and see which countries, exactly, used it, and in what context.
 
 Table 15. KWIC: Multidimensional8 (OWG2)
 
@@ -646,7 +647,7 @@ Table 16. KWIC: Multidimensional\* (OWG11)
     ##   multidimensional   | index poverty                        
     ##   multidimensional   | poverty measurement methodology carry
 
-##### In both OWG2 and OWG11, we see not only Northern states primarily using either “multidimensional” or “multidimensionality” (even monopolizing their use during OWG11), but they are doing so clearly in relation to poverty (this is worth noting due to OWG11’s dual thematic). Even more, as the contexts further reveal, they betray a “complex” (Canada, US and Israel, OWG2) and even “comprehensive approach” (Croatia and Bulgaria, OWG2). This Northern substantive connection to the more broad-ranging aspect of poverty, and the lack of Southern use of “multidimensional” and “multidimensionality”, is a point in contention of hypothesis B1.
+In both OWG2 and OWG11, we see not only Northern states primarily using either “multidimensional” or “multidimensionality” (even monopolizing their use during OWG11), but they are doing so clearly in relation to poverty (this is worth noting due to OWG11’s dual thematic). Even more, as the contexts further reveal, they betray a “complex” (Canada, US and Israel, OWG2) and even “comprehensive approach” (Croatia and Bulgaria, OWG2). This Northern substantive connection to the more broad-ranging aspect of poverty, and the lack of Southern use of “multidimensional” and “multidimensionality”, is a point in contention of hypothesis B1.
 
 Table 17. KWIC: Structural (OWG2)
 
@@ -666,7 +667,7 @@ Table 18. KWIC: Structural (OWG11)
     ##  dimension Post-2015 Development
     ##  causes must addressed
 
-##### Very few uses of anything “structural”, mostly Southern, but it is still notable to find Italy, Spain and Turkey in OWG2 explicitly framing poverty as structural.
+Very few uses of anything “structural”, mostly Southern, but it is still notable to find Italy, Spain and Turkey in OWG2 explicitly framing poverty as structural.
 
 Table 19. KWIC: Systemic (OWG2)
 
@@ -683,7 +684,7 @@ Table 20. KWIC: Systemic (OWG11)
 
     ## Keyword-in-context with 0 matches.
 
-##### No mention of “systemic” in OWG11, interestingly, despite it containing one more document than OWG2. Italy, Spain and Turkey emerge again as a lone Northern troika willing to address the “underlying causes” of poverty, including its “institutional” aspect. If one considers Turkey as Southern, these results could be contested as a result of its influence. But this would imply hypothesis B1 is inherently likely to be correct, of which there is no clear indication yet.
+No mention of “systemic” in OWG11, interestingly, despite it containing one more document than OWG2. Italy, Spain and Turkey emerge again as a lone Northern troika willing to address the “underlying causes” of poverty, including its “institutional” aspect. If one considers Turkey as Southern, these results could be contested as a result of its influence. But this would imply hypothesis B1 is inherently likely to be correct, of which there is no clear indication yet.
 
 Table 21. KWIC: Overarching (OWG2)
 
@@ -751,7 +752,7 @@ Table 22. KWIC: Overarching (OWG11)
     ##  stand alone goal
     ##  goal SDGs
 
-##### Another interesting difference between OWG sessions: in the latter, only two mentions, and both discussing poverty eradication’s status as a “standalone goal”. Meanwhile, 17 mentions from a diverse set of troikas during OWG2, when SDGs were as yet undefined. But there is very little even in OWG2 about poverty reduction itself, and more about its role in the agenda, with mentions of “framework SDGs”, “post-2015\_framework”, and so on. Nothing, then, clearly connected to B1.
+Another interesting difference between OWG sessions: in the latter, only two mentions, and both discussing poverty eradication’s status as a “standalone goal”. Meanwhile, 17 mentions from a diverse set of troikas during OWG2, when SDGs were as yet undefined. But there is very little even in OWG2 about poverty reduction itself, and more about its role in the agenda, with mentions of “framework SDGs”, “post-2015\_framework”, and so on. Nothing, then, clearly connected to B1.
 
 Table 23. KWIC: Inequality (OWG2)
 
@@ -845,7 +846,7 @@ Table 24. KWIC: Inequality (OWG11)
     ##  better suit within          
     ##  levels essential
 
-##### As mentioned in the discussion of Table 14, inequality could serve as a sign of greater concern for the structural root causes of poverty. In both sessions, the word is often used by Northern delegations, and clearly in relation to poverty (e.g. “undermines poverty reduction”, from Canada, US and Israel in OWG11) and the mechanics by which it does so (e.g. the EU’s OWG11 mention of inequality in “acess to services”).
+As mentioned in the discussion of Table 14, inequality could serve as a sign of greater concern for the structural root causes of poverty. In both sessions, the word is often used by Northern delegations, and clearly in relation to poverty (e.g. “undermines poverty reduction”, from Canada, US and Israel in OWG11) and the mechanics by which it does so (e.g. the EU’s OWG11 mention of inequality in “acess to services”).
 
 Table 25. KWIC: Private (OWG2)
 
@@ -865,7 +866,7 @@ Table 26. KWIC: Private (OWG11)
     ##  sector philanthropic organizations
     ##  sector obligation
 
-##### These four mentions of the private sector or private investments are evenly split across North and South, being too few to draw any robust conclusion from, but still suggesting that this sort of language was cross-cutting.
+These four mentions of the private sector or private investments are evenly split across North and South, being too few to draw any robust conclusion from, but still suggesting that this sort of language was cross-cutting.
 
 Table 27. Aid (OWG2)
 
@@ -884,7 +885,7 @@ Table 28. Aid (OWG11)
     ##  support agriculture
     ##  support agriculture
 
-##### Despite these mentions being overwhelmingly related to agriculture, they are universally Southern and connected to the question of loans conditionalities, which is related to B2’s contention about this being an overarching concern of the South regarding development, but not so much the North. This is also closely tied to hypothesis A, positing a greater closeness between Southern donors (here Brazil, China and India) and recipients than between Southern and Northern donors.
+Despite these mentions being overwhelmingly related to agriculture, they are universally Southern and connected to the question of loans conditionalities, which is related to B2’s contention about this being an overarching concern of the South regarding development, but not so much the North. This is also closely tied to hypothesis A, positing a greater closeness between Southern donors (here Brazil, China and India) and recipients than between Southern and Northern donors.
 
 Table 29. Assist\* (OWG2)
 
@@ -924,7 +925,7 @@ Table 30. Assist\* (OWG11)
     ##  implement poverty reduction policies  
     ##  safety net programmes
 
-##### With the only exception being Croatia and Bulgaria in OWG2, every mention of “assist” or “assistance” was Southern and almost always related to development financing, strengthening B2, as well as hypothesis A, as we see Southern donors (Brazil, China, India) siding with Southern recipients.
+With the only exception being Croatia and Bulgaria in OWG2, every mention of “assist” or “assistance” was Southern and almost always related to development financing, strengthening B2, as well as hypothesis A, as we see Southern donors (Brazil, China, India) siding with Southern recipients.
 
 Table 31. KWIC: Priorit\* (OWG2)
 
@@ -1010,7 +1011,7 @@ Table 32. KWIC: Priorit\* (OWG11)
     ##  priorities | sustainable development
     ##   priority  | among Subarea e
 
-##### None of these uses of “Priority” or “Priorities” relates directly to any hypothesis, and they seem quite aligned in meaning and regionally-diverse overall.
+None of these uses of “Priority” or “Priorities” relates directly to any hypothesis, and they seem quite aligned in meaning and regionally-diverse overall.
 
 Table 33. KWIC: Responsibilit\* (OWG2)
 
@@ -1094,7 +1095,7 @@ Table 36. CBDR (OWG11)
     ##                         allow principle | CBDR | South Africa             
     ##                     allowance principle | CBDR | South Africa reiterates
 
-##### As guessed above, when referring to a “principle”, this often meant the principle of CBDR—to Southern delegations, that is, the only ones to to mention this. Again, Degterev’s alliance of Southern donors and recipients is evident, even on this development-related issue. Both A and B2 are reflected here.
+As guessed above, when referring to a “principle”, this often meant the principle of CBDR—to Southern delegations, that is, the only ones to to mention this. Again, Degterev’s alliance of Southern donors and recipients is evident, even on this development-related issue. Both A and B2 are reflected here.
 
 Table 37. KWIC: ODA (OWG2)
 
@@ -1123,7 +1124,7 @@ Table 38. KWIC: ODA (OWG11)
     ##  ODA | commitment               
     ##  ODA | long-term predictability
 
-##### Again reflecting both A and B2, Southern delegations proved much more willing to broach the topic of ODA, with the North’s sole mention concerning innovative finance rather than more straightforwardly poverty or Southern themes such as “LDCs” (India), “commitment” (India) and “long-term predictability” (LDCs).
+Again reflecting both A and B2, Southern delegations proved much more willing to broach the topic of ODA, with the North’s sole mention concerning innovative finance rather than more straightforwardly poverty or Southern themes such as “LDCs” (India), “commitment” (India) and “long-term predictability” (LDCs).
 
 Table 39. KWIC: Individual\* (OWG2)
 
@@ -1139,7 +1140,7 @@ Table 40. KWIC: ODA (OWG11)
     ## Keyword-in-context with 1 match.                                                                     
     ##  [Canada, US and Israel.pdf, 507] determined | individual | countries
 
-##### Unlike what B1 posits, the clearest expression of individual empowerment and opportunities related to poverty eradication comes not from the North but the G77, collective voice of the South.
+Unlike what B1 posits, the clearest expression of individual empowerment and opportunities related to poverty eradication comes not from the North but the G77, collective voice of the South.
 
 Table 41. KWIC: Transfer\* (OWG2)
 
@@ -1171,13 +1172,13 @@ Table 42. KWIC: Transfer\* (OWG11)
     ##  transfer | dissemination clean             
     ##  transfer | appropriate technology technical
 
-##### This, finally, is closely correlated to A and B2. Despite this word not appearing in the 4.1 results, a specific search for it paints a lopsided picture: overwhelmingly Southern delegations calling for technology transfers, with the G77 in OWG11 even specifically mentioning transfers from developed countries.
+This, finally, is closely correlated to A and B2. Despite this word not appearing in the 4.1 results, a specific search for it paints a lopsided picture: overwhelmingly Southern delegations calling for technology transfers, with the G77 in OWG11 even specifically mentioning transfers from developed countries.
 
-##### Ultimately, then, while this rudimentary tool might be quite limited in isolation, in this case, with the path suggested by the methods explored in section 4.1, it could serve a more forensic role. Hypotheses A and B2 come out more substantiated than B1, which is quite contradicted: indeed, they show a high level of Southern unity (A) and of North-South divergence on development responsibilities (B2), while there is no indication that Pouliot & Thérien’s North-South individual/structural conception of poverty holds (B1).
+Ultimately, then, while this rudimentary tool might be quite limited in isolation, in this case, with the path suggested by the methods explored in section 4.1, it could serve a more forensic role. Hypotheses A and B2 come out more substantiated than B1, which is quite contradicted: indeed, they show a high level of Southern unity (A) and of North-South divergence on development responsibilities (B2), while there is no indication that Pouliot & Thérien’s North-South individual/structural conception of poverty holds (B1).
 
 #### 4.3. Wordfish
 
-##### Wordfish is an unsupervised, one-dimensional machine learning code that scales texts through word counts, specifically by plotting words between their average frequency overall (the estimated psi) and the word-specific weight (estimated beta). What this can do is serve as a robustness test for the information gathered so far on hypotheses B1 and B2: that is, breaking down again the documents into North and South, to see what kinds of different word positions they obtain.
+Wordfish is an unsupervised, one-dimensional machine learning code that scales texts through word counts, specifically by plotting words between their average frequency overall (the estimated psi) and the word-specific weight (estimated beta). What this can do is serve as a robustness test for the information gathered so far on hypotheses B1 and B2: that is, breaking down again the documents into North and South, to see what kinds of different word positions they obtain.
 
 Graph 1. Estimated word positions OWG2 North
 ![](unnamed-chunk-52-1.png)
@@ -1191,15 +1192,15 @@ Graph 3. Estimated word positions OWG2 South
 Graph 4. Estimated word positions OWG2 South
 ![](unnamed-chunk-55-1.png)
 
-##### Confirming the findings from tables 23 and 24, “inequality” and “structural” is not more closely correlated with Northern or Southern in graphs 1 to 3, although graph 4 proves to be quite different in its higher frequency for the former term. Also confirming what was observed above, “assistance”, “aid” and “responsibilities” (which, as shown, is almost always connected to CBDR) are more connected to Southern than Northern sources.
+Confirming the findings from tables 23 and 24, “inequality” and “structural” is not more closely correlated with Northern or Southern in graphs 1 to 3, although graph 4 proves to be quite different in its higher frequency for the former term. Also confirming what was observed above, “assistance”, “aid” and “responsibilities” (which, as shown, is almost always connected to CBDR) are more connected to Southern than Northern sources.
 
-##### Unfortunately, this remains a rather limited model as well, for not showing in highlights many of the words inputed into the code to that end. Nevetheless, it is useful to replicate some of the results from 4.1 and 4.2 through this very different method.
+Unfortunately, this remains a rather limited model as well, for not showing in highlights many of the words inputed into the code to that end. Nevetheless, it is useful to replicate some of the results from 4.1 and 4.2 through this very different method.
 
 #### 4.4. Wordscores
 
-##### Finally, to perform a robustness test on hypothesis A, we can rely on a supervised machine learning method, Wordscores. It operates similarly to Wordfish, basing itself chiefly on word count, but this one can be calibrated such that its output can be framed according to how one weighs certain inputs.
+Finally, to perform a robustness test on hypothesis A, we can rely on a supervised machine learning method, Wordscores. It operates similarly to Wordfish, basing itself chiefly on word count, but this one can be calibrated such that its output can be framed according to how one weighs certain inputs.
 
-##### Thus, we can assess the proximity of Southern donors to their Northern donor and Southern counterparts, using the G77 and EU as anchors respectively of the South and North, setting the former a reference score of -1 and the latter 1, plotting all other delegation statements in between.
+Thus, we can assess the proximity of Southern donors to their Northern donor and Southern counterparts, using the G77 and EU as anchors respectively of the South and North, setting the former a reference score of -1 and the latter 1, plotting all other delegation statements in between.
 
     ## 
     ## Call:
@@ -1352,23 +1353,23 @@ Table 43. OWG11 Wordscores
 Graph 5. OWG11 Wordscores
 ![](unnamed-chunk-65-1.png)
 
-##### Naturally, there are limitations here too: in sections 4.1 and 4.2, the analysis was detailed, looking at differences over specific words and phrases, while this methods looks at the texts overall. However, hypothesis A can still be tested on an “overall” basis, lest I be accused of having been strategically selective in my word/phrase choices in 4.1 and 4.2 in order to obtain my preferred results. Indeed, despite some of the surprising proximities across the North/South divide, and divergences within groups, this all-encompassing analysis (except for the words removed in 4.1, of course) still finds greater proximity between the surveyed Southern donors—China, Brazil, India and South Africa—and the G77 with its consensually-agreed-upon common Southern position, rather than the EU, as their wordscores all fall beneath 0.
+Naturally, there are limitations here too: in sections 4.1 and 4.2, the analysis was detailed, looking at differences over specific words and phrases, while this methods looks at the texts overall. However, hypothesis A can still be tested on an “overall” basis, lest I be accused of having been strategically selective in my word/phrase choices in 4.1 and 4.2 in order to obtain my preferred results. Indeed, despite some of the surprising proximities across the North/South divide, and divergences within groups, this all-encompassing analysis (except for the words removed in 4.1, of course) still finds greater proximity between the surveyed Southern donors—China, Brazil, India and South Africa—and the G77 with its consensually-agreed-upon common Southern position, rather than the EU, as their wordscores all fall beneath 0.
 
 ### 5. Conclusion
 
-##### Regarding the hypotheses, one can thus conclude:
+Regarding the hypotheses, one can thus conclude:
 
-##### A) All the cited authors were correct in identifying the North-South cleavage as the fundamental one, and Degterev (2016, 45) specifically in finding that that Southern donors sided more closely with their fellow Southerners than their fellow donors. This was observed across specific cases, especially those related to hypothesis B2, where specific language alignments could be observed over and over through a variety of methods, from compound words and DFM topfeatures lists to KWICs; but also in analyses taking a broader view, such as Wordscores.
+A) All the cited authors were correct in identifying the North-South cleavage as the fundamental one, and Degterev (2016, 45) specifically in finding that that Southern donors sided more closely with their fellow Southerners than their fellow donors. This was observed across specific cases, especially those related to hypothesis B2, where specific language alignments could be observed over and over through a variety of methods, from compound words and DFM topfeatures lists to KWICs; but also in analyses taking a broader view, such as Wordscores.
 
-##### B)
+B)
 
-##### 1) None of these methods, however, yielded any results that could back Pouliot & Thérien’s (2019, 625) claim about a structural/individual conception of poverty being a part of the South/North rift; much evidence, in fact, especially through KWICs, showed that terms expected to yield greater closeness to the South were either split or closer to the North.
+1) None of these methods, however, yielded any results that could back Pouliot & Thérien’s (2019, 625) claim about a structural/individual conception of poverty being a part of the South/North rift; much evidence, in fact, especially through KWICs, showed that terms expected to yield greater closeness to the South were either split or closer to the North.
 
-##### 2) Degterev’s (44) other claim, concerning a dichotomy between Northerners’ emphasis on investment-friendly measures on Southerners’ part as the path to poverty eradication vs. Southerners’ insistence on Northerners’ responsibility to assist them as a matter of principle is partially vindicated: the Northern part of this finds little substantiation, but the Southern, especially through the KWICs and Wordfish, proved exceptionally substantive.
+2) Degterev’s (44) other claim, concerning a dichotomy between Northerners’ emphasis on investment-friendly measures on Southerners’ part as the path to poverty eradication vs. Southerners’ insistence on Northerners’ responsibility to assist them as a matter of principle is partially vindicated: the Northern part of this finds little substantiation, but the Southern, especially through the KWICs and Wordfish, proved exceptionally substantive.
 
-##### These findings hopefully achieve two things: first, help dispel some myths and refocus the study of the OWG and international economic/environmental negotiations overall, placing more emphasis on actually-observed rifts, that is, observed through both specific and broad-based analysis; and second, serve as a template for future research, showing that these methods can reveal useful facets of these data.
+These findings hopefully achieve two things: first, help dispel some myths and refocus the study of the OWG and international economic/environmental negotiations overall, placing more emphasis on actually-observed rifts, that is, observed through both specific and broad-based analysis; and second, serve as a template for future research, showing that these methods can reveal useful facets of these data.
 
-##### References:
+### References:
 
 Benoit K, Watanabe K, Wang H, Nulty P, Obeng A, Müller S, Matsuo A
 (2018). “quanteda: An R package for the quantitative analysis of textual

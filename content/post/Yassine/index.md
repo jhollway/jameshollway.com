@@ -1,5 +1,7 @@
 ---
-title: Amena Yassine Martins
+title: 'Brazil in the General Assembly: from redemocratization to date'
+subtitle: Statistics for International Relations Research II
+author: Amena Yassine
 date: 2021-06-01
 math: true
 diagram: true

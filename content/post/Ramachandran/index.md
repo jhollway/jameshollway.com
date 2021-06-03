@@ -1,11 +1,14 @@
 ---
-title: Swetha Ramachandran
+title: No Safe Place: Analyzing attacks against aid workers
+subtitle: Statistics for International Relations Research II
+author: Swetha Ramachandran
 date: 2021-06-01
 math: true
 diagram: true
 image:
   placement: 3
 ---
+
 -   [Introduction](#introduction)
 -   [Data](#data)
     -   [Overview:](#overview)

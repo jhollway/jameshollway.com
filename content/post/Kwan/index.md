@@ -1,11 +1,16 @@
 ---
-title: Chin Man Kwan
+title: 'When ICTs merge with governance in the 21st Century: an investigation of the
+  association between e-governance advancement and governance quality of UN member
+  states from 2003 to 2018'
+subtitle: Statistics for International Relations Research II
+author: Chin Man Kwan
 date: 2021-06-01
 math: true
 diagram: true
 image:
   placement: 3
 ---
+
 -   [Introduction](#introduction)
 -   [Literature Review](#literature-review)
     -   [Defining governance](#defining-governance)

@@ -1,11 +1,13 @@
 ---
-title: Shalaka Thakur
+title: "Extortion or Taxation? Exploring the Relationship Between Social Service Provision and Extortion by Non-State Armed Groups"
+author: Shalaka Thakur
 date: 2021-06-01
 math: true
 diagram: true
 image:
   placement: 3
 ---
+
 -   [$\\color{darkcyan}{\\text{Conflict and crime-Rethinking extortion through rebel governance}}$](#colordarkcyantextconflict-and-crime-rethinking-extortion-through-rebel-governance)
     -   [Extortion and rebels- more than just economic
         underpinnings?](#extortion-and-rebels--more-than-just-economic-underpinnings)

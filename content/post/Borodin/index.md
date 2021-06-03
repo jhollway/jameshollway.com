@@ -1,11 +1,14 @@
 ---
-title: Vladimir Borodin
+title: "Building Our Way Out of the Crisis: Do Building Characteristics Affect a Neighborhood's Median Rents?"
+subtitle: Statistics for International Relations Research II
+author: Vladimir Borodin
 date: 2021-06-01
 math: true
 diagram: true
 image:
   placement: 3
 ---
+
 -   [Introduction, Research Question &
     Hypotheses](#introduction-research-question-hypotheses)
 -   [Data](#data)

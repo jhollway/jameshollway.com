@@ -1,11 +1,14 @@
 ---
-title: Shanling Liu
+title: Logistic Regression Report
+subtitle: Statistics for International Relations Research II
+author: Shanling Liu
 date: 2021-06-01
 math: true
 diagram: true
 image:
   placement: 3
 ---
+
 -   [1. Introduction](#introduction)
 -   [2. Data and Visualization](#data-and-visualization)
 -   [3. Methods](#methods)
