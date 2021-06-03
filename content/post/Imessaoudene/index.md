@@ -243,66 +243,17 @@ cleaned, and manipulated. You will find the following:
 
 **10 Highest Ranked Countries - Happiness Score**
 
-    ##    hrank     country  id                  region hscore economy_gdpc govsupport
-    ## 1      1     Finland FIN          Western Europe  7.769        1.340      1.587
-    ## 2      2     Denmark DNK          Western Europe  7.600        1.383      1.573
-    ## 3      3      Norway NOR          Western Europe  7.554        1.488      1.582
-    ## 4      4     Iceland ISL          Western Europe  7.494        1.380      1.624
-    ## 5      5 Netherlands NLD          Western Europe  7.488        1.396      1.522
-    ## 6      6 Switzerland CHE          Western Europe  7.480        1.452      1.526
-    ## 7      7      Sweden SWE          Western Europe  7.343        1.387      1.487
-    ## 8      8 New Zealand NZL Australia & New Zealand  7.307        1.303      1.557
-    ## 9      9      Canada CAN           North America  7.278        1.365      1.505
-    ## 10    10     Austria AUT          Western Europe  7.246        1.376      1.475
-    ##    health freedom generous trust      pop pop_in_millions pop_size
-    ## 1   0.986   0.596    0.153 0.393  5521606        5.521606    Small
-    ## 2   0.996   0.592    0.252 0.410  5814422        5.814422    Small
-    ## 3   1.028   0.603    0.271 0.341  5347896        5.347896    Small
-    ## 4   1.026   0.591    0.354 0.118   360563        0.360563    Small
-    ## 5   0.999   0.557    0.322 0.298 17344874       17.344874    Large
-    ## 6   1.052   0.572    0.263 0.343  8575280        8.575280    Small
-    ## 7   1.009   0.574    0.267 0.373 10278887       10.278887    Small
-    ## 8   1.026   0.585    0.330 0.380  4979300        4.979300    Small
-    ## 9   1.039   0.584    0.285 0.308 37593384       37.593384    Large
-    ## 10  1.016   0.532    0.244 0.226  8879920        8.879920    Small
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["hrank"],"name":[1],"type":["int"],"align":["right"]},{"label":["country"],"name":[2],"type":["chr"],"align":["left"]},{"label":["id"],"name":[3],"type":["chr"],"align":["left"]},{"label":["region"],"name":[4],"type":["fct"],"align":["left"]},{"label":["hscore"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["economy_gdpc"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["govsupport"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["health"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["freedom"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["generous"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["trust"],"name":[11],"type":["dbl"],"align":["right"]},{"label":["pop"],"name":[12],"type":["int"],"align":["right"]},{"label":["pop_in_millions"],"name":[13],"type":["dbl"],"align":["right"]},{"label":["pop_size"],"name":[14],"type":["fct"],"align":["left"]}],"data":[{"1":"1","2":"Finland","3":"FIN","4":"Western Europe","5":"7.769","6":"1.340","7":"1.587","8":"0.986","9":"0.596","10":"0.153","11":"0.393","12":"5521606","13":"5.521606","14":"Small","_rn_":"1"},{"1":"2","2":"Denmark","3":"DNK","4":"Western Europe","5":"7.600","6":"1.383","7":"1.573","8":"0.996","9":"0.592","10":"0.252","11":"0.410","12":"5814422","13":"5.814422","14":"Small","_rn_":"2"},{"1":"3","2":"Norway","3":"NOR","4":"Western Europe","5":"7.554","6":"1.488","7":"1.582","8":"1.028","9":"0.603","10":"0.271","11":"0.341","12":"5347896","13":"5.347896","14":"Small","_rn_":"3"},{"1":"4","2":"Iceland","3":"ISL","4":"Western Europe","5":"7.494","6":"1.380","7":"1.624","8":"1.026","9":"0.591","10":"0.354","11":"0.118","12":"360563","13":"0.360563","14":"Small","_rn_":"4"},{"1":"5","2":"Netherlands","3":"NLD","4":"Western Europe","5":"7.488","6":"1.396","7":"1.522","8":"0.999","9":"0.557","10":"0.322","11":"0.298","12":"17344874","13":"17.344874","14":"Large","_rn_":"5"},{"1":"6","2":"Switzerland","3":"CHE","4":"Western Europe","5":"7.480","6":"1.452","7":"1.526","8":"1.052","9":"0.572","10":"0.263","11":"0.343","12":"8575280","13":"8.575280","14":"Small","_rn_":"6"},{"1":"7","2":"Sweden","3":"SWE","4":"Western Europe","5":"7.343","6":"1.387","7":"1.487","8":"1.009","9":"0.574","10":"0.267","11":"0.373","12":"10278887","13":"10.278887","14":"Small","_rn_":"7"},{"1":"8","2":"New Zealand","3":"NZL","4":"Australia & New Zealand","5":"7.307","6":"1.303","7":"1.557","8":"1.026","9":"0.585","10":"0.330","11":"0.380","12":"4979300","13":"4.979300","14":"Small","_rn_":"8"},{"1":"9","2":"Canada","3":"CAN","4":"North America","5":"7.278","6":"1.365","7":"1.505","8":"1.039","9":"0.584","10":"0.285","11":"0.308","12":"37593384","13":"37.593384","14":"Large","_rn_":"9"},{"1":"10","2":"Austria","3":"AUT","4":"Western Europe","5":"7.246","6":"1.376","7":"1.475","8":"1.016","9":"0.532","10":"0.244","11":"0.226","12":"8879920","13":"8.879920","14":"Small","_rn_":"10"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
 
 <br />
 
 **10 Lowest Ranked Countries - Happiness Score**
 
-    ##     hrank                  country  id                     region hscore
-    ## 147   147                    Haiti HTI  Latin America & Caribbean  3.597
-    ## 148   148                 Botswana BWA         Sub-Saharan Africa  3.488
-    ## 149   149                    Syria SYR Middle East & North Africa  3.462
-    ## 150   150                   Malawi MWI         Sub-Saharan Africa  3.410
-    ## 151   151                    Yemen YEM Middle East & North Africa  3.380
-    ## 152   152                   Rwanda RWA         Sub-Saharan Africa  3.334
-    ## 153   153                 Tanzania TZA         Sub-Saharan Africa  3.231
-    ## 154   154              Afghanistan AFG                 South Asia  3.203
-    ## 155   155 Central African Republic CAF         Sub-Saharan Africa  3.083
-    ## 156   156              South Sudan SSD         Sub-Saharan Africa  2.853
-    ##     economy_gdpc govsupport health freedom generous trust      pop
-    ## 147        0.323      0.688  0.449   0.026    0.419 0.110 11263077
-    ## 148        1.041      1.145  0.538   0.455    0.025 0.100  2303697
-    ## 149        0.619      0.378  0.440   0.013    0.331 0.141 17070135
-    ## 150        0.191      0.560  0.495   0.443    0.218 0.089 18628747
-    ## 151        0.287      1.163  0.463   0.143    0.108 0.077 29161922
-    ## 152        0.359      0.711  0.614   0.555    0.217 0.411 12626950
-    ## 153        0.476      0.885  0.499   0.417    0.276 0.147 58005463
-    ## 154        0.350      0.517  0.361      NA    0.158 0.025 38041754
-    ## 155        0.026         NA  0.105   0.225    0.235 0.035  4745185
-    ## 156        0.306      0.575  0.295   0.010    0.202 0.091 11062113
-    ##     pop_in_millions pop_size
-    ## 147       11.263077    Small
-    ## 148        2.303697    Small
-    ## 149       17.070135    Large
-    ## 150       18.628747    Large
-    ## 151       29.161922    Large
-    ## 152       12.626950    Large
-    ## 153       58.005463    Large
-    ## 154       38.041754    Large
-    ## 155        4.745185    Small
-    ## 156       11.062113    Small
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["hrank"],"name":[1],"type":["int"],"align":["right"]},{"label":["country"],"name":[2],"type":["chr"],"align":["left"]},{"label":["id"],"name":[3],"type":["chr"],"align":["left"]},{"label":["region"],"name":[4],"type":["fct"],"align":["left"]},{"label":["hscore"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["economy_gdpc"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["govsupport"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["health"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["freedom"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["generous"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["trust"],"name":[11],"type":["dbl"],"align":["right"]},{"label":["pop"],"name":[12],"type":["int"],"align":["right"]},{"label":["pop_in_millions"],"name":[13],"type":["dbl"],"align":["right"]},{"label":["pop_size"],"name":[14],"type":["fct"],"align":["left"]}],"data":[{"1":"147","2":"Haiti","3":"HTI","4":"Latin America & Caribbean","5":"3.597","6":"0.323","7":"0.688","8":"0.449","9":"0.026","10":"0.419","11":"0.110","12":"11263077","13":"11.263077","14":"Small","_rn_":"147"},{"1":"148","2":"Botswana","3":"BWA","4":"Sub-Saharan Africa","5":"3.488","6":"1.041","7":"1.145","8":"0.538","9":"0.455","10":"0.025","11":"0.100","12":"2303697","13":"2.303697","14":"Small","_rn_":"148"},{"1":"149","2":"Syria","3":"SYR","4":"Middle East & North Africa","5":"3.462","6":"0.619","7":"0.378","8":"0.440","9":"0.013","10":"0.331","11":"0.141","12":"17070135","13":"17.070135","14":"Large","_rn_":"149"},{"1":"150","2":"Malawi","3":"MWI","4":"Sub-Saharan Africa","5":"3.410","6":"0.191","7":"0.560","8":"0.495","9":"0.443","10":"0.218","11":"0.089","12":"18628747","13":"18.628747","14":"Large","_rn_":"150"},{"1":"151","2":"Yemen","3":"YEM","4":"Middle East & North Africa","5":"3.380","6":"0.287","7":"1.163","8":"0.463","9":"0.143","10":"0.108","11":"0.077","12":"29161922","13":"29.161922","14":"Large","_rn_":"151"},{"1":"152","2":"Rwanda","3":"RWA","4":"Sub-Saharan Africa","5":"3.334","6":"0.359","7":"0.711","8":"0.614","9":"0.555","10":"0.217","11":"0.411","12":"12626950","13":"12.626950","14":"Large","_rn_":"152"},{"1":"153","2":"Tanzania","3":"TZA","4":"Sub-Saharan Africa","5":"3.231","6":"0.476","7":"0.885","8":"0.499","9":"0.417","10":"0.276","11":"0.147","12":"58005463","13":"58.005463","14":"Large","_rn_":"153"},{"1":"154","2":"Afghanistan","3":"AFG","4":"South Asia","5":"3.203","6":"0.350","7":"0.517","8":"0.361","9":"NA","10":"0.158","11":"0.025","12":"38041754","13":"38.041754","14":"Large","_rn_":"154"},{"1":"155","2":"Central African Republic","3":"CAF","4":"Sub-Saharan Africa","5":"3.083","6":"0.026","7":"NA","8":"0.105","9":"0.225","10":"0.235","11":"0.035","12":"4745185","13":"4.745185","14":"Small","_rn_":"155"},{"1":"156","2":"South Sudan","3":"SSD","4":"Sub-Saharan Africa","5":"2.853","6":"0.306","7":"0.575","8":"0.295","9":"0.010","10":"0.202","11":"0.091","12":"11062113","13":"11.062113","14":"Small","_rn_":"156"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
 
 Taking a look at the ten highest and lowest ranking stats according to
 the happiness score reveals something interesting. The top 10 countries
@@ -317,7 +268,1625 @@ before making any conclusions.
 
 ### Descriptive Statistics by Region
 
-    ## [1] "<table class=\"Rtable1\">\n<thead>\n<tr>\n<th class='rowlabel firstrow lastrow'></th>\n<th class='firstrow lastrow'><span class='stratlabel'>North America<br><span class='stratn'>(N=2)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Latin America & Caribbean<br><span class='stratn'>(N=21)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Western Europe<br><span class='stratn'>(N=19)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Central & Eastern Europe<br><span class='stratn'>(N=31)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Middle East & North Africa<br><span class='stratn'>(N=19)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Sub-Saharan Africa<br><span class='stratn'>(N=40)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>South Asia<br><span class='stratn'>(N=7)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>East Asia<br><span class='stratn'>(N=6)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Southeast Asia<br><span class='stratn'>(N=9)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Australia & New Zealand<br><span class='stratn'>(N=2)</span></span></th>\n<th class='firstrow lastrow'><span class='stratlabel'>Overall<br><span class='stratn'>(N=156)</span></span></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>hscore</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>7.09 (0.273)</td>\n<td>5.95 (0.724)</td>\n<td>6.94 (0.667)</td>\n<td>5.58 (0.571)</td>\n<td>5.24 (1.06)</td>\n<td>4.30 (0.625)</td>\n<td>4.53 (0.793)</td>\n<td>5.69 (0.476)</td>\n<td>5.27 (0.618)</td>\n<td>7.27 (0.0559)</td>\n<td>5.41 (1.11)</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Median [Min, Max]</td>\n<td class='lastrow'>7.09 [6.89, 7.28]</td>\n<td class='lastrow'>6.11 [3.60, 7.17]</td>\n<td class='lastrow'>7.05 [5.29, 7.77]</td>\n<td class='lastrow'>5.60 [4.33, 6.85]</td>\n<td class='lastrow'>5.21 [3.38, 7.14]</td>\n<td class='lastrow'>4.40 [2.85, 5.89]</td>\n<td class='lastrow'>4.46 [3.20, 5.65]</td>\n<td class='lastrow'>5.66 [5.19, 6.45]</td>\n<td class='lastrow'>5.19 [4.36, 6.26]</td>\n<td class='lastrow'>7.27 [7.23, 7.31]</td>\n<td class='lastrow'>5.38 [2.85, 7.77]</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>region</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>North America</td>\n<td>2 (100%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>2 (1.3%)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Latin America & Caribbean</td>\n<td>0 (0%)</td>\n<td>21 (100%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>21 (13.5%)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Western Europe</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>19 (100%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>19 (12.2%)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Central & Eastern Europe</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>31 (100%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>31 (19.9%)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Middle East & North Africa</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>19 (100%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>19 (12.2%)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Sub-Saharan Africa</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>40 (100%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>40 (25.6%)</td>\n</tr>\n<tr>\n<td class='rowlabel'>South Asia</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>7 (100%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>7 (4.5%)</td>\n</tr>\n<tr>\n<td class='rowlabel'>East Asia</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>6 (100%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>6 (3.8%)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Southeast Asia</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>0 (0%)</td>\n<td>9 (100%)</td>\n<td>0 (0%)</td>\n<td>9 (5.8%)</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Australia & New Zealand</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>2 (100%)</td>\n<td class='lastrow'>2 (1.3%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>economy_gdpc</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>1.40 (0.0481)</td>\n<td>0.924 (0.210)</td>\n<td>1.37 (0.0988)</td>\n<td>1.04 (0.214)</td>\n<td>1.06 (0.347)</td>\n<td>0.455 (0.282)</td>\n<td>0.650 (0.211)</td>\n<td>1.24 (0.198)</td>\n<td>0.930 (0.309)</td>\n<td>1.34 (0.0488)</td>\n<td>0.911 (0.393)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>1.40 [1.37, 1.43]</td>\n<td>0.960 [0.323, 1.23]</td>\n<td>1.37 [1.18, 1.61]</td>\n<td>1.07 [0.493, 1.27]</td>\n<td>1.04 [0.287, 1.68]</td>\n<td>0.380 [0.0260, 1.12]</td>\n<td>0.677 [0.350, 0.949]</td>\n<td>1.31 [0.948, 1.44]</td>\n<td>0.807 [0.574, 1.57]</td>\n<td>1.34 [1.30, 1.37]</td>\n<td>0.960 [0.0260, 1.68]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>1 (2.5%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>1 (0.6%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>govsupport</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>1.48 (0.0339)</td>\n<td>1.34 (0.173)</td>\n<td>1.50 (0.0967)</td>\n<td>1.33 (0.208)</td>\n<td>1.15 (0.263)</td>\n<td>0.940 (0.239)</td>\n<td>0.987 (0.297)</td>\n<td>1.33 (0.152)</td>\n<td>1.25 (0.141)</td>\n<td>1.55 (0.00636)</td>\n<td>1.22 (0.284)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>1.48 [1.46, 1.51]</td>\n<td>1.40 [0.688, 1.48]</td>\n<td>1.50 [1.16, 1.62]</td>\n<td>1.39 [0.666, 1.54]</td>\n<td>1.23 [0.378, 1.46]</td>\n<td>0.939 [0.437, 1.40]</td>\n<td>0.928 [0.517, 1.32]</td>\n<td>1.35 [1.13, 1.53]</td>\n<td>1.20 [1.03, 1.46]</td>\n<td>1.55 [1.55, 1.56]</td>\n<td>1.27 [0.378, 1.62]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>1 (2.5%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>1 (0.6%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>health</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>0.957 (0.117)</td>\n<td>0.812 (0.106)</td>\n<td>1.01 (0.0232)</td>\n<td>0.825 (0.0905)</td>\n<td>0.751 (0.143)</td>\n<td>0.418 (0.138)</td>\n<td>0.617 (0.149)</td>\n<td>0.953 (0.168)</td>\n<td>0.745 (0.188)</td>\n<td>1.03 (0.00707)</td>\n<td>0.730 (0.236)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>0.957 [0.874, 1.04]</td>\n<td>0.831 [0.449, 0.963]</td>\n<td>0.999 [0.986, 1.06]</td>\n<td>0.818 [0.657, 1.04]</td>\n<td>0.795 [0.440, 1.03]</td>\n<td>0.428 [0.105, 0.798]</td>\n<td>0.604 [0.361, 0.831]</td>\n<td>0.975 [0.667, 1.12]</td>\n<td>0.660 [0.551, 1.14]</td>\n<td>1.03 [1.03, 1.04]</td>\n<td>0.789 [0.105, 1.14]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>1 (2.5%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>1 (0.6%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>freedom</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>0.519 (0.0919)</td>\n<td>0.441 (0.128)</td>\n<td>0.487 (0.137)</td>\n<td>0.361 (0.114)</td>\n<td>0.318 (0.167)</td>\n<td>0.337 (0.118)</td>\n<td>0.451 (0.0743)</td>\n<td>0.372 (0.127)</td>\n<td>0.544 (0.0339)</td>\n<td>0.571 (0.0198)</td>\n<td>0.395 (0.140)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>0.519 [0.454, 0.584]</td>\n<td>0.489 [0.0260, 0.558]</td>\n<td>0.526 [0.0670, 0.603]</td>\n<td>0.346 [0.178, 0.631]</td>\n<td>0.305 [0.0130, 0.598]</td>\n<td>0.354 [0.0100, 0.559]</td>\n<td>0.464 [0.313, 0.527]</td>\n<td>0.396 [0.159, 0.521]</td>\n<td>0.547 [0.491, 0.609]</td>\n<td>0.571 [0.557, 0.585]</td>\n<td>0.417 [0.0100, 0.631]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>1 (14.3%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>1 (0.6%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>generous</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>0.283 (0.00354)</td>\n<td>0.145 (0.0798)</td>\n<td>0.235 (0.0906)</td>\n<td>0.146 (0.0780)</td>\n<td>0.153 (0.0869)</td>\n<td>0.188 (0.0692)</td>\n<td>0.235 (0.0741)</td>\n<td>0.173 (0.0893)</td>\n<td>0.302 (0.149)</td>\n<td>0.331 (0.00141)</td>\n<td>0.186 (0.0944)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>0.283 [0.280, 0.285]</td>\n<td>0.126 [0.0640, 0.419]</td>\n<td>0.257 [0.0470, 0.375]</td>\n<td>0.137 [0.0350, 0.322]</td>\n<td>0.133 [0.0360, 0.331]</td>\n<td>0.198 [0.0250, 0.372]</td>\n<td>0.220 [0.158, 0.370]</td>\n<td>0.205 [0.0580, 0.258]</td>\n<td>0.266 [0.117, 0.566]</td>\n<td>0.331 [0.330, 0.332]</td>\n<td>0.178 [0.0250, 0.566]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>1 (5.3%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>1 (0.6%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>trust</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>0.218 (0.127)</td>\n<td>0.0720 (0.0337)</td>\n<td>0.231 (0.127)</td>\n<td>0.0665 (0.0642)</td>\n<td>0.105 (0.0403)</td>\n<td>0.0945 (0.0690)</td>\n<td>0.0934 (0.0497)</td>\n<td>0.120 (0.0895)</td>\n<td>0.123 (0.136)</td>\n<td>0.335 (0.0636)</td>\n<td>0.111 (0.0944)</td>\n</tr>\n<tr>\n<td class='rowlabel'>Median [Min, Max]</td>\n<td>0.218 [0.128, 0.308]</td>\n<td>0.0740 [0.0160, 0.150]</td>\n<td>0.265 [0.0250, 0.410]</td>\n<td>0.0400 [0.00400, 0.240]</td>\n<td>0.106 [0.0270, 0.182]</td>\n<td>0.0855 [0.0330, 0.411]</td>\n<td>0.0890 [0.0250, 0.167]</td>\n<td>0.0985 [0.0380, 0.287]</td>\n<td>0.0730 [0.0240, 0.453]</td>\n<td>0.335 [0.290, 0.380]</td>\n<td>0.0860 [0.00400, 0.453]</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Missing</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>1 (3.2%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>0 (0%)</td>\n<td class='lastrow'>1 (0.6%)</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>pop_in_millions</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Mean (SD)</td>\n<td>183 (206)</td>\n<td>29.9 (50.0)</td>\n<td>22.4 (27.1)</td>\n<td>13.3 (26.7)</td>\n<td>28.1 (30.3)</td>\n<td>25.6 (37.1)</td>\n<td>262 (494)</td>\n<td>268 (555)</td>\n<td>73.4 (82.9)</td>\n<td>15.2 (14.4)</td>\n<td>48.2 (161)</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Median [Min, Max]</td>\n<td class='lastrow'>183 [37.6, 328]</td>\n<td class='lastrow'>11.3 [1.39, 211]</td>\n<td class='lastrow'>10.3 [0.361, 83.1]</td>\n<td class='lastrow'>5.45 [0.326, 144]</td>\n<td class='lastrow'>11.7 [1.64, 100]</td>\n<td class='lastrow'>15.0 [0.851, 201]</td>\n<td class='lastrow'>38.0 [0.763, 1370]</td>\n<td class='lastrow'>37.7 [3.23, 1400]</td>\n<td class='lastrow'>54.0 [5.70, 271]</td>\n<td class='lastrow'>15.2 [4.98, 25.4]</td>\n<td class='lastrow'>11.4 [0.326, 1400]</td>\n</tr>\n<tr>\n<td class='rowlabel firstrow'><span class='varlabel'>pop_size</span></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n<td class='firstrow'></td>\n</tr>\n<tr>\n<td class='rowlabel'>Small</td>\n<td>0 (0%)</td>\n<td>11 (52.4%)</td>\n<td>12 (63.2%)</td>\n<td>25 (80.6%)</td>\n<td>9 (47.4%)</td>\n<td>15 (37.5%)</td>\n<td>1 (14.3%)</td>\n<td>2 (33.3%)</td>\n<td>2 (22.2%)</td>\n<td>1 (50.0%)</td>\n<td>78 (50.0%)</td>\n</tr>\n<tr>\n<td class='rowlabel lastrow'>Large</td>\n<td class='lastrow'>2 (100%)</td>\n<td class='lastrow'>10 (47.6%)</td>\n<td class='lastrow'>7 (36.8%)</td>\n<td class='lastrow'>6 (19.4%)</td>\n<td class='lastrow'>10 (52.6%)</td>\n<td class='lastrow'>25 (62.5%)</td>\n<td class='lastrow'>6 (85.7%)</td>\n<td class='lastrow'>4 (66.7%)</td>\n<td class='lastrow'>7 (77.8%)</td>\n<td class='lastrow'>1 (50.0%)</td>\n<td class='lastrow'>78 (50.0%)</td>\n</tr>\n</tbody>\n</table>\n"
+\[1\] "
+<table class="\&quot;Rtable1\&quot;">
+<thead>
+<tr>
+<th class="rowlabel firstrow lastrow">
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">North America<br><span
+class="stratn">(N=2)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Latin America & Caribbean<br><span
+class="stratn">(N=21)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Western Europe<br><span
+class="stratn">(N=19)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Central & Eastern Europe<br><span
+class="stratn">(N=31)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Middle East & North Africa<br><span
+class="stratn">(N=19)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Sub-Saharan Africa<br><span
+class="stratn">(N=40)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">South Asia<br><span
+class="stratn">(N=7)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">East Asia<br><span
+class="stratn">(N=6)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Southeast Asia<br><span
+class="stratn">(N=9)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Australia & New Zealand<br><span
+class="stratn">(N=2)</span></span>
+</th>
+<th class="firstrow lastrow">
+<span class="stratlabel">Overall<br><span
+class="stratn">(N=156)</span></span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">hscore</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+7.09 (0.273)
+</td>
+<td>
+5.95 (0.724)
+</td>
+<td>
+6.94 (0.667)
+</td>
+<td>
+5.58 (0.571)
+</td>
+<td>
+5.24 (1.06)
+</td>
+<td>
+4.30 (0.625)
+</td>
+<td>
+4.53 (0.793)
+</td>
+<td>
+5.69 (0.476)
+</td>
+<td>
+5.27 (0.618)
+</td>
+<td>
+7.27 (0.0559)
+</td>
+<td>
+5.41 (1.11)
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Median \[Min, Max\]
+</td>
+<td class="lastrow">
+7.09 \[6.89, 7.28\]
+</td>
+<td class="lastrow">
+6.11 \[3.60, 7.17\]
+</td>
+<td class="lastrow">
+7.05 \[5.29, 7.77\]
+</td>
+<td class="lastrow">
+5.60 \[4.33, 6.85\]
+</td>
+<td class="lastrow">
+5.21 \[3.38, 7.14\]
+</td>
+<td class="lastrow">
+4.40 \[2.85, 5.89\]
+</td>
+<td class="lastrow">
+4.46 \[3.20, 5.65\]
+</td>
+<td class="lastrow">
+5.66 \[5.19, 6.45\]
+</td>
+<td class="lastrow">
+5.19 \[4.36, 6.26\]
+</td>
+<td class="lastrow">
+7.27 \[7.23, 7.31\]
+</td>
+<td class="lastrow">
+5.38 \[2.85, 7.77\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">region</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+North America
+</td>
+<td>
+2 (100%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+2 (1.3%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Latin America & Caribbean
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+21 (100%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+21 (13.5%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Western Europe
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+19 (100%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+19 (12.2%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Central & Eastern Europe
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+31 (100%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+31 (19.9%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Middle East & North Africa
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+19 (100%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+19 (12.2%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Sub-Saharan Africa
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+40 (100%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+40 (25.6%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+South Asia
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+7 (100%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+7 (4.5%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+East Asia
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+6 (100%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+6 (3.8%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Southeast Asia
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+9 (100%)
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+9 (5.8%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Australia & New Zealand
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+2 (100%)
+</td>
+<td class="lastrow">
+2 (1.3%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">economy\_gdpc</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+1.40 (0.0481)
+</td>
+<td>
+0.924 (0.210)
+</td>
+<td>
+1.37 (0.0988)
+</td>
+<td>
+1.04 (0.214)
+</td>
+<td>
+1.06 (0.347)
+</td>
+<td>
+0.455 (0.282)
+</td>
+<td>
+0.650 (0.211)
+</td>
+<td>
+1.24 (0.198)
+</td>
+<td>
+0.930 (0.309)
+</td>
+<td>
+1.34 (0.0488)
+</td>
+<td>
+0.911 (0.393)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+1.40 \[1.37, 1.43\]
+</td>
+<td>
+0.960 \[0.323, 1.23\]
+</td>
+<td>
+1.37 \[1.18, 1.61\]
+</td>
+<td>
+1.07 \[0.493, 1.27\]
+</td>
+<td>
+1.04 \[0.287, 1.68\]
+</td>
+<td>
+0.380 \[0.0260, 1.12\]
+</td>
+<td>
+0.677 \[0.350, 0.949\]
+</td>
+<td>
+1.31 \[0.948, 1.44\]
+</td>
+<td>
+0.807 \[0.574, 1.57\]
+</td>
+<td>
+1.34 \[1.30, 1.37\]
+</td>
+<td>
+0.960 \[0.0260, 1.68\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+1 (2.5%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+1 (0.6%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">govsupport</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+1.48 (0.0339)
+</td>
+<td>
+1.34 (0.173)
+</td>
+<td>
+1.50 (0.0967)
+</td>
+<td>
+1.33 (0.208)
+</td>
+<td>
+1.15 (0.263)
+</td>
+<td>
+0.940 (0.239)
+</td>
+<td>
+0.987 (0.297)
+</td>
+<td>
+1.33 (0.152)
+</td>
+<td>
+1.25 (0.141)
+</td>
+<td>
+1.55 (0.00636)
+</td>
+<td>
+1.22 (0.284)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+1.48 \[1.46, 1.51\]
+</td>
+<td>
+1.40 \[0.688, 1.48\]
+</td>
+<td>
+1.50 \[1.16, 1.62\]
+</td>
+<td>
+1.39 \[0.666, 1.54\]
+</td>
+<td>
+1.23 \[0.378, 1.46\]
+</td>
+<td>
+0.939 \[0.437, 1.40\]
+</td>
+<td>
+0.928 \[0.517, 1.32\]
+</td>
+<td>
+1.35 \[1.13, 1.53\]
+</td>
+<td>
+1.20 \[1.03, 1.46\]
+</td>
+<td>
+1.55 \[1.55, 1.56\]
+</td>
+<td>
+1.27 \[0.378, 1.62\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+1 (2.5%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+1 (0.6%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">health</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+0.957 (0.117)
+</td>
+<td>
+0.812 (0.106)
+</td>
+<td>
+1.01 (0.0232)
+</td>
+<td>
+0.825 (0.0905)
+</td>
+<td>
+0.751 (0.143)
+</td>
+<td>
+0.418 (0.138)
+</td>
+<td>
+0.617 (0.149)
+</td>
+<td>
+0.953 (0.168)
+</td>
+<td>
+0.745 (0.188)
+</td>
+<td>
+1.03 (0.00707)
+</td>
+<td>
+0.730 (0.236)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+0.957 \[0.874, 1.04\]
+</td>
+<td>
+0.831 \[0.449, 0.963\]
+</td>
+<td>
+0.999 \[0.986, 1.06\]
+</td>
+<td>
+0.818 \[0.657, 1.04\]
+</td>
+<td>
+0.795 \[0.440, 1.03\]
+</td>
+<td>
+0.428 \[0.105, 0.798\]
+</td>
+<td>
+0.604 \[0.361, 0.831\]
+</td>
+<td>
+0.975 \[0.667, 1.12\]
+</td>
+<td>
+0.660 \[0.551, 1.14\]
+</td>
+<td>
+1.03 \[1.03, 1.04\]
+</td>
+<td>
+0.789 \[0.105, 1.14\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+1 (2.5%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+1 (0.6%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">freedom</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+0.519 (0.0919)
+</td>
+<td>
+0.441 (0.128)
+</td>
+<td>
+0.487 (0.137)
+</td>
+<td>
+0.361 (0.114)
+</td>
+<td>
+0.318 (0.167)
+</td>
+<td>
+0.337 (0.118)
+</td>
+<td>
+0.451 (0.0743)
+</td>
+<td>
+0.372 (0.127)
+</td>
+<td>
+0.544 (0.0339)
+</td>
+<td>
+0.571 (0.0198)
+</td>
+<td>
+0.395 (0.140)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+0.519 \[0.454, 0.584\]
+</td>
+<td>
+0.489 \[0.0260, 0.558\]
+</td>
+<td>
+0.526 \[0.0670, 0.603\]
+</td>
+<td>
+0.346 \[0.178, 0.631\]
+</td>
+<td>
+0.305 \[0.0130, 0.598\]
+</td>
+<td>
+0.354 \[0.0100, 0.559\]
+</td>
+<td>
+0.464 \[0.313, 0.527\]
+</td>
+<td>
+0.396 \[0.159, 0.521\]
+</td>
+<td>
+0.547 \[0.491, 0.609\]
+</td>
+<td>
+0.571 \[0.557, 0.585\]
+</td>
+<td>
+0.417 \[0.0100, 0.631\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+1 (14.3%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+1 (0.6%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">generous</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+0.283 (0.00354)
+</td>
+<td>
+0.145 (0.0798)
+</td>
+<td>
+0.235 (0.0906)
+</td>
+<td>
+0.146 (0.0780)
+</td>
+<td>
+0.153 (0.0869)
+</td>
+<td>
+0.188 (0.0692)
+</td>
+<td>
+0.235 (0.0741)
+</td>
+<td>
+0.173 (0.0893)
+</td>
+<td>
+0.302 (0.149)
+</td>
+<td>
+0.331 (0.00141)
+</td>
+<td>
+0.186 (0.0944)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+0.283 \[0.280, 0.285\]
+</td>
+<td>
+0.126 \[0.0640, 0.419\]
+</td>
+<td>
+0.257 \[0.0470, 0.375\]
+</td>
+<td>
+0.137 \[0.0350, 0.322\]
+</td>
+<td>
+0.133 \[0.0360, 0.331\]
+</td>
+<td>
+0.198 \[0.0250, 0.372\]
+</td>
+<td>
+0.220 \[0.158, 0.370\]
+</td>
+<td>
+0.205 \[0.0580, 0.258\]
+</td>
+<td>
+0.266 \[0.117, 0.566\]
+</td>
+<td>
+0.331 \[0.330, 0.332\]
+</td>
+<td>
+0.178 \[0.0250, 0.566\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+1 (5.3%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+1 (0.6%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">trust</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+0.218 (0.127)
+</td>
+<td>
+0.0720 (0.0337)
+</td>
+<td>
+0.231 (0.127)
+</td>
+<td>
+0.0665 (0.0642)
+</td>
+<td>
+0.105 (0.0403)
+</td>
+<td>
+0.0945 (0.0690)
+</td>
+<td>
+0.0934 (0.0497)
+</td>
+<td>
+0.120 (0.0895)
+</td>
+<td>
+0.123 (0.136)
+</td>
+<td>
+0.335 (0.0636)
+</td>
+<td>
+0.111 (0.0944)
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Median \[Min, Max\]
+</td>
+<td>
+0.218 \[0.128, 0.308\]
+</td>
+<td>
+0.0740 \[0.0160, 0.150\]
+</td>
+<td>
+0.265 \[0.0250, 0.410\]
+</td>
+<td>
+0.0400 \[0.00400, 0.240\]
+</td>
+<td>
+0.106 \[0.0270, 0.182\]
+</td>
+<td>
+0.0855 \[0.0330, 0.411\]
+</td>
+<td>
+0.0890 \[0.0250, 0.167\]
+</td>
+<td>
+0.0985 \[0.0380, 0.287\]
+</td>
+<td>
+0.0730 \[0.0240, 0.453\]
+</td>
+<td>
+0.335 \[0.290, 0.380\]
+</td>
+<td>
+0.0860 \[0.00400, 0.453\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Missing
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+1 (3.2%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+0 (0%)
+</td>
+<td class="lastrow">
+1 (0.6%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">pop\_in\_millions</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Mean (SD)
+</td>
+<td>
+183 (206)
+</td>
+<td>
+29.9 (50.0)
+</td>
+<td>
+22.4 (27.1)
+</td>
+<td>
+13.3 (26.7)
+</td>
+<td>
+28.1 (30.3)
+</td>
+<td>
+25.6 (37.1)
+</td>
+<td>
+262 (494)
+</td>
+<td>
+268 (555)
+</td>
+<td>
+73.4 (82.9)
+</td>
+<td>
+15.2 (14.4)
+</td>
+<td>
+48.2 (161)
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Median \[Min, Max\]
+</td>
+<td class="lastrow">
+183 \[37.6, 328\]
+</td>
+<td class="lastrow">
+11.3 \[1.39, 211\]
+</td>
+<td class="lastrow">
+10.3 \[0.361, 83.1\]
+</td>
+<td class="lastrow">
+5.45 \[0.326, 144\]
+</td>
+<td class="lastrow">
+11.7 \[1.64, 100\]
+</td>
+<td class="lastrow">
+15.0 \[0.851, 201\]
+</td>
+<td class="lastrow">
+38.0 \[0.763, 1370\]
+</td>
+<td class="lastrow">
+37.7 \[3.23, 1400\]
+</td>
+<td class="lastrow">
+54.0 \[5.70, 271\]
+</td>
+<td class="lastrow">
+15.2 \[4.98, 25.4\]
+</td>
+<td class="lastrow">
+11.4 \[0.326, 1400\]
+</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">
+<span class="varlabel">pop\_size</span>
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+<td class="firstrow">
+</td>
+</tr>
+<tr>
+<td class="rowlabel">
+Small
+</td>
+<td>
+0 (0%)
+</td>
+<td>
+11 (52.4%)
+</td>
+<td>
+12 (63.2%)
+</td>
+<td>
+25 (80.6%)
+</td>
+<td>
+9 (47.4%)
+</td>
+<td>
+15 (37.5%)
+</td>
+<td>
+1 (14.3%)
+</td>
+<td>
+2 (33.3%)
+</td>
+<td>
+2 (22.2%)
+</td>
+<td>
+1 (50.0%)
+</td>
+<td>
+78 (50.0%)
+</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">
+Large
+</td>
+<td class="lastrow">
+2 (100%)
+</td>
+<td class="lastrow">
+10 (47.6%)
+</td>
+<td class="lastrow">
+7 (36.8%)
+</td>
+<td class="lastrow">
+6 (19.4%)
+</td>
+<td class="lastrow">
+10 (52.6%)
+</td>
+<td class="lastrow">
+25 (62.5%)
+</td>
+<td class="lastrow">
+6 (85.7%)
+</td>
+<td class="lastrow">
+4 (66.7%)
+</td>
+<td class="lastrow">
+7 (77.8%)
+</td>
+<td class="lastrow">
+1 (50.0%)
+</td>
+<td class="lastrow">
+78 (50.0%)
+</td>
+</tr>
+</tbody>
+</table>
+
+"
 
 <br />
 
@@ -355,9 +1924,13 @@ statistical power of our models.
 
 ![](unnamed-chunk-10-1.png)
 
+<br />
+
 ### Missing Data Pattern
 
 ![](unnamed-chunk-11-1.png)
+
+<br />
 
 ### Omitting Data
 
@@ -392,6 +1965,8 @@ happy regions in the world in 2019. Economic disparities among the
 regions as well as varying levels of political freedoms could have
 played an integral role in this outcome.
 
+<br />
+
 #### Mean Value Distribution of GDP per capita, Social Support, and Life Expectancy by Region
 
 ![](unnamed-chunk-15-1.png)
@@ -399,6 +1974,8 @@ played an integral role in this outcome.
 Continuing along this analysis, it appears that there is repeating
 pattern. The three happiest regions outlined above are also the top
 performers among these three variables. The opposite is also true.
+
+<br />
 
 #### Mean Value Distribution of Freedom, Generosity, and Trust (Government Corruption) by Region
 
@@ -454,6 +2031,9 @@ relationship between these variables is more or less linear.
 #### Scatter Plot
 
 ![](unnamed-chunk-19-1.png)
+<br />
+
+------------------------------------------------------------------------
 
 #### Scatter Plot with Fitted Line
 
@@ -1619,23 +3199,9 @@ as a close second.
 
 **NOTE:** Model 3 was used as the reference/baseline group.
 
-    ## Analysis of Variance Table
-    ## 
-    ## Model 1: hscore ~ economy_gdpc + govsupport + health + freedom + generous + 
-    ##     trust + pop_size
-    ## Model 2: hscore ~ economy_gdpc * health + economy_gdpc + govsupport + 
-    ##     health + freedom + generous + trust + pop_size
-    ## Model 3: hscore ~ economy_gdpc * health + economy_gdpc + govsupport + 
-    ##     health + freedom + generous + trust + pop_size + region
-    ## Model 4: hscore ~ economy_gdpc + govsupport + health + freedom + generous + 
-    ##     trust + pop_size + region
-    ##   Res.Df    RSS Df Sum of Sq       F    Pr(>F)    
-    ## 1    142 41.175                                   
-    ## 2    141 37.965  1    3.2100 14.2401 0.0002421 ***
-    ## 3    132 29.756  9    8.2095  4.0464 0.0001340 ***
-    ## 4    133 31.905 -1   -2.1489  9.5326 0.0024608 ** 
-    ## ---
-    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Res.Df"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["RSS"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["Df"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["Sum of Sq"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["F"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["Pr(>F)"],"name":[6],"type":["dbl"],"align":["right"]}],"data":[{"1":"142","2":"41.17546","3":"NA","4":"NA","5":"NA","6":"NA","_rn_":"1"},{"1":"141","2":"37.96541","3":"1","4":"3.210050","5":"14.240075","6":"0.0002420976","_rn_":"2"},{"1":"132","2":"29.75592","3":"9","4":"8.209488","5":"4.046449","6":"0.0001340273","_rn_":"3"},{"1":"133","2":"31.90480","3":"-1","4":"-2.148879","5":"9.532623","6":"0.0024607602","_rn_":"4"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
 
 <br />
 
@@ -1680,10 +3246,10 @@ ergo, a good model.
 
     vif(lm4)
 
-    ##        economy_gdpc              health          govsupport             freedom 
-    ##           20.453171           11.309055            2.631177            1.588490 
-    ##            generous               trust            pop_size economy_gdpc:health 
-    ##            1.236928            1.825298            1.081174           44.887179
+       economy_gdpc              health          govsupport             freedom 
+          20.453171           11.309055            2.631177            1.588490 
+           generous               trust            pop_size economy_gdpc:health 
+           1.236928            1.825298            1.081174           44.887179 
 
 <br />
 
@@ -1701,6 +3267,8 @@ variables in Model 4 are liner. This can be seen in both plots. For plot
 as well as correlation ellipses.
 
 <br />
+
+------------------------------------------------------------------------
 
 #### Normality
 
@@ -1737,17 +3305,19 @@ Therefore, we can *fail to reject* the null hypothesis that the
 
 <br />
 
+------------------------------------------------------------------------
+
 #### Homoskedasticity.
 
 ![](unnamed-chunk-33-1.png)
 
 <br />
 
-    ## 
-    ##  studentized Breusch-Pagan test
-    ## 
-    ## data:  lm4
-    ## BP = 14.535, df = 8, p-value = 0.06885
+------------------------------------------------------------------------
+
+    studentized Breusch-Pagan test
+
+data: lm4 BP = 14.535, df = 8, p-value = 0.06885
 
 Going off of the *Residual vs. Fitted* model, there does not appear to
 any glaring sign of the infamous cone shape. Moreover, the residuals
@@ -1761,6 +3331,8 @@ p-value of “**0.06885**”, greater than the p-value of **0.05**, we can
 *fail to reject* the null hypothesis in favor of *homoskedasticity.*
 
 <br />
+
+------------------------------------------------------------------------
 
 #### Outliers
 
