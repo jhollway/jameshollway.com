@@ -36,36 +36,29 @@ Since 2011, the international community has sought to achieve corporate
 respect for international standards aimed at securing dignity and
 equality for all through the multi-level, multi-stakeholder,
 transnational, and relational governance system advocated by the United
-Nations Guiding Principles for Business and Human Rights (UNGPs)
-\[@assadiDiscourseHumanRights2011;
-@backerGovernancePolycentrismHierarchy2014;
-@burgerBiPolarPolycentricApproaches2003;
-@prenkertConflictMineralsPolycentric2014\]. This innovative governance
-tool has called for several actors to take action at multiple levels to
-strengthen corporate human rights due diligence
-\[@backerGovernancePolycentrismHierarchy2014;
-@burgerBiPolarPolycentricApproaches2003;
-@taylorRuggieFrameworkPolycentric2011\]. Yet, ten years after their
-unanimous endorsement by the Human Rights Council and despite corporate
-pledges to redefine its role with society and the environment, UNGP
-adoption remains despairingly low, and allegations of severe negative
-human rights impacts by transnational companies continue to rise. This
-has been captured by different benchmarks ranking corporate commitments
-and actions to respect human rights
-\[@businesshumanrightsresourcecentreSteepRiseAllegations2014;
-@salcitoCorporateHumanRights2015b\].
+Nations Guiding Principles for Business and Human Rights (UNGPs) (Assadi
+2011; Backer 2014; Burger 2003; Prenkert 2014). This innovative
+governance tool has called for several actors to take action at multiple
+levels to strengthen corporate human rights due diligence (Backer 2014;
+Burger 2003; Taylor 2011). Yet, ten years after their unanimous
+endorsement by the Human Rights Council and despite corporate pledges to
+redefine its role with society and the environment, UNGP adoption
+remains despairingly low, and allegations of severe negative human
+rights impacts by transnational companies continue to rise. This has
+been captured by different benchmarks ranking corporate commitments and
+actions to respect human rights (Human Rights Resource Centre 2014;
+Salcito, Wielga, and Singer 2015).
 
 However, at a time when allegations of severe negative human rights
 impacts by transnational companies continue to rise, corporate
 membership to industry associations seems to signal an improvement in
-practices \[@ecclesHumanRightsReally2020;
-@hoganIrishBusinessHuman2020;@humanrightswatchWorldReport20202020). This
-literature suggests that, when it comes to social sustainability,
-companies are more responsive to private peer-to-peer governance
-structures than they are to governments threats of heightened
+practices (Eccles (2020); Hogan, Rhodes, and Lawlor (2020);Watch
+(2020)). This literature suggests that, when it comes to social
+sustainability, companies are more responsive to private peer-to-peer
+governance structures than they are to governments threats of heightened
 regulation, changes in the institutional investment environment, and
-pressure from civil society groups \[@linInstitutionalOwnershipPeer2017;
-@marquisInstitutionalEquivalenceHow2016; @rosenbergJoinClubHow2011\].
+pressure from civil society groups (Lin, Mao, and Wang 2017; Marquis and
+Tilcsik 2016; Rosenberg 2011).
 
 # 2. Research proposition and hypothesis
 
@@ -109,7 +102,7 @@ different regions, and ten companies per industry to ensure a minimum of
 geographical and industry balance in the pool of assessed firms. As a
 result of this sampling bias, nevertheless, it is unlikely that a clear
 differentiation between laggard and leader regions and industries can be
-drawn \[@chrbCHRBMethodology2021\].
+drawn (CHRB 2021).
 
 Whilst there are not quantitative base units to measure corporate human
 rights performance the benchmark used here is widely employed in the
@@ -179,7 +172,7 @@ numerical continuous variable with a maximum score of 12 points.
 Assesses the extent of a company’s systems and processes established to
 implement the company’s policy commitments in practice. It comprises
 \[9\] “Embedding Respect (Score/2)” and \[10\] “Human Rights Due
-Diligence (Score/10)”, both of which are numerical continuous variables.
+Diligence (Score/10),” both of which are numerical continuous variables.
 
 \[8\] “Remedy (Remedies & Grievance Mechanisms, Score/6)”: numerical
 continuous variable with a maximum score of 6 points. Focuses on the
@@ -405,7 +398,7 @@ logistic regression model. This model is used given its suitability to
 assess the relationship between a binary response variable (yes/no
 membership) and other explanatory variables, granted that it satisfies
 the following main assumptions
-\[@statisticssolutionsAssumptionIndependence2015\]:
+(**statisticssolutionsAssumptionIndependence2015?**):
 
 1.  Appropriate outcome structure. The dependent variable needs to be
     binary and in this case it refers to whether companies face
@@ -1165,9 +1158,9 @@ The ROCs and AUCs for Models 2 and 4 are show in Figure X below. Both
 models have a fair performance, which explains why the ROC curves for
 Model 2 and Model 4 overlap and their AUC values are the same (0.73).
 
-    ## Warning in verify_d(data$d): D not labeled 0/1, assuming 1 = 0 and 2 = 1!
+    ## Warning in verify_d(data$d): D not labeled 0/1, assuming No = 0 and Yes = 1!
 
-    ## Warning in verify_d(data$d): D not labeled 0/1, assuming 1 = 0 and 2 = 1!
+    ## Warning in verify_d(data$d): D not labeled 0/1, assuming No = 0 and Yes = 1!
 
 ![](unnamed-chunk-18-1.png)
 
@@ -1325,7 +1318,7 @@ Nations Global Compact and industry-specific groupings are both
 positively associated with companies facing allegations of negative
 human rights impacts in 2019. This counter-intuitive result provides an
 opportunity to reassess this research’s theory and estimation procedures
-\[@kennedyOhNoGot2005\]. Theory wise, it could be that the membership
+(Kennedy 2005). Theory wise, it could be that the membership
 requirements to join both the UNGC and industry associations are low,
 which means that companies with poor corporate human rights performance
 are able to join. This also suggests the presence of an issue with
@@ -1915,3 +1908,70 @@ log-Likelihood
 </table>
 
 # 7. Bibliography
+
+Assadi, Muzaffar. 2011. “Discourse on Human Rights: Narratives Beyond
+"Political".” *The Indian Journal of Political Science* 72 (2): 377–86.
+<http://www.jstor.org/stable/42761422>.
+
+Backer, Larry Catá. 2014. “Governance Polycentrism – Hierarchy and Order
+Without Government in Business and Human Rights Regulation.” SSRN
+Scholarly Paper ID 2373734. Rochester, NY: Social Science Research
+Network. <https://doi.org/10.2139/ssrn.2373734>.
+
+Burger, Michael. 2003. “Bi-Polar and Polycentric Approaches to Human
+Rights and the Environment.” *Columbia Journal of Environmental Law* 28
+(2): 371–94.
+<https://heinonline.org/HOL/P?h=hein.journals/cjel28&i=377>.
+
+CHRB. 2021. “CHRB Methodology.” Corporate Human Rights Benchmark. 2021.
+<https://www.corporatebenchmark.org/chrb-methodology>.
+
+Eccles, Robert G. 2020. “Human Rights Really Aren’t All That Important:
+Just Ask 200 Leading Companies.” Forbes. March 9, 2020.
+<https://www.forbes.com/sites/bobeccles/2020/03/09/human-rights-really-arent-all-that-important-just-ask-200-leading-companies/>.
+
+Hogan, Benn F, ML Rhodes, and Mary Lawlor. 2020. “Irish Business and
+Human Rights,” November, 42.
+
+Human Rights Resource Centre, Business &. 2014. “Steep Rise in
+Allegations of Human Rights Abuse as Boom in Investment Brings Hope of
+Prosperity. Business and Human Rights in Eastern Africa: A Regional
+Briefing Paper.” Business & Human Rights Resource Centre.
+<https://media.business-humanrights.org/media/documents/files/media/documents/eastern-afr-briefing-bus-human-rights-apr-2014.pdf>.
+
+Kennedy, Peter E. 2005. “Oh No! I Got the Wrong Sign! What Should I Do?”
+*The Journal of Economic Education* 36 (1): 77–92.
+<https://doi.org/10.3200/JECE.36.1.77-92>.
+
+Lin, Yupeng, Ying Mao, and Zheng Wang. 2017. “Institutional Ownership,
+Peer Pressure, and Voluntary Disclosures.” *The Accounting Review* 93
+(4): 283–308. <https://doi.org/10.2308/accr-51945>.
+
+Marquis, Christopher, and András Tilcsik. 2016. “Institutional
+Equivalence: How Industry and Community Peers Influence Corporate
+Philanthropy.” *Organization Science* 27 (5): 1325–41.
+<https://doi.org/10.1287/orsc.2016.1083>.
+
+Prenkert, Jamie Darin. 2014. “Conflict Minerals and Polycentric
+Governance of Business and Human Rights.” In *Law, Business and Human
+Rights*, by Robert Bird, Daniel Cahoy, and Jamie Prenkert, 203–29.
+Edward Elgar Publishing. <https://doi.org/10.4337/9781782546627.00015>.
+
+Rosenberg, Tina. 2011. *Join the Club: How Peer Pressure Can Transform
+the World*. W. W. Norton & Company.
+
+Salcito, Kendyl, Chris Wielga, and Burton H. Singer. 2015. “Corporate
+Human Rights Commitments and the Psychology of Business Acceptance of
+Human Rights Duties: A Multi-Industry Analysis.” *The International
+Journal of Human Rights* 19 (6): 673–96.
+<https://doi.org/10.1080/13642987.2015.1029284>.
+
+Taylor, Mark B. 2011. “The Ruggie Framework: Polycentric Regulation and
+the Implications for Corporate Social Responsibility.” *Etikk i Praksis
+- Nordic Journal of Applied Ethics* 5 (1): 9–30.
+<https://doi.org/10.5324/eip.v5i1.1731>.
+
+Watch, Human Rights. 2020. “World Report 2020: Rights Trends in Holding
+Companies to Account: Momentum Builds for Corporate Human Rights
+Duties.” Human Rights Watch. January 2020.
+<https://www.hrw.org/world-report/2020/country-chapters/global-2>.
