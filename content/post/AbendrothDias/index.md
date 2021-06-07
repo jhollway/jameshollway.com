@@ -375,7 +375,7 @@ development of AI within this sample in the US.
 
     hist(AI_Importance$SupportAIdev)
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+![](unnamed-chunk-2-1.png)
 
     model <- lm(SupportAIdev ~ age + gender + race + educ + maritalstatus + employ + pid + ideology + religpew + Collegelevelprogramming + engineeringcompsciencedegree + gradcompeng + programexperience + noeducationalcompexp, data = AI_Importance) 
     summary(model)
@@ -422,13 +422,13 @@ development of AI within this sample in the US.
     bargender + ggtitle("Support for AI development by gender: Male vs Female")  +
       xlab("Gender") + ylab("Support for AI development") 
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![](unnamed-chunk-6-1.png)
 
     barage<-ggplot(data=AI_Importance, aes (x=age,  y=SupportAIdev)) + geom_bar(stat="identity", fill="deepskyblue3")+theme_minimal()
     barage + ggtitle("Support for AI development by age: Born on or after 1990 vs before 1990")  +
       xlab("Age") + ylab("Support for AI development")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-6-2.png)
+![](unnamed-chunk-6-2.png)
 This shows that those born before 1990 are more likely to support AI
 development. However, it must be noted that this cut off point was
 arbitrary, based on birth year data - and it would be interesting to
@@ -439,67 +439,67 @@ etc.
     barrace + ggtitle("Support for AI development by race: White-Black-Hispanic-Asian-Native American-Mixed-Other-Middle Eastern-Skipped-Not Asked") +
       xlab("Race") + ylab("Support for AI development")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-7-1.png)
+![](unnamed-chunk-7-1.png)
 
     bareduc<-ggplot(data=AI_Importance, aes (x=educ,  y=SupportAIdev)) + geom_bar(stat="identity", fill="slateblue")+theme_minimal()
     bareduc + ggtitle("Support for AI development by Education") + 
       xlab("Education level") + ylab("Support for AI development")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-7-2.png)
+![](unnamed-chunk-7-2.png)
 
     barmaritalstatus<-ggplot(data=AI_Importance, aes (x=maritalstatus,  y=SupportAIdev)) + geom_bar(stat="identity", fill="springgreen2")+theme_minimal()
     barmaritalstatus + ggtitle("Support for AI development by Marital Status") + 
       xlab("Marital Status") + ylab("Support for AI development")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-7-3.png)
+![](unnamed-chunk-7-3.png)
 
     baremployment<-ggplot(data=AI_Importance, aes (x=employ,  y=SupportAIdev)) + geom_bar(stat="identity", fill="burlywood")+theme_minimal()
     baremployment + ggtitle("Support for AI development by Employment Status") + 
       xlab("Employment Status") + ylab("Support for AI development")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-7-4.png)
+![](unnamed-chunk-7-4.png)
 
     barpoliticalidentity<-ggplot(data=AI_Importance, aes (x=pid,  y=SupportAIdev)) + geom_bar(stat="identity", fill="lightseagreen")+theme_minimal()
     barpoliticalidentity + ggtitle("Support for AI development by Political Identity") + 
       xlab("Political Identity") + ylab("Support for AI development")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-7-5.png)
+![](unnamed-chunk-7-5.png)
 
     barideology<-ggplot(data=AI_Importance, aes (x=ideology,  y=SupportAIdev)) + geom_bar(stat="identity", fill="springgreen4")+theme_minimal()
     barideology + ggtitle("Support for AI development by Political Ideology") + 
       xlab("Political Ideology") + ylab("Support for AI development")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-7-6.png)
+![](unnamed-chunk-7-6.png)
 
     barreligion<-ggplot(data=AI_Importance, aes (x=religpew,  y=SupportAIdev)) + geom_bar(stat="identity", fill="navyblue")+theme_minimal()
     barreligion + ggtitle("Support for AI development by Religion") + 
       xlab("Religious Identity") + ylab("Support for AI development")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-7-7.png)
+![](unnamed-chunk-7-7.png)
 
     barcollegeprogramming<-ggplot(data=AI_Importance, aes (x=Collegelevelprogramming,  y=SupportAIdev)) + geom_bar(stat="identity", fill="turquoise4")+theme_minimal()
     barcollegeprogramming + ggtitle("Support for AI development by Experience in College Level Programming") + 
       xlab("College Level Programming") + ylab("Support for AI development")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-7-8.png)
+![](unnamed-chunk-7-8.png)
 
     barengineering<-ggplot(data=AI_Importance, aes (x=engineeringcompsciencedegree,  y=SupportAIdev)) + geom_bar(stat="identity", fill="mediumpurple4")+theme_minimal()
     barengineering + ggtitle("Support for AI development by Engineering or Computer Science Bachelor's Degree") + 
       xlab("Comp Science or Engineering Bach degree") + ylab("Support for AI development")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-7-9.png)
+![](unnamed-chunk-7-9.png)
 
     barcompgrad<-ggplot(data=AI_Importance, aes (x=gradcompeng,  y=SupportAIdev)) + geom_bar(stat="identity", fill="red4")+theme_minimal()
     barcompgrad + ggtitle("Support for AI development by Graduate Engineering or Comp Science degree") + 
       xlab("Graduate degree in Engineering or Comp Science") + ylab("Support for AI development")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-7-10.png)
+![](unnamed-chunk-7-10.png)
 
     barprogramex<-ggplot(data=AI_Importance, aes (x=programexperience,  y=SupportAIdev)) + geom_bar(stat="identity", fill="aquamarine4")+theme_minimal()
     barprogramex + ggtitle("Support for AI development by prior programming experience") + 
       xlab("Programming Experience") + ylab("Support for AI development")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-7-11.png)
+![](unnamed-chunk-7-11.png)
 
 There is significance variance across demographic subgroups for support
 for the development of AI, with gender, education, income, and
@@ -2396,13 +2396,13 @@ as are Protestants and Roman Catholics.
     barGoogle + ggtitle("Confidence in Google to develop AI in best interests of public by gender") + 
       xlab("Gender") + ylab("Confidence")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-10-1.png)
+![](unnamed-chunk-10-1.png)
 
     barGooglereligion<-ggplot(data=AI_Importance, aes (x=religpew,  y=Google)) + geom_bar(stat="identity", fill="lightseagreen")+theme_minimal()
     barGooglereligion + ggtitle("Confidence in Google to develop AI in best interests of public by religion") + 
       xlab("Gender") + ylab("Confidence")
 
-![](FINALPROJECT_ABENDROTHDIAS_rev_files/figure-markdown_strict/unnamed-chunk-10-2.png)
+![](unnamed-chunk-10-2.png)
 
 # Discussion, Limitations, and Conclusion
 
