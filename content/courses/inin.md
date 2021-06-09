@@ -15,6 +15,8 @@ Please find the most recent version of the syllabus [here](MINT038_Syllabus_2021
 
 I'll link to them here as they come in.
 
+- [Michael Atkinson](https://michael-atkinson-20953.medium.com/what-is-the-biggest-challenge-the-institutional-governance-of-emissions-from-deforestation-and-35f96ba75ec2)
+
 - [Hugo Brandam](https://hugo-brandam.medium.com/how-is-un-water-getting-the-work-done-in-global-water-governance-60918a3f7be5)
 
 - [Laure Burg](https://laureburg.wixsite.com/landdegradation/post/land-degradation-neutrality-challenges-in-governance)
@@ -28,3 +30,5 @@ I'll link to them here as they come in.
 - [Brady Nevins](https://unccd811236974.wordpress.com/analysis-2/)
 
 - [Sonja Plüss](https://sonjapluss.wixsite.com/website/post/theinternationalterrainofsoilbiodiversitygovernance-challengesandopportunities)
+
+- [Manoswini Sarkar](https://manoswini-sarkar.medium.com/governance-of-biodiversity-f5bca5deb401)
