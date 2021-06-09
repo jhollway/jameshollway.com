@@ -1,7 +1,6 @@
-﻿---
-title: "Sustainable PowerEarth: energy use and environmental implications"
-subtitle: International Environmental Institutions
-author: "Alexa P. Calderón Rodríguez"
+---
+title: "Sustainable PowerEarth: Energy use and environmental implications"
+subtitle: "Alexa P. Calderón Rodríguez - International Environmental Institutions"
 date: 2021-06-09
 math: true
 diagram: true
