@@ -25,11 +25,15 @@ I'll link to them here as they come in.
 
 - [Annia Costermani](https://annia-costermani.medium.com/regime-complexity-of-international-forest-governance-7b2a2a01ec99)
 
+- [Filippo De Gennaro](https://drowning-in-the-rising-tide.blogspot.com/2021/06/drowning-in-rising-tide-governing-sea.html)
+
 - [Aravind Ganapathi](https://aravindganapathi4.medium.com/lack-of-wash-the-beginning-of-an-international-environmental-issue-441a4753ae53)
 
 - [Iida Lehto](https://iidalehto0.wixsite.com/my-site/post/manage-your-blog-from-your-live-site)
 
 - [Brady Nevins](https://unccd811236974.wordpress.com/analysis-2/)
+
+- [Mathilde Pasta](https://mathilde-pasta.medium.com/loss-of-biological-and-cultural-diversity-in-the-face-of-climate-change-35de96deeb32)
 
 - [Sonja Plüss](https://sonjapluss.wixsite.com/website/post/theinternationalterrainofsoilbiodiversitygovernance-challengesandopportunities)
 
