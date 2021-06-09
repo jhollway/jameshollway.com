@@ -9,7 +9,7 @@ MINT038 - Spring 2021
 
 ## Syllabus
 
-Please find the most recent version of the syllabus [here](MINT038_Syllabus_2020-02-17.pdf)
+Please find the most recent version of the syllabus [here](MINT038_Syllabus_2021-04-29.pdf)
 
 ## Final blog posts
 
