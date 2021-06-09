@@ -15,8 +15,14 @@ Please find the most recent version of the syllabus [here](MINT038_Syllabus_2021
 
 I'll link to them here as they come in.
 
+- [Hugo Brandam](https://hugo-brandam.medium.com/how-is-un-water-getting-the-work-done-in-global-water-governance-60918a3f7be5)
+
+- [Laure Burg](https://laureburg.wixsite.com/landdegradation/post/land-degradation-neutrality-challenges-in-governance)
+
 - [Annia Costermani](https://annia-costermani.medium.com/regime-complexity-of-international-forest-governance-7b2a2a01ec99)
 
 - [Aravind Ganapathi](https://aravindganapathi4.medium.com/lack-of-wash-the-beginning-of-an-international-environmental-issue-441a4753ae53)
+
+- [Brady Nevins](https://unccd811236974.wordpress.com/analysis-2/)
 
 - [Sonja Plüss](https://sonjapluss.wixsite.com/website/post/theinternationalterrainofsoilbiodiversitygovernance-challengesandopportunities)
