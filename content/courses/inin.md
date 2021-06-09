@@ -27,6 +27,8 @@ I'll link to them here as they come in.
 
 - [Aravind Ganapathi](https://aravindganapathi4.medium.com/lack-of-wash-the-beginning-of-an-international-environmental-issue-441a4753ae53)
 
+- [Iida Lehto](https://iidalehto0.wixsite.com/my-site/post/manage-your-blog-from-your-live-site)
+
 - [Brady Nevins](https://unccd811236974.wordpress.com/analysis-2/)
 
 - [Sonja Plüss](https://sonjapluss.wixsite.com/website/post/theinternationalterrainofsoilbiodiversitygovernance-challengesandopportunities)
