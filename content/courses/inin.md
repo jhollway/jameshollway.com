@@ -32,3 +32,5 @@ I'll link to them here as they come in.
 - [Sonja Plüss](https://sonjapluss.wixsite.com/website/post/theinternationalterrainofsoilbiodiversitygovernance-challengesandopportunities)
 
 - [Manoswini Sarkar](https://manoswini-sarkar.medium.com/governance-of-biodiversity-f5bca5deb401)
+
+- [Erika Tascon](https://erika-tascon.medium.com/hazardous-waste-the-basel-convention-8363bfd19504)
