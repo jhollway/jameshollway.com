@@ -33,7 +33,11 @@ I'll link to them here as they come in.
 
 - [Brady Nevins](https://unccd811236974.wordpress.com/analysis-2/)
 
+- [Laura Nijssen](https://theglobalgreengraduate.blogspot.com/2021/06/natural-disasters-international.html)
+
 - [Mathilde Pasta](https://mathilde-pasta.medium.com/loss-of-biological-and-cultural-diversity-in-the-face-of-climate-change-35de96deeb32)
+
+- [Esther Peev](https://landdegradationblog.com/)
 
 - [Sonja Plüss](https://sonjapluss.wixsite.com/website/post/theinternationalterrainofsoilbiodiversitygovernance-challengesandopportunities)
 
