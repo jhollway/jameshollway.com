@@ -35,6 +35,8 @@ I'll link to them here as they come in.
 
 - [Iida Lehto](https://iidalehto0.wixsite.com/my-site/post/manage-your-blog-from-your-live-site)
 
+- [Bastian Moulin](https://bastian-moulin.medium.com/perspectives-et-d%C3%A9fis-de-laccord-cadre-sur-la-co op%C3%A9ration-dans-le-bassin-du-fleuve-nil-ab98b48e6625)
+
 - [Brady Nevins](https://unccd811236974.wordpress.com/analysis-2/)
 
 - [Laura Nijssen](https://theglobalgreengraduate.blogspot.com/2021/06/natural-disasters-international.html)
@@ -42,6 +44,8 @@ I'll link to them here as they come in.
 - [Mathilde Pasta](https://mathilde-pasta.medium.com/loss-of-biological-and-cultural-diversity-in-the-face-of-climate-change-35de96deeb32)
 
 - [Esther Peev](https://landdegradationblog.com/)
+
+- [Clementine Pierrefeu](https://mint038redd.wordpress.com/)
 
 - [Sonja Plüss](https://sonjapluss.wixsite.com/website/post/theinternationalterrainofsoilbiodiversitygovernance-challengesandopportunities)
 
