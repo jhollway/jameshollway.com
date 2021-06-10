@@ -45,6 +45,12 @@ I'll link to them here as they come in.
 
 - [Sonja Plüss](https://sonjapluss.wixsite.com/website/post/theinternationalterrainofsoilbiodiversitygovernance-challengesandopportunities)
 
+- [Khaliun Purevsuren](https://khaliunpurevsuren.wixsite.com/groundwaterlive/post/governing-the-hidden-calamity-groundwater-governance)
+
+- [Nicolle Renion](https://nicollerenion.medium.com/fishy-business-how-international-environmental-institutions-are-failing-the-fishes-1d150e4d954c)
+
+- [Daniela Salazar](https://danielasalazar84.wixsite.com/mindsetchange)
+
 - [Manoswini Sarkar](https://manoswini-sarkar.medium.com/governance-of-biodiversity-f5bca5deb401)
 
 - [Erika Tascon](https://erika-tascon.medium.com/hazardous-waste-the-basel-convention-8363bfd19504)
