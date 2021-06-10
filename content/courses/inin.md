@@ -54,3 +54,9 @@ I'll link to them here as they come in.
 - [Manoswini Sarkar](https://manoswini-sarkar.medium.com/governance-of-biodiversity-f5bca5deb401)
 
 - [Erika Tascon](https://erika-tascon.medium.com/hazardous-waste-the-basel-convention-8363bfd19504)
+
+- [Devika Vohra](https://devikavohraa.wixsite.com/website/post/nexus-of-international-institutions-overpopulation-and-waste-management)
+
+- [Jiae Yang](https://carotte.tistory.com/1)
+
+- [Li Zhang](https://stopdeforestationgovernance.wordpress.com/)
