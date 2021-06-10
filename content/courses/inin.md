@@ -27,6 +27,10 @@ I'll link to them here as they come in.
 
 - [Filippo De Gennaro](https://drowning-in-the-rising-tide.blogspot.com/2021/06/drowning-in-rising-tide-governing-sea.html)
 
+- [Camille François](https://environmentalinstitutions.wordpress.com/)
+
+- [Cherish Gamanya](https://cherishblog950073176.wordpress.com/2021/06/09/the-vicious-cycle-of-land-degradation-factors-consequences-and-governance/)
+
 - [Aravind Ganapathi](https://aravindganapathi4.medium.com/lack-of-wash-the-beginning-of-an-international-environmental-issue-441a4753ae53)
 
 - [Iida Lehto](https://iidalehto0.wixsite.com/my-site/post/manage-your-blog-from-your-live-site)
