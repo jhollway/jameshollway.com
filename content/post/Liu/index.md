@@ -1,7 +1,6 @@
 ---
 title: Logistic Regression Report
-subtitle: Statistics for International Relations Research II
-author: Shanling Liu
+subtitle: Shanling Liu - Statistics for International Relations Research II
 date: 2021-06-01
 math: true
 diagram: true

@@ -1,7 +1,6 @@
 ---
 title: "Business associations and allegations of human rights wrongdoings"
-subtitle: Statistics for International Relations Research II
-author: "Andrea Biswas Tortajada"
+subtitle: Andrea Biswas Tortajada - Statistics for International Relations Research II
 date: 2021-06-01
 math: true
 diagram: true

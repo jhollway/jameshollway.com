@@ -1,7 +1,6 @@
 ---
 title: Attitudes towards AI development
-subtitle: Statistics for International Relations Research II
-author: Kulani Abendroth Dias
+subtitle: Kulani Abendroth-Dias - Statistics for International Relations Research II
 date: 2021-06-06
 math: true
 diagram: true

@@ -1,7 +1,6 @@
 ---
 title: "Demographic shifts and immigration attitudes"
-subtitle: Statistics for International Relations Research II
-author: Julia Greene
+subtitle: Julia Greene - Statistics for International Relations Research II
 date: 2021-06-01
 math: true
 diagram: true
