@@ -4,3 +4,9 @@ date: "2015-06-01"
 authors: ["James Hollway"]
 tags: [fall]
 ---
+
+RISP093 - Fall 2021
+
+## Syllabus
+
+Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021-09-19.pdf)
