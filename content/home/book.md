@@ -48,7 +48,7 @@ hero_media = "9781108833509pvs01.jpg"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = "Out May 2021"
+  label = "Out now!"
   # label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
