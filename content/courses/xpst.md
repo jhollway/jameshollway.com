@@ -1,8 +1,8 @@
 ---
 title: "Professional Skills Training"
 date: "2020-10-22"
-authors: ["James Hollway", "Melanie Kolbe"]
-tags: [current]
+authors: ["James Hollway", "Melanie Kolbe", "Sungmin Rho"]
+tags: [fall]
 ---
 
 Since 2015, Professor Kolbe and I have offered sessions to both our masters and doctoral students
