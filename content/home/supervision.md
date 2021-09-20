@@ -53,6 +53,7 @@ subtitle = ""
 I am happy to supervise masters and doctoral dissertations on a broad range of topics and using a broad range of theories and methods.
 To give you a sense of the range, here are some snippets of dissertation titles I have supervised in the last few years:
 
+- “The EU's path towards a circular economy for plastics”
 - “Stakeholder perspectives on the Arctic Council”
 - “Integrating human rights principles in protected areas”
 - “Sustainable sources of MPA funding in the Mediterranean”
