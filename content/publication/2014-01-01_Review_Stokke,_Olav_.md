@@ -3,7 +3,7 @@ title: "Review: Stokke, Olav Schram. 2012. Disaggregating international regimes:
 date: "2014-01-01"
 authors: ["James Hollway"]
 publication_types: ["2"]
-publication: "Global Environmental Politics, (14), 2, _pp. 131--132_"
-publication_short: "Global Environmental Politics, (14), 2, _pp. 131--132_"
+publication: "_Global Environmental Politics_, (14), 2, pp. 131--132"
+publication_short: "_Global Environmental Politics_, (14), 2, pp. 131--132"
 tags: [fisheries]
 ---
