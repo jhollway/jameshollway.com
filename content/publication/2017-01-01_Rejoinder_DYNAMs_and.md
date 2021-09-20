@@ -3,7 +3,7 @@ title: "Rejoinder: DYNAMs and the grounds for actor-oriented network event model
 date: "2017-01-01"
 authors: ["Christoph Stadtfeld", "James Hollway", "Per Block"]
 publication_types: ["2"]
-publication: "Sociological Methodology, (47), 1, _pp. 56--67_"
-publication_short: "Sociological Methodology, (47), 1, _pp. 56--67_"
+publication: "_Sociological Methodology_, (47), 1, pp. 56--67"
+publication_short: "_Sociological Methodology_, (47), 1, pp. 56--67"
 tags: [DyNAMs, REMs]
 ---

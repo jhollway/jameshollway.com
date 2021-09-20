@@ -1,5 +1,5 @@
 ---
-title: "Multimodal Political Networks"
+title: "_Multimodal Political Networks_"
 date: "2021-01-01"
 authors: ["David Knoke", "Mario Diani", "James Hollway", "Dimitris C Christopoulos"]
 publication_types: ["5"]

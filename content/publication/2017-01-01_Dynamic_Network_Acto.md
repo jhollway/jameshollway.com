@@ -3,7 +3,7 @@ title: "Dynamic Network Actor Models: Investigating coordination ties through ti
 date: "2017-01-01"
 authors: ["Christoph Stadtfeld", "James Hollway", "Per Block"]
 publication_types: ["2"]
-publication: "Sociological Methodology, (47), _pp. 1--40_"
-publication_short: "Sociological Methodology, (47), _pp. 1--40_"
+publication: "_Sociological Methodology_, (47), pp. 1--40"
+publication_short: "_Sociological Methodology_, (47), pp. 1--40"
 tags: [DyNAMs, fisheries]
 ---

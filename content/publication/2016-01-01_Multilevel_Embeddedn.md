@@ -3,7 +3,7 @@ title: "Multilevel embeddedness: The case of the global fisheries governance com
 date: "2016-01-01"
 authors: ["James Hollway", "Johan H Koskinen"]
 publication_types: ["2"]
-publication: "Social Networks, (44), _pp. 281--294_"
-publication_short: "Social Networks, (44), _pp. 281--294_"
+publication: "_Social Networks_, (44), pp. 281--294"
+publication_short: "_Social Networks_, (44), pp. 281--294"
 tags: [ERGMs, fisheries]
 ---

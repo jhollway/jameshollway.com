@@ -3,7 +3,7 @@ title: "Four galore? The overlap between Mary Douglas's grid-group typology and 
 date: "2020-09-01"
 authors: ["Marco Verweij", "Petya Alexandrova", "Henrik Jacobsen", "Pauline Beziat", "Diana Branduse", "Yonca Dege", "Jakob Hensing", "James Hollway", "Lea Kliem", "Gabriela Ponce", "Inga Reichelt", "Mareile Wiegmann"]
 publication_types: ["2"]
-publication: "Sociological Theory, (128), 14, _pp. 263--294_"
-publication_short: "Sociological Theory, (128), 14, _pp. 263--294_"
+publication: "_Sociological Theory_, (128), 14, pp. 263--294"
+publication_short: "_Sociological Theory_, (128), 14, pp. 263--294"
 tags: [grid-group typology, social theories, typologies, recent]
 ---
