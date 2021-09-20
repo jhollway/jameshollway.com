@@ -2,7 +2,7 @@
 title: "Statistics for International Relations Research II"
 date: "2020-02-01"
 authors: ["James Hollway"]
-tags: [spring]
+tags: []
 ---
 
 RISP062 - Spring 2021
