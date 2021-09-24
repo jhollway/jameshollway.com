@@ -3,6 +3,7 @@ title: "Social Networks Theories and Methods"
 date: "2015-06-01"
 authors: ["James Hollway"]
 tags: [fall]
+weight: 10
 ---
 
 RISP093 - Fall 2021
