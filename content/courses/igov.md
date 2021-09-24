@@ -3,7 +3,7 @@ title: "International Governance"
 date: "2021-09-01"
 authors: ["James Hollway"]
 tags: [fall]
-weight: 1
+weight: 10
 ---
 
 RISP053 - Fall 2021
