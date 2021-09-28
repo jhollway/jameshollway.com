@@ -16,3 +16,4 @@ Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021
 
 - [Lecture 1 - Networks](https://jhollway.github.io/RISP093/ISON_L1_Networks.html)
 
+- [Lecture 2 - Relations](https://jhollway.github.io/RISP093/ISON_L2_Relations.html)
