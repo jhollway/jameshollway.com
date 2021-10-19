@@ -21,3 +21,5 @@ Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021
 - [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html)
 
 - [Lecture 4 - Community](https://jhollway.github.io/RISP093/ISON_L4_Community.html)
+
+- [Lecture 5 - Position](ISON-Lecture5.pdf)
