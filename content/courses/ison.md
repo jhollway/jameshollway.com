@@ -10,7 +10,7 @@ RISP093 - Fall 2021
 
 ## Syllabus
 
-Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021-09-19.pdf)
+Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021-11-08.pdf)
 
 ## Lecture slides
 
@@ -25,3 +25,5 @@ Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021
 - [Lecture 5 - Position](ISON-Lecture5.pdf)
 
 - [Lecture 6 - Topology](ISON-Lecture6.pdf)
+
+- [Lecture 7 - Homophily](ISON-Lecture7.pdf)
