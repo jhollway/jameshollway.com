@@ -29,3 +29,5 @@ Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021
 - [Lecture 7 - Homophily](ISON-Lecture7.pdf)
 
 - [Lecture 8 - ERGMs](ISON-Lecture8.pdf)
+
+- [Lecture 9 - SAOMs](ISON-Lecture9.pdf)
