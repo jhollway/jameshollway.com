@@ -46,7 +46,7 @@ Please find the most recent version of the syllabus [here](RISP062_Syllabus_2021
 
 - [Jaewon Kim](/post/Kim)
 
-- [Chin Man Kwan](/post/Kwan)
+- [Chin Man Kwan](https://kwanchmn.github.io/projects/ICT_governance_mixed_effects.html)
 
 - [Shanling Liu](/post/Liu)
 
