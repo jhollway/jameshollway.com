@@ -31,3 +31,7 @@ Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021
 - [Lecture 8 - ERGMs](ISON-Lecture8.pdf)
 
 - [Lecture 9 - SAOMs](ISON-Lecture9.pdf)
+
+## Final blog posts
+
+- [Bernhard Bieri](https://bernhardbieri.ch/blog/ergms-and-co-offending-an-applied-social-networks-project/)
