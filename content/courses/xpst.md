@@ -2,7 +2,7 @@
 title: "Professional Skills Training"
 date: "2015-10-22"
 authors: ["James Hollway", "Melanie Kolbe", "Sungmin Rho"]
-tags: [fall]
+tags: []
 weight: 90
 ---
 
