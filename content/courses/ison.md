@@ -35,3 +35,5 @@ Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021
 ## Final blog posts
 
 - [Bernhard Bieri](https://bernhardbieri.ch/blog/ergms-and-co-offending-an-applied-social-networks-project/)
+
+- [Adam Talsma](Talsma_Network.html)
