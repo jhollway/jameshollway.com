@@ -42,6 +42,8 @@ Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021
 
 - [Annia Costermani](Costermani_Post.html)
 
+- [Deane De Menezes](DeMenezes_Post.html)
+
 - [Jessica Eberhart](Eberhart_Post.html)
 
 - [Zachary Fesen](Fesen_Post.html)
@@ -63,6 +65,8 @@ Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021
 - [Swetha Ramachandran](Ramachandran_Post.html)
 
 - [Marcelo Ribeiro](Ribeiro_Post.html)
+
+- [Isabella Roberts](Roberts_Post.html)
 
 - [Lea Schaad](Schaad_Post.html)
 
