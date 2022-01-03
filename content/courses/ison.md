@@ -48,7 +48,13 @@ Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021
 
 - [Andreas Haas](Haas_Post.html)
 
+- [Frank Heber](Heber_Post.html)
+
 - [Etienne Höra](Hoera_Post.html)
+
+- [Fabian Hofmann](Hofmann_Post.html)
+
+- [Julis Koch](Koch_Post.html)
 
 - [Hee Jae Lee](Lee_Post.pdf)
 
@@ -58,10 +64,16 @@ Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021
 
 - [Marcelo Ribeiro](Ribeiro_Post.html)
 
+- [Lea Schaad](Schaad_Post.html)
+
+- [Astrid Skjold](Skjold_Post.html)
+
 - [Vivienne Stringer](Stringer_Post.html)
 
 - [Adam Talsma](Talsma_Post.html)
 
 - [Jael Tan](Tan_Post.html)
+
+- [Fredrik Wallin](Wallin_Post.html)
 
 - [Idil Yildiz](Yildiz_Post.html)
