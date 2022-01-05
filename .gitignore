@@ -10,3 +10,4 @@ public/
 .Rhistory
 *.docx
 jhprofile.Rmd
+assets/jsconfig.json
