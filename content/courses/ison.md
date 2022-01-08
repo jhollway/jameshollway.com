@@ -72,7 +72,7 @@ Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021
 
 - [Astrid Skjold](Skjold_Post.html)
 
-- [Vivienne Stringer](Stringer_Post.html)
+- [Vivien Stringer](Stringer_Post.html)
 
 - [Adam Talsma](Talsma_Post.html)
 
