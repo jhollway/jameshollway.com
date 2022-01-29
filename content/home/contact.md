@@ -28,3 +28,7 @@ content:
 design:
   columns: '2'
 ---
+
+I am currently on sabbatical and not in Geneva.
+
+I still welcome emails, but please be patient for my response.
