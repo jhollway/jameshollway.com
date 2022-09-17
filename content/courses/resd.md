@@ -10,4 +10,4 @@ RISPXXX - Spring 2023
 
 ## Syllabus
 
-Please find the most recent version of the syllabus here
+The syllabus will be available here when it is ready.
