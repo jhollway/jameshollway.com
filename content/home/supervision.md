@@ -50,14 +50,16 @@ subtitle = ""
  css_class = ""
 +++
 
-I am happy to supervise masters and doctoral dissertations on a broad range of topics and using a broad range of theories and methods.
+I am happy to supervise masters and doctoral dissertations on a fairly broad range of topics, theories, and methods.
 To give you a sense of the range, here are some snippets of dissertation titles I have supervised in the last few years:
 
-- “The EU's path towards a circular economy for plastics”
+- “Network formation among transnational black liberation movements“
+- “Government influence over interlocking Chinese boards“
+- “The EU’s path towards a circular economy for plastics”
 - “Stakeholder perspectives on the Arctic Council”
-- “Integrating human rights principles in protected areas”
+- “Integrating human rights principles in environmental protected areas”
 - “Sustainable sources of MPA funding in the Mediterranean”
-- “Public discourse on Swiss agriculture multifunctionality”
+- “Swiss discourse on agriculture’s multi-functionality”
 - “River basin treaty effectiveness”
 - “Assessing disaster response institutions' effectiveness”
 - “Why marginalized groups in Nepal do not have equal WASH access”
