@@ -2,7 +2,7 @@
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
 title = "PANARCHIC"
@@ -37,7 +37,7 @@ hero_media = ""
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "mailto:henrique.sposito@graduateinstitute.ch?cc=james.hollway@graduateinstitute.ch&subject=PANARCHIC RA Application &body=Dear Professor Hollway,"
+  url = "mailto:jael.tan@graduateinstitute.ch?cc=james.hollway@graduateinstitute.ch&subject=PANARCHIC RA Application &body=Dear Professor Hollway,"
   label = "Apply now"
   icon_pack = "fas"
   icon = "envelope"
@@ -48,7 +48,7 @@ hero_media = ""
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = "Deadline 8th November 2020"
+  label = "Deadline: until filled"
   # label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
