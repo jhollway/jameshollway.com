@@ -74,7 +74,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-I am currently on sabbatical.
-
-I will be teaching again in the Fall semester next academic year.
