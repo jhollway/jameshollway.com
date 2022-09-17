@@ -10,27 +10,11 @@ MINT311/RISP093 - Fall 2022
 
 ## Syllabus
 
-Please find the most recent version of the syllabus [here](IRPS093_Syllabus_2021-11-08.pdf)
+Please find the most recent version of the syllabus [here](MINT311_Syllabus_2022-09-17.pdf)
 
 ## Lecture slides
 
 -   [Lecture 1 - Networks](https://jhollway.github.io/RISP093/ISON_L1_Networks.html)
-
-[//]: # (-   [Lecture 2 - Relations](https://jhollway.github.io/RISP093/ISON_L2_Relations.html)
-
--   [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html)
-
--   [Lecture 4 - Community](https://jhollway.github.io/RISP093/ISON_L4_Community.html)
-
--   [Lecture 5 - Position](ISON-Lecture5.pdf)
-
--   [Lecture 6 - Topology](ISON-Lecture6.pdf)
-
--   [Lecture 7 - Homophily](ISON-Lecture7.pdf)
-
--   [Lecture 8 - ERGMs](ISON-Lecture8.pdf)
-
--   [Lecture 9 - SAOMs](ISON-Lecture9.pdf))
 
 ## Some blog posts (2021)
 
