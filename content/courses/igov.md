@@ -6,7 +6,7 @@ tags: [fall]
 weight: 10
 ---
 
-RISP053 - Fall 2021
+RISP053 - Fall 2022
 
 ## Syllabus
 

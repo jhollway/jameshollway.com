@@ -14,7 +14,7 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_2022
 
 ## Lecture slides
 
--   [Lecture 1 - Networks](https://jhollway.github.io/RISP093/ISON_L1_Networks.html)
+-   [Lecture 1b - Networks](https://jhollway.github.io/RISP093/ISON_L1b_Networks.html)
 
 ## Some blog posts (2021)
 
