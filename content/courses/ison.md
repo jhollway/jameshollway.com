@@ -16,6 +16,8 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_2022
 
 -   [Lecture 1b - Networks](https://jhollway.github.io/RISP093/ISON_L1b_Networks.html)
 
+-   [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html)
+
 ## Some blog posts (2021)
 
 -   [Bernhard Bieri](https://bernhardbieri.ch/blog/ergms-and-co-offending-an-applied-social-networks-project/)
