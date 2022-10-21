@@ -2,7 +2,7 @@
 title: "Executive Education"
 date: "2015-10-22"
 authors: ["James Hollway"]
-tags: [fall]
+tags: []
 weight: 90
 ---
 
