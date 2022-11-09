@@ -24,6 +24,8 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_2022
 
 -   [Lecture 6 - Topology](ISON-Lecture6.pdf)
 
+-   [Lecture 7b - Testing](ISON-Lecture7b-Testing.pdf)
+
 ## Some blog posts (2021)
 
 -   [Bernhard Bieri](https://bernhardbieri.ch/blog/ergms-and-co-offending-an-applied-social-networks-project/)
