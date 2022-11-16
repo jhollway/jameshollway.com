@@ -26,7 +26,7 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_2022
 
 -   [Lecture 7 - Testing](ISON-Lecture7b-Testing.pdf)
 
--   [Lecture 8 - Testing](ISON-Lecture8-ERGM.pdf)
+-   [Lecture 8 - ERGM](ISON-Lecture8-ERGM.pdf)
 
 ## Some blog posts (2021)
 
