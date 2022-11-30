@@ -30,6 +30,8 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_2022
 
 -   [Lecture 9 - SAOM](ISON-Lecture9-SAOM.pdf)
 
+-   [Lecture 10 - Diffusion](ISON-Lecture8b-Diffusion.pdf)
+
 ## Some blog posts (2021)
 
 -   [Bernhard Bieri](https://bernhardbieri.ch/blog/ergms-and-co-offending-an-applied-social-networks-project/)
