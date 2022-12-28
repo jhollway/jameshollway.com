@@ -4,6 +4,7 @@ widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
+font_size = 18
 
 title = "Multimodal Political Networks"
 
@@ -52,10 +53,12 @@ hero_media = "9781108833509pvs01.jpg"
   # label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-In our new book, David Knoke, Mario Diani, Dimitris Christopoulos and myself
-synthesize new understandings of multimodal political networks: 
-what they are, how to measure and analyze them, and what they can reveal about political structures and actions.
+Our book synthesizes new understandings of multimodal political networks: 
+what they are, how to measure and analyze them, 
+and what they can reveal about political structures and actions.
 
-A primary purpose of this book is to draw the attention of political theorists and researchers to new theoretical, methodological, and substantive tools for extending political network research into new realms and revitalizing established domains.
+A primary purpose of this book is to draw the attention of political theorists and researchers 
+to new theoretical, methodological, and substantive tools for extending political network research 
+into new realms and revitalizing established domains.
 
 <!-- <span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span> -->
