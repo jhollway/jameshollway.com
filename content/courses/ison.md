@@ -36,6 +36,8 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_2022
 
 -   [Rithika Devrakonda](Devrakonda_Post.html)
 
+-   [Stephanie Flores](Flores_Post.html)
+
 -   [Alberto Matamaros](Matamaros_Post.html)
 
 -   [Sine Schei](Schei_Post.html)
