@@ -40,6 +40,8 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_2022
 
 -   [Alberto Matamaros](Matamaros_Post.html)
 
+-   [João Vitor Oliveira de Souza](deSouza_Post.html)
+
 -   [Sine Schei](Schei_Post.html)
 
 ## Some blog posts (2021)
