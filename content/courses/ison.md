@@ -44,6 +44,8 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_2022
 
 -   [Sine Schei](Schei_Post.html)
 
+-   [Ning Yau King](https://collegiate9.wordpress.com/2023/01/20/social-networks-analysis-using-ergm/)
+
 ## Some blog posts (2021)
 
 -   [Bernhard Bieri](https://bernhardbieri.ch/blog/ergms-and-co-offending-an-applied-social-networks-project/)
