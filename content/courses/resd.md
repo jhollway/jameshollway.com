@@ -6,7 +6,7 @@ tags: [spring]
 weight: 10
 ---
 
-RISPXXX - Spring 2023
+RISP139 - Spring 2023
 
 ## Syllabus
 
