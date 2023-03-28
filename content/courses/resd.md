@@ -10,8 +10,9 @@ RISP139 - Spring 2023
 
 ## Syllabus
 
-Please find the most recent version of the syllabus [here](Course-RESD-Hollway-Littoz-Monnet-final-17-02)
+Please find the most recent version of the syllabus [here](Course-RESD-Hollway-Littoz-Monnet-final-23-03.pdf)
 
 ## Lecture slides
 
 -   [Session 3 - Causality](RESD_Lecture3_Causality.pdf)
+-   [Session 5 - Typologies](RESD_Lecture5_Typologies.pdf)
