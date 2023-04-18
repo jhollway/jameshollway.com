@@ -10,7 +10,7 @@ RISP139 - Spring 2023
 
 ## Syllabus
 
-Please find the most recent version of the syllabus [here](Course-RESD-Hollway-Littoz-Monnet-final-23-03.pdf)
+Please find the most recent version of the syllabus [here](RESD_Syllabus_2304.pdf)
 
 ## Lecture slides
 
