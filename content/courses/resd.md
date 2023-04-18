@@ -16,3 +16,4 @@ Please find the most recent version of the syllabus [here](Course-RESD-Hollway-L
 
 -   [Session 3 - Causality](RESD_Lecture3_Causality.pdf)
 -   [Session 5 - Typologies](RESD_Lecture5_Typologies.pdf)
+-   [Session 7 - Comparison](RESD_Lecture7_Comparison.pdf)
