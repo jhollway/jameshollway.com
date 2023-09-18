@@ -6,37 +6,33 @@ tags: [fall]
 weight: 30
 ---
 
-MINT311/RISP093 - Fall 2022
+MINT311 - Fall 2023
 
 ## Syllabus
 
-Please find the most recent version of the syllabus [here](MINT311_Syllabus_2022-09-17.pdf)
+Please find the most recent version of the syllabus [here](MINT311_Syllabus_Semester.pdf)
 
 ## Lecture slides
 
--   [Lecture 1b - Networks](https://jhollway.github.io/RISP093/ISON_L1b_Networks.html)
+[//]: # (-   [Lecture 1b - Networks](https://jhollway.github.io/RISP093/ISON_L1b_Networks.html))
 
--   [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html)
+[//]: # (-   [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html))
 
--   [Lecture 4 - Community](ISON-Lecture4.pdf)
+[//]: # (-   [Lecture 4 - Community](ISON-Lecture4.pdf))
 
--   [Lecture 5 - Position](ISON-Lecture5.pdf)
+[//]: # (-   [Lecture 5 - Position](ISON-Lecture5.pdf))
 
--   [Lecture 6 - Topology](ISON-Lecture6.pdf)
+[//]: # (-   [Lecture 6 - Topology](ISON-Lecture6.pdf))
 
--   [Lecture 7 - Testing](ISON-Lecture7b-Testing.pdf)
+[//]: # (-   [Lecture 7 - Testing](ISON-Lecture7b-Testing.pdf))
 
--   [Lecture 8 - ERGM](ISON-Lecture8-ERGM.pdf)
+[//]: # (-   [Lecture 8 - ERGM](ISON-Lecture8-ERGM.pdf))
 
--   [Lecture 9 - SAOM](ISON-Lecture9-SAOM.pdf)
+[//]: # (-   [Lecture 9 - SAOM](ISON-Lecture9-SAOM.pdf))
 
--   [Lecture 10 - Diffusion](ISON-Lecture8b-Diffusion.pdf)
+[//]: # (-   [Lecture 10 - Diffusion](ISON-Lecture8b-Diffusion.pdf))
 
-## Blog posts (2022)
-
--   [Rithika Devrakonda](Devrakonda_Post.html)
-
--   [Stephanie Flores](Flores_Post.html)
+## Selected blog posts (2022)
 
 -   [Alberto Matamaros](Matamaros_Post.html)
 
@@ -44,9 +40,7 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_2022
 
 -   [Sine Schei](Schei_Post.html)
 
--   [Ning Yau King](https://collegiate9.wordpress.com/2023/01/20/social-networks-analysis-using-ergm/)
-
-## Some blog posts (2021)
+## Selected blog posts (2021)
 
 -   [Bernhard Bieri](https://bernhardbieri.ch/blog/ergms-and-co-offending-an-applied-social-networks-project/)
 
