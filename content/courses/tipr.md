@@ -1,35 +1,23 @@
 ---
-title: "Time in Political Relations"
+title: "Time in Contemporary Politics"
 date: "2020-09-12"
 authors: ["James Hollway"]
-tags: []
+tags: [fall]
 weight: 60
 ---
 
-RISP112 - Autumn 2020
+RISP167­MINT384 - Autumn 2023
 
 ## Syllabus
 
-Please find the most recent version of the syllabus [here](RISP112_Syllabus_2020_v2.1.pdf)
+Please find the most recent version of the syllabus [here](RISP167-MINT384_Syllabus_Semester.pdf)
 
-- [Preface](https://jhollway.github.io/RISP112/TPOL_L1_Preface.html)
-
-## Final Op-Eds
-
-- [Kulani Abendroth-Dias](/post/Abendroth-Dias/)
+## Selected Op-Eds (2020)
 
 - [Matthias Auer](/post/Auer/)
-
-- [Thomas Gmür](/post/Gmuer2/)
-
-- [Nicole Gonzalez](/post/Gonzalez/)
 
 - [Yassine Halila](/post/Halila/)
 
 - [Rachael Healy](/post/Healy/)
 
-- [Attilia Matrone](/post/Matrone/)
-
 - [Isabella Roberts](/post/Roberts/)
-
-- [Simon Stocker](/post/Stocker/)
