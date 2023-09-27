@@ -18,6 +18,8 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 
 - [Lecture 1 - Practical](ISON-Practical1.R)
 
+- [Lecture 2 - Relations](ISON-Lecture2-Relations.pdf)
+
 [//]: # (-   [Lecture 1b - Networks](https://jhollway.github.io/RISP093/ISON_L1b_Networks.html))
 
 [//]: # (-   [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html))
