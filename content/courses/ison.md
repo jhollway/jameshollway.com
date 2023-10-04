@@ -20,6 +20,8 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 
 - [Lecture 2 - Relations](ISON-Lecture2-Relations.pdf)
 
+- [Lecture 3 - Centrality](ISON-Lecture3-Centrality.pdf)
+
 [//]: # (-   [Lecture 1b - Networks](https://jhollway.github.io/RISP093/ISON_L1b_Networks.html))
 
 [//]: # (-   [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html))
