@@ -22,11 +22,11 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 
 - [Lecture 3 - Centrality](ISON-Lecture3-Centrality.pdf)
 
+- [Lecture 4 - Community](ISON-Lecture4-Community.pdf)
+
 [//]: # (-   [Lecture 1b - Networks](https://jhollway.github.io/RISP093/ISON_L1b_Networks.html))
 
 [//]: # (-   [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html))
-
-[//]: # (-   [Lecture 4 - Community](ISON-Lecture4.pdf))
 
 [//]: # (-   [Lecture 5 - Position](ISON-Lecture5.pdf))
 
