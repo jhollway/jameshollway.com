@@ -104,10 +104,10 @@ directions = "Enter second petal/building directly from the street. Take the sta
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Wednesdays 14:00 to 16:00"]
+office_hours = ["Tuesdays 14:00 to 16:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://bit.ly/3SngW2d"
+appointment_url = "https://rb.gy/h0dor"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
