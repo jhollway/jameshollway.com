@@ -16,7 +16,7 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 
 - [Lecture 1 - Networks](ISON-Lecture1-Networks.pdf)
 
-- [Lecture 1 - Practical](ISON-Practical1.R)
+- [Session 1 - Practical](ISON-Practical1.R)
 
 - [Lecture 2 - Relations](ISON-Lecture2-Relations.pdf)
 
@@ -28,13 +28,11 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 
 - [Lecture 6 - Topology](ISON-Lecture6-Topology.pdf)
 
+- [Lecture 7 - Diffusion](ISON-Lecture7-Diffusion.pdf)
+
 [//]: # (-   [Lecture 1b - Networks](https://jhollway.github.io/RISP093/ISON_L1b_Networks.html))
 
 [//]: # (-   [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html))
-
-[//]: # (-   [Lecture 5 - Position](ISON-Lecture5.pdf))
-
-[//]: # (-   [Lecture 6 - Topology](ISON-Lecture6.pdf))
 
 [//]: # (-   [Lecture 7 - Testing](ISON-Lecture7b-Testing.pdf))
 
