@@ -30,6 +30,8 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 
 - [Lecture 7 - Diffusion](ISON-Lecture7-Diffusion.pdf)
 
+- [Lecture 8 - Testing](ISON-Lecture8-Testing.pdf)
+
 [//]: # (-   [Lecture 1b - Networks](https://jhollway.github.io/RISP093/ISON_L1b_Networks.html))
 
 [//]: # (-   [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html))
@@ -39,8 +41,6 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 [//]: # (-   [Lecture 8 - ERGM](ISON-Lecture8-ERGM.pdf))
 
 [//]: # (-   [Lecture 9 - SAOM](ISON-Lecture9-SAOM.pdf))
-
-[//]: # (-   [Lecture 10 - Diffusion](ISON-Lecture8b-Diffusion.pdf))
 
 ## Selected blog posts (2022)
 
