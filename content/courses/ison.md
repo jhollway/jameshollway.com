@@ -32,6 +32,8 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 
 - [Lecture 8 - Testing](ISON-Lecture8-Testing.pdf)
 
+- [Lecture 9 - ERGM](ISON-Lecture9-ERGM.pdf)
+
 [//]: # (-   [Lecture 1b - Networks](https://jhollway.github.io/RISP093/ISON_L1b_Networks.html))
 
 [//]: # (-   [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html))
