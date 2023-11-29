@@ -34,15 +34,13 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 
 - [Lecture 9 - ERGM](ISON-Lecture9-ERGM.pdf)
 
+- [Lecture 10 - SAOM](ISON-Lecture10-SAOM.pdf)
+
 [//]: # (-   [Lecture 1b - Networks](https://jhollway.github.io/RISP093/ISON_L1b_Networks.html))
 
 [//]: # (-   [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html))
 
 [//]: # (-   [Lecture 7 - Testing](ISON-Lecture7b-Testing.pdf))
-
-[//]: # (-   [Lecture 8 - ERGM](ISON-Lecture8-ERGM.pdf))
-
-[//]: # (-   [Lecture 9 - SAOM](ISON-Lecture9-SAOM.pdf))
 
 ## Selected blog posts (2022)
 
