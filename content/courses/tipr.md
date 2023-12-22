@@ -14,7 +14,15 @@ Please find the most recent version of the syllabus [here](RISP167-MINT384_Sylla
 
 ## Op-Eds (2023)
 
-- [Ada Mullol](2023/Mullol.md)
+- [Hiba Boulmirate](2023/Boulmirate.html)
+
+- [Paul Harding](2023/Harding.html)
+
+- [Fang Christian Jiang](2023/Jiang.html)
+
+- [Ada Mullol](2023/Mullol.html)
+
+- [Lei Tang](2023/Tang.html)
 
 ## Selected Op-Eds (2020)
 
