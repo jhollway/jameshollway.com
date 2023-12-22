@@ -20,6 +20,8 @@ Please find the most recent version of the syllabus [here](RISP167-MINT384_Sylla
 
 - [Fang Christian Jiang](2023/Jiang.html)
 
+- [Seif Mesdoua](2023/Mesdoua.html)
+
 - [Ada Mullol](2023/Mullol.html)
 
 - [Lei Tang](2023/Tang.html)
