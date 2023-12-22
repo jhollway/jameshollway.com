@@ -12,6 +12,10 @@ RISP167­MINT384 - Autumn 2023
 
 Please find the most recent version of the syllabus [here](RISP167-MINT384_Syllabus_Semester.pdf)
 
+## Op-Eds (2023)
+
+- [Ada Mullol](2023/Mullol.md)
+
 ## Selected Op-Eds (2020)
 
 - [Matthias Auer](/post/Auer/)
