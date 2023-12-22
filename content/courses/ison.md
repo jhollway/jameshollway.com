@@ -42,7 +42,30 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 
 [//]: # (-   [Lecture 3 - Centrality](https://jhollway.github.io/RISP093/ISON_L3_Centrality.html))
 
-[//]: # (-   [Lecture 7 - Testing](ISON-Lecture7b-Testing.pdf))
+## Blog posts (2023)
+
+-   [Tiphaine Aeby, Charlotte Nourrissat, and Alex Sartori](https://socialnetworksfinalreport.wordpress.com/2023/12/20/social-network-final-report/)
+
+-   [Cristeta Bagsic and Zhiye Yang](2023/BagsicYang.html)
+
+-   [Natalie Rose Dionne](2023/Dionne.html)
+
+-   [Anastasia Fuentes](2023/Fuentes.html)
+
+-   [Zhouxi Gao](https://amber-juice-e5e.notion.site/Simulation-of-diffusion-process-of-social-network-with-SI-model-5e77172fec434e1f99dd183213a8a786)
+
+-   [Annick Peter and Fabia Jenny](2023/JennyPeter.html)
+
+-   [Minwoo (Charlie) Ki and Triya Roy](2023/KiRoy.html)
+
+-   [Franziska Köstler and Cindy Ekaterina Batchy-Tom](2023/KoestlerBatchyTom.html)
+
+-   [Tomonori Miyamoto](2023/Miyamoto.html)
+
+-   [Gabriela Soares](2023/Soares.html)
+
+-   [Mohammad Mohsen Mahdi Zadeh Naeini](2023/Mohsen.html)
+
 
 ## Selected blog posts (2022)
 
