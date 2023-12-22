@@ -48,6 +48,8 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 
 -   [Cristeta Bagsic and Zhiye Yang](2023/BagsicYang.html)
 
+-   [Edouard Cabot, Isabel Cassidy, and Mylan Evrard](https://rpubs.com/icassidysoto/1133016)
+
 -   [Natalie Rose Dionne](2023/Dionne.html)
 
 -   [Anastasia Fuentes](2023/Fuentes.html)
@@ -65,7 +67,6 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 -   [Gabriela Soares](2023/Soares.html)
 
 -   [Mohammad Mohsen Mahdi Zadeh Naeini](2023/Mohsen.html)
-
 
 ## Selected blog posts (2022)
 

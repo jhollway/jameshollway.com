@@ -24,6 +24,8 @@ Please find the most recent version of the syllabus [here](RISP167-MINT384_Sylla
 
 - [Ada Mullol](2023/Mullol.html)
 
+- [Adam Talsma](2023/Talsma.html)
+
 - [Lei Tang](2023/Tang.html)
 
 ## Selected Op-Eds (2020)
