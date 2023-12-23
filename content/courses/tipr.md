@@ -16,6 +16,8 @@ Please find the most recent version of the syllabus [here](RISP167-MINT384_Sylla
 
 - [Hiba Boulmirate](2023/Boulmirate.html)
 
+- [Lukas Hammer](2023/Hammer.html)
+
 - [Paul Harding](2023/Harding.html)
 
 - [Fang Christian Jiang](2023/Jiang.html)
