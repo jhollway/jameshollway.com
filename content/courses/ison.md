@@ -50,7 +50,7 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 
 -   [Edouard Cabot, Isabel Cassidy, and Mylan Evrard](https://rpubs.com/icassidysoto/1133016)
 
--   [Natalie Rose Dionne](2023/Natalie.html)
+-   [Natalie Rose Dionne](2023/Dionne.html)
 
 -   [Anastasia Fuentes](2023/Fuentes.html)
 
