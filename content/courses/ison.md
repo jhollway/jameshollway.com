@@ -64,6 +64,8 @@ Please find the most recent version of the syllabus [here](MINT311_Syllabus_Seme
 
 -   [Tomonori Miyamoto](2023/Miyamoto.html)
 
+-   [Yichen Shen](2023/Shen.html)
+
 -   [Gabriela Soares](2023/Soares.html)
 
 -   [Mohammad Mohsen Mahdi Zadeh Naeini](2023/Mohsen.html)
