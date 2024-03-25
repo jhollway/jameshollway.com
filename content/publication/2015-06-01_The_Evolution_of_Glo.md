@@ -1,5 +1,5 @@
 ---
-title: "_The evolution of global fisheries governance 1960-2010_"
+title: "The evolution of global fisheries governance 1960-2010"
 date: "2015-06-01"
 authors: ["James Hollway"]
 publication_types: ["3"]
