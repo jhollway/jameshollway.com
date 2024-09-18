@@ -1,0 +1,36 @@
+{{/* Portfolio Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $st := .page }}
+{{ $items_type := $st.Params.content.page_type | default "project" }}
+{{ $columns := $st.Params.design.columns | default "2" }}
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+
+    {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+    {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+
+  </div>
+  <div class="col-12 col-lg-8">
+
+<div class="hexBadges">
+
+        <a href="https://globalgov.github.io/messydates/"><div class="filtered r2 c0"></div><img src="https://github.com/globalgov/messydates/raw/main/man/figures/messydates_hexlogo.png" alt="messydates hex sticker" class="r2 c0"></a>
+        <a href="https://globalgov.github.io/manydata/"><div class="filtered r3 c0"></div><img src="https://github.com/globalgov/manydata/raw/main/man/figures/manydataLogo.png" alt="manydata hex sticker" class="r3 c0"></a>
+        <a href="https://globalgov.github.io/manypkgs/"><div class="filtered r4 c0"></div><img src="https://globalgov.github.io/manypkgs/reference/figures/manypkgslogo.png" alt="manypkgs hex sticker" class="r4 c0"></a>
+
+        <a href="https://globalgov.github.io/manystates/"><div class="filtered r1 c1"></div><img src="https://raw.githubusercontent.com/globalgov/manystates/main/inst/manystates_hexlogo.png" alt="manystates hex sticker" class="r1 c1"></a>
+        <a href="https://globalgov.github.io/manyenviron/"><div class="filtered r2 c1"></div><img src="https://raw.githubusercontent.com/globalgov/manyenviron/main/inst/manyenviron_hexlogo.png" alt="manyenviron hex sticker" class="r2 c1"></a>
+        <a href="https://globalgov.github.io/manytrade/"><div class="filtered r3 c1"></div><img src="https://raw.githubusercontent.com/globalgov/manytrade/develop/inst/manytradeContainer.png" alt="manytrade hex sticker" class="r3 c1"></a>
+        <a href="https://globalgov.github.io/manyhealth/"><div class="filtered r4 c1"></div><img src="https://globalgov.github.io/manyhealth/reference/figures/manyhealthLogo.png" alt="manyhealth hex sticker" class="r4 c1"></a>
+
+        <a href="https://stocnet.github.io/migraph"><div class="filtered r2 c2"></div><img src="https://raw.githubusercontent.com/stocnet/migraph/main/inst/migraph.png" alt="migraph hex sticker" class="r2 c2"></a>
+        <a href="https://stocnet.github.io/manynet"><div class="filtered r3 c2"></div><img src="https://raw.githubusercontent.com/stocnet/manynet/main/inst/manynet.png" alt="manynet hex sticker" class="r3 c2"></a>
+        <a href="https://github.com/stocnet/goldfish"><div class="filtered r4 c2"></div><img src="https://raw.githubusercontent.com/stocnet/goldfish/main/inst/hexlogo_goldfish.png" alt="goldfish hex sticker" class="r4 c2"></a>
+
+        <a href="https://iheid-library.github.io/iheiddown/"><div class="filtered r3 c3"></div><img src="https://raw.githubusercontent.com/iheid-library/iheiddown/main/inst/iheiddown.png" alt="iheiddown hex sticker" class="r3 c3"></a>
+        <a href="https://github.com/stocnet/rsiena"><div class="filtered r4 c3"></div><img src="https://raw.githubusercontent.com/stocnet/rsiena/main/inst/rsienalogo.png" alt="rsiena hex sticker" class="r4 c3"></a>
+
+</div>
