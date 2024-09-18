@@ -107,7 +107,7 @@ directions = "Enter second petal/building directly from the street. Take the sta
 office_hours = ["Wednesdays 14:00 to 16:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendar.app.google/J27CniRQRHHeo34B9"
+appointment_url = "https://rb.gy/3ptxj6"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
