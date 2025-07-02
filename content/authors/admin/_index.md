@@ -60,15 +60,15 @@ social:
 #  link: james-hollway
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/media/cv.pdf` and uncomment the lines below.
-- icon: cv
-  icon_pack: ai
-  link: media/jhvita.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: media/jhvita.pdf
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/jhollway/
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/jhollway/
+# - icon: twitter
+#   icon_pack: fab
+#   link: https://twitter.com/jhollway/
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0002-8361-9647
@@ -81,15 +81,15 @@ social:
 - icon: publons
   icon_pack: ai
   link: https://publons.com/researcher/395127/james-hollway/
-- icon: arxiv
-  icon_pack: ai
-  link: http://arxiv.org/a/hollway_j_1
+# - icon: arxiv
+#   icon_pack: ai
+#   link: http://arxiv.org/a/hollway_j_1
 - icon: github
   icon_pack: fab
   link: https://github.com/jhollway
-- icon: stackoverflow
-  icon-pack: ai
-  link: https://stackexchange.com/users/18169137/james-h
+# - icon: stackoverflow
+#   icon-pack: ai
+#   link: https://stackexchange.com/users/18169137/james-h
 - icon: ssrn
   icon-pack: ai
   link: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2132999
