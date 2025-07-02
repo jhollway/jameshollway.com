@@ -34,18 +34,18 @@ subtitle = ""
   icon = "chart-line"
   icon_pack = "fas"
   name = "Theory"
-  description = "One area in which I am involved is in developing relational theory. I collaborate with political scientists, economists, and organisational theorists to develop theory about how actors relate to each other and resources through institutions."
+  description = "I collaborate with political scientists, economists, and organisational theorists to develop theory about how actors relate to each other and resources through institutions."
   
 [[feature]]
   icon = "comments"
   icon_pack = "fas"
   name = "Empirics"
-  description = "Broadly speaking, I am interested in the governance of complex fields of social activity, such as the environment or trade. However, I continue to be especially fascinated by the empirical topic of my dissertation, global fisheries governance."
+  description = "Broadly speaking, I am interested in the governance of complex fields of social activity, such as the global governance of the environment, trade, or health."
 
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
   name = "Methods"
-  description = "Lastly, I contribute to the development of methods, especially statistical network methods, for use in researching social phenomena. I am also active in teaching these methods."
+  description = "Lastly, I contribute to the development and teaching of methods, especially statistical network methods, for use in researching social phenomena."
   
 +++
