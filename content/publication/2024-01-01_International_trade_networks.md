@@ -1,6 +1,6 @@
 ---
 title: "International Trade Networks"
-date: "2023-01-01"
+date: "2024-01-01"
 authors: ["Christina Prell", "James Hollway", "Petr Matous", "Yasuyuki Todo"]
 publication_types: ["6"]
 publication: "_The SAGE Handbook of Social Network Analysis_. London: Sage, pp. 350--359"
