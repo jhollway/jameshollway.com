@@ -10,10 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Associate Professor of International Relations and Political Science
+role: Director of the Global Governance Centre, Associate Professor of International Relations and Political Science
 
 # Organizations/Affiliations
 organizations:
+- name: Global Governance Centre
+  url: "https://www.graduateinstitute.ch/globalgovernance"
 - name: Graduate Institute of International and Development Studies
   url: "https://graduateinstitute.ch"
 
@@ -23,13 +25,12 @@ bio: International institutions and political networks.
 interests:
 # - International Relations
 # - Political Sociology
-- International Institutions
+- Global Governance
 - Political Methodology
 - Political Networks
-- Fisheries
-- Freshwater
+- Environment, especially Fisheries and Freshwater
 - Trade
-# - Military Alliances
+- Health
 
 # education:
 #   courses:
@@ -116,7 +117,8 @@ And how does the structure of complex networks of institutions affect these and 
 
 In my research, I develop multilevel and dynamic theories, methods, and data 
 to help us better understand the implications of institutional and policy choices
-in various empirical settings such as fisheries, freshwater, and trade.
+in various complex settings such as the global governance of 
+fisheries, freshwater, trade, and health.
 
 <!-- I am Principle Investigator of the PANARCHIC project 
  (Power and Networks and the Rate of Change in Institutional Complexes),
