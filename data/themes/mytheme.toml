@@ -8,8 +8,8 @@ light = true
 primary = "#002147"
 
 # Menu
-menu_primary = "#002147" # 500
-menu_text = "#E20020"
+menu_primary = "##E20020" # 500
+menu_text = "#fff"
 menu_text_active = "#E31F2B" # A100
 menu_title = "#fff"
 
