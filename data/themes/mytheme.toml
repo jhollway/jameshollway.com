@@ -1,27 +1,15 @@
 # Theme metadata
 name = "Ocean"
 
-[light]
+# Is theme light or dark?
+light = true
+
 # Primary
 primary = "#002147"
 
 # Menu
-menu_primary = "#E20020" # 500
-menu_text = "#fff"
-menu_text_active = "#E31F2B" # A100
-menu_title = "#fff"
-
-# Home sections
-home_section_odd = "rgb(255, 255, 255)"
-home_section_even = "rgb(247, 247, 247)"
-
-[dark]
-# Primary
-primary = "#E20020"
-
-# Menu
 menu_primary = "#002147" # 500
-menu_text = "#fff"
+menu_text = "#E20020"
 menu_text_active = "#E31F2B" # A100
 menu_title = "#fff"
 
