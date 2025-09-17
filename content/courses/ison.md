@@ -12,13 +12,19 @@ MINT311 - Fall 2023
 
 Please find the most recent version of the syllabus [here](MINT311_Syllabus_Semester.pdf)
 
+## Selected blog posts (2024)
+
+-   [Ayaka Ogawa](2024/Ogawa_Poster.pdf)
+
+-   [Zhixuan Wang](2024/Wang_Poster.pdf)
+
+-   [Suban Biixi](2024/Biixi_Poster.pdf)
+
 ## Selected blog posts (2023)
 
 -   [Tiphaine Aeby, Charlotte Nourrissat, and Alex Sartori](https://socialnetworksfinalreport.wordpress.com/2023/12/20/social-network-final-report/)
 
 -   [Edouard Cabot, Isabel Cassidy, and Mylan Evrard](https://rpubs.com/icassidysoto/1133016)
-
--   [Anastasia Fuentes](2023/Fuentes.html)
 
 -   [Annick Peter and Fabia Jenny](2023/JennyPeter.html)
 
