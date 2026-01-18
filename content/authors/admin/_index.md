@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Director of the Global Governance Centre, Associate Professor of International Relations and Political Science
+role: Co-Director of the Global Governance Centre, Professor of International Relations and Political Science
 
 # Organizations/Affiliations
 organizations:
