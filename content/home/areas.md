@@ -40,7 +40,7 @@ subtitle = ""
   icon = "comments"
   icon_pack = "fas"
   name = "Empirics"
-  description = "Broadly speaking, I am interested in the governance of complex fields of social activity, such as the global governance of the environment, trade, or health."
+  description = "Broadly speaking, I am interested in the governance of complex fields of social activity, such as the global governance of the environment, trade, health, or digital issues."
 
 [[feature]]
   icon = "r-project"

@@ -117,10 +117,8 @@ How does the relationship of institutions to other institutions affect these and
 In my research, I develop multilevel and dynamic theories, methods, and data 
 to help us better understand the implications of institutional and policy choices
 in various complex settings such as the global governance of 
-fisheries, freshwater, trade, and health.
+fisheries, freshwater, trade, health, and digital issues.
 
 At the Geneva Graduate Institute,
-I direct the Global Governance Centre,
-teach international relations, political science, and interdisciplinary courses,
-and am principal investigator of the PANARCHIC project 
-(Power and Networks and the Rate of Change in Institutional Complexes).
+I co-direct the Global Governance Centre,
+and teach international relations, political science, and interdisciplinary courses.
