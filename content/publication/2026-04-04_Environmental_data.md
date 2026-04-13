@@ -5,5 +5,5 @@ authors: ["Jean-Frédéric Morin", "James Hollway", "Yixian Sun", "Alice Vadrot"
 publication_types: ["2"]
 publication: "_Earth System Governance_, 28: 100328"
 publication_short: "_Earth System Governance_, 28: 100328"
-tags: [environment, data]
+tags: [environmental agreements, data]
 ---
