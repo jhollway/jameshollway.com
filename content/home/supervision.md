@@ -53,23 +53,54 @@ subtitle = ""
 I am happy to supervise masters and doctoral dissertations on a fairly broad range of topics, theories, and methods.
 To give you a sense of the range, here are some snippets of dissertation titles I have supervised in the last few years:
 
-- “Network formation among transnational black liberation movements“
-- “Government influence over interlocking Chinese boards“
-- “The EU’s path towards a circular economy for plastics”
-- “Stakeholder perspectives on the Arctic Council”
-- “Integrating human rights principles in environmental protected areas”
-- “Sustainable sources of MPA funding in the Mediterranean”
-- “Swiss discourse on agriculture’s multi-functionality”
+Institutional architectures:
+- “Emergent patterns in global governance complexes”
+- “Codified decentralisation from Kyoto to Paris”
+- “A network analysis of international arms control law”
+- “The energy regime complex's evolving architecture”
+- “Evolution and novelty in a network of cybersecurity norms”
+- “Global artificial intelligence governance”
+
+Institutional effectiveness:
+- “Assessing eﬀectiveness of global environmental frameworks”
 - “River basin treaty effectiveness”
 - “Assessing disaster response institutions' effectiveness”
-- “Why marginalized groups in Nepal do not have equal WASH access”
-- “A network analysis of international arms control law”
-- “Norway’s bilateral REDD+ partnership strategy”
-- “Cities’ climate change city-to-city network participation”
-- “Cooptation of Maori fishing claims into NZ’s Quota System”
-- “Creating legibility in war: A case study of conflict in Syria”
+- “Assessing carbon dioxide removal policy mixes”
+- “Three pathways how international institutions influence national climate policy”
+
+Policy innovation, design, and diffusion:
+- “A multiple streams analysis of corporate tax policy innovation for renewable energy”
+- “Evaluating EU’s ambitions and legislation towards a circular plastics economy”
+- “A study on green finance pilot zones in China”
+- “An exploratory analysis of SELCO and ONergy’s processes of scaling social impact”
+- “Unravelling the disappointment of the GCF’s enhancing direct access pilot programme”
 - “An analysis of the EU Climate Change Adaptation Policy”
-- “The energy regime complex's evolving architecture”
+
+Discourse and social movements:
+- “Network formation among transnational black liberation movements“
+- “Swiss discourse on agriculture’s multi-functionality”
+- “Path dependency in transnational advocacy networks”
+- “Cities’ climate change city-to-city network participation”
+
+Issue area intersection:
+- “ICT and climate change early warning systems”
+- “Weaving indigenous knowledge systems in international biodiversity institutions”
+- “Integrating human rights principles in environmental protected areas”
+- “A qualitative comparative analysis of disputed EU environmental-trade measures”
+
+Regional water/fisheries/forest/polar/space governance:
+- “Water insecurity in the Arctic: Insights from the Nunavik Region”
+- “Why marginalized groups in Nepal do not have equal WASH access”
+- “Cooptation of Maori fishing claims into NZ’s Quota System”
+- “Sustainable sources of MPA funding in the Mediterranean”
+- “The PPCDAM and the challenge of reducing deforestation in the Brazilian Amazon”
+- “Brokerage in an Atlantic rainforest landscape financial distribution network”
+- “Stakeholder perspectives on the Arctic Council”
+
+And more:
+- “Government influence over interlocking Chinese boards“
 - “UNEP’s role in designing environmental public-private partnerships”
+- “Norway’s bilateral REDD+ partnership strategy”
+- “Creating legibility in war: A case study of conflict in Syria”
 
 Please contact me below if you are interested in discussing potential supervision of your project.
