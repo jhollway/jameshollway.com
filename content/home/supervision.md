@@ -60,6 +60,7 @@ Institutional architectures:
 - “The energy regime complex's evolving architecture”
 - “Evolution and novelty in a network of cybersecurity norms”
 - “Global artificial intelligence governance”
+- “Norway’s bilateral REDD+ partnership strategy”
 
 Institutional effectiveness:
 - “Assessing eﬀectiveness of global environmental frameworks”
@@ -75,12 +76,15 @@ Policy innovation, design, and diffusion:
 - “Exploring SELCO and ONergy’s processes of scaling social impact”
 - “GCF’s disappointing direct access pilot programme”
 - “An analysis of the EU Climate Change Adaptation Policy”
+- “UNEP’s role in designing environmental public-private partnerships”
 
 Discourse and social movements:
 - “Network formation among transnational black liberation movements“
 - “Swiss discourse on agriculture’s multi-functionality”
 - “Path dependency in transnational advocacy networks”
 - “Cities’ climate change city-to-city network participation”
+- “Government influence over interlocking Chinese boards“
+- “Creating legibility in war: A case study of conflict in Syria”
 
 Issue area intersection:
 - “ICT and climate change early warning systems”
@@ -96,11 +100,5 @@ Regional water/fisheries/forest/polar/space governance:
 - “Reducing deforestation in the Brazilian Amazon”
 - “Brokerage in an Atlantic rainforest landscape financial distribution network”
 - “Stakeholder perspectives on the Arctic Council”
-
-And more:
-- “Government influence over interlocking Chinese boards“
-- “UNEP’s role in designing environmental public-private partnerships”
-- “Norway’s bilateral REDD+ partnership strategy”
-- “Creating legibility in war: A case study of conflict in Syria”
 
 Please contact me below if you are interested in discussing potential supervision of your project.
