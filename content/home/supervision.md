@@ -66,14 +66,14 @@ Institutional effectiveness:
 - “River basin treaty effectiveness”
 - “Assessing disaster response institutions' effectiveness”
 - “Assessing carbon dioxide removal policy mixes”
-- “Three pathways how international institutions influence national climate policy”
+- “Three ways how international institutions influence national climate policy”
 
 Policy innovation, design, and diffusion:
-- “A multiple streams analysis of corporate tax policy innovation for renewable energy”
-- “Evaluating EU’s ambitions and legislation towards a circular plastics economy”
+- “Multiple streams of corporate tax policy innovation for renewable energy”
+- “Evaluating EU legislation towards a circular plastics economy”
 - “A study on green finance pilot zones in China”
-- “An exploratory analysis of SELCO and ONergy’s processes of scaling social impact”
-- “Unravelling the disappointment of the GCF’s enhancing direct access pilot programme”
+- “Exploring SELCO and ONergy’s processes of scaling social impact”
+- “GCF’s disappointing direct access pilot programme”
 - “An analysis of the EU Climate Change Adaptation Policy”
 
 Discourse and social movements:
@@ -84,16 +84,16 @@ Discourse and social movements:
 
 Issue area intersection:
 - “ICT and climate change early warning systems”
-- “Weaving indigenous knowledge systems in international biodiversity institutions”
+- “Indigenous knowledge systems in international biodiversity institutions”
 - “Integrating human rights principles in environmental protected areas”
-- “A qualitative comparative analysis of disputed EU environmental-trade measures”
+- “QCA of disputed EU environmental-trade measures”
 
 Regional water/fisheries/forest/polar/space governance:
 - “Water insecurity in the Arctic: Insights from the Nunavik Region”
 - “Why marginalized groups in Nepal do not have equal WASH access”
 - “Cooptation of Maori fishing claims into NZ’s Quota System”
 - “Sustainable sources of MPA funding in the Mediterranean”
-- “The PPCDAM and the challenge of reducing deforestation in the Brazilian Amazon”
+- “Reducing deforestation in the Brazilian Amazon”
 - “Brokerage in an Atlantic rainforest landscape financial distribution network”
 - “Stakeholder perspectives on the Arctic Council”
 
