@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Co-Director of the Global Governance Centre, Professor of International Relations and Political Science
+role: Co-Director of the Global Governance Centre, Professor of International Relations and Political Science, and President of the Global Governance Research Centre Consortium
 
 # Organizations/Affiliations
 organizations:
@@ -18,6 +18,8 @@ organizations:
   url: "https://www.graduateinstitute.ch/globalgovernance"
 - name: Graduate Institute of International and Development Studies
   url: "https://graduateinstitute.ch"
+- name: Global Governance Research Centre Consortium
+  url: "https://www.ggrcc.org/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: International institutions and political networks.
@@ -28,9 +30,10 @@ interests:
 - Global Governance
 - Political Methodology
 - Political Networks
-- Environment, especially Fisheries and Freshwater
+- Environment
 - Trade
 - Health
+- Digital
 
 # education:
 #   courses:
