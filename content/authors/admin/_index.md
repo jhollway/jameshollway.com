@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Co-Director, [Global Governance Centre](https://www.graduateinstitute.ch/globalgovernance)<br>Professor, [International Relations and Political Science](https://www.graduateinstitute.ch/irps)<br>President, [Global Governance Research Centre Consortium](https://www.ggrcc.org/)
+role: Co-Director<br><a href="https://www.graduateinstitute.ch/globalgovernance" style="color: #4b7674">Global Governance Centre</a><br>Professor<br>[International Relations and Political Science](https://www.graduateinstitute.ch/irps)<br>President<br>[Global Governance Research Centre Consortium](https://www.ggrcc.org/)
 
 # Organizations/Affiliations
 organizations:
