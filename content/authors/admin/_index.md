@@ -10,7 +10,10 @@ authors:
 superuser: true
 
 # Role/position
-role: Co-Director of the Global Governance Centre, Professor of International Relations and Political Science, and President of the Global Governance Research Centre Consortium
+role: 
+- Co-Director, [Global Governance Centre](https://www.graduateinstitute.ch/globalgovernance)
+- Professor of International Relations and Political Science
+- President, Global Governance Research Centre Consortium
 
 # Organizations/Affiliations
 organizations:
